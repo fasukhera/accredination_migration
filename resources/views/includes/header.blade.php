@@ -23,11 +23,13 @@
 
                                 <li>
                                     <a href="#">Certifications</a>
-                                    {{--                                            <ul class="dropdown-menu-col-1">--}}
-                                    {{--                                                <li><a href="service-layout1.html"><span>Services -01</span></a></li>--}}
-                                    {{--                                                <li><a href="service-layout2.html"><span>Services -02</span></a></li>--}}
-                                    {{--                                                <li><a href="service-details.html"><span>Services Details</span></a></li>--}}
-                                    {{--                                            </ul>--}}
+                                    <ul class="dropdown-menu-col-1">
+                                        @foreach($certificates as $certificate)
+                                            <li>
+                                                <a href="{{route('certificate',$certificate->name)}}"><span>{{$certificate->name}}</span></a>
+                                            </li>
+                                        @endforeach
+                                    </ul>
                                 </li>
                                 <li>
                                     <a href="#">Higher Education Qualifications</a>
