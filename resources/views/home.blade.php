@@ -225,10 +225,7 @@
                         </div>
 
                         <div class="form-group" id="tags">
-                            {{--                            <div id="tags">--}}
-                            {{--                                <input type="text" value="" placeholder="Add a tag" />--}}
-                            {{--                            </div>--}}
-                            <label>Tags</label>
+                            <label>Key Points</label>
                             <input type="text" name="li" placeholder="Add a tag"/>
                         </div>
                         <button type="submit" class="btn btn-primary mb-2 pull-right">Submit</button>
