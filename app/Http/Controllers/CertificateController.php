@@ -26,7 +26,9 @@ class CertificateController extends Controller
         $name = array_keys($name);
         $name = $name[0];
         if ($name != '' || $name != null) {
-            $certificate = Certificate::with('certificate_details', 'certificate_details.certificate_details_accordian')->where('name', $name)->first();
+            $certificate = Certificate::
+            with('certificate_details', 'certificate_details.certificate_details_accordian')->
+            where('name', $name)->first();
         }
         if ($certificate->certificate_details != '' || $certificate->certificate_details != null) {
             if (isset($certificate->certificate_details->li)) {
@@ -40,12 +42,22 @@ class CertificateController extends Controller
             $data['certificate'] = $certificate;
             $data['certificates'] = $certificates;
         }
-        if (isset($certificate->certificate_details->certificate_details_accordian->a)) {
-            $a = explode(',', $certificate->certificate_details->certificate_details_accordian->a);
-            $data['a'] = array_filter($a);
-        } else {
-            $data['a'] = [];
+        foreach ($certificate->certificate_details->certificate_details_accordian as $accordian_anchor) {
+            if (isset($accordian_anchor->a)) {
+                $anchor[] = explode(',', $accordian_anchor->a);
+//                $n = explode('##', $accordian_anchor->a);
+                $anchor[] = array_filter($anchor);
+                foreach ($anchor as $aa) {
+                    foreach ($aa as $a) {
+                        $anchor[] = str_replace('##', ',', $a);
+                    }
+                }
+                $data['a'] = array_filter($anchor);
+            } else {
+                $data['a'] = [];
+            }
         }
+        dd($data['a']);
         if (isset($certificate->certificate_details->certificate_details_accordian->certification)) {
             $certification = explode(',', $certificate->certificate_details->certificate_details_accordian->certification);
             $data['certificationx'] = array_filter($certification);
@@ -63,12 +75,23 @@ class CertificateController extends Controller
      */
     public function create()
     {
-        //
+        return view('add_certificate');
     }
 
     public function store(Request $request)
     {
-
+        $this->validate($request, [
+            'name' => 'required'
+        ]);
+        $check = Certificate::where('name', $request->name)->first();
+        if ($check == '' || $check == null) {
+            Certificate::create([
+                'name' => $request->name
+            ]);
+        } else {
+            return redirect('/certificate')->with(['status', 'Certification Already Exists']);
+        }
+        return redirect('/certificate')->with(['status', 'Certification Added Successfully']);
     }
 
     /**

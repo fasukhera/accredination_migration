@@ -175,61 +175,14 @@
                         </ul>
                     </div>
                 @endif
-                <h5 class="card-header">Add Certificate Details</h5>
+                <h5 class="card-header">Add Certificate</h5>
                 <div class="card-body">
-                    <form action="{{route('form_submit')}}" method="POST" enctype="multipart/form-data"
+                    <form action="{{route('add_new_certificate')}}" method="POST" enctype="multipart/form-data"
                           id="certificate">
                         @csrf
                         <div class="form-group">
-                            <label>Certification*</label>
-                            <select class="form-control" name="certificate_id" required>
-                                <option value="">Select Certification</option>
-                                @foreach($certificates as $certificate)
-                                    <option value="{{$certificate->id}}">{{$certificate->name}}</option>
-                                @endforeach
-                            </select>
-                        </div>
-
-                        <div class="form-group">
-                            <label>Main heading*</label>
-                            <input type="text" class="form-control" name="h1">
-                        </div>
-
-                        <div class="form-group">
-                            <label>First Paragraph*</label>
-                            <input type="text" class="form-control" name="p1" required>
-                        </div>
-
-                        <div class="form-group">
-                            <div class="file-upload">
-                                <button class="file-upload-btn" type="button"
-                                        onclick="$('.file-upload-input').trigger( 'click' )">Add Video
-                                </button>
-
-                                <div class="image-upload-wrap">
-                                    <input name="v1" class="file-upload-input" type='file' onchange="readURL(this);"
-                                           accept="video/*"/>
-                                    <div class="drag-text">
-                                        <h3>Drag and drop a file or select add Video</h3>
-                                    </div>
-                                </div>
-                                <div class="file-upload-content">
-                                    <div class="file-upload-image"></div>
-                                    <div class="image-title-wrap">
-                                        <button type="button" onclick="removeUpload()" class="remove-image">Remove <span
-                                                class="image-title">Uploaded Video</span></button>
-                                    </div>
-                                </div>
-
-                            </div>
-                        </div>
-
-                        <div class="form-group" id="tags">
-                            {{--                            <div id="tags">--}}
-                            {{--                                <input type="text" value="" placeholder="Add a tag" />--}}
-                            {{--                            </div>--}}
-                            <label>Tags</label>
-                            <input type="text" name="li" placeholder="Add a tag"/>
+                            <label>Certificate Name*</label>
+                            <input type="text" class="form-control" name="name">
                         </div>
                         <button type="submit" class="btn btn-primary mb-2 pull-right">Submit</button>
                     </form>
