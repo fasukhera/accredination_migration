@@ -683,7 +683,7 @@
                         </div>
                         <div class="bottom-box">
                             <div class="media">
-                                <img src="media/testimonial/testimonial1.png" alt="Testimonial">
+                                <img src="media/testimonial/Testimonial-Img-1.png" alt="Testimonial">
                                 <div class="media-body space-sm">
                                     <h3 class="item-title">Rizwan Dookanwala</h3>
                                     {{--                                    <div class="item-designation">Apps Developer</div>--}}
@@ -703,7 +703,7 @@
                         </div>
                         <div class="bottom-box">
                             <div class="media">
-                                <img src="media/testimonial/testimonial2.png" alt="Testimonial">
+                                <img src="media/testimonial/Testimonial-Img-2.png" alt="Testimonial">
                                 <div class="media-body space-sm">
                                     <h3 class="item-title">Patrick Giwa</h3>
                                 </div>
@@ -715,15 +715,15 @@
                             <div class="item-icon">
                                 <i class="flaticon-quote"></i>
                             </div>
-                            <p>Grursus mal suada faci lisis to at Lorem at the at dolarorit moreametion to consectetur
-                                elit. To Vesti bulum at nec that.</p>
+                            <p>i was looking for a qualification that was suitable for the IT market in the UK.
+                                 I soon found out the BSC was globally recognised. This was to my advantage due 
+                                 to the pandemic and working from home i could apply for jobs all over the world.</p>
                         </div>
                         <div class="bottom-box">
                             <div class="media">
-                                <img src="media/testimonial/testimonial1.png" alt="Testimonial">
+                                <img src="media/testimonial/Testimonial-Img-3.png" alt="Testimonial">
                                 <div class="media-body space-sm">
-                                    <h3 class="item-title">Kate Kingston</h3>
-                                    <div class="item-designation">Web Designer</div>
+                                    <h3 class="item-title">Kashif Khan</h3>
                                 </div>
                             </div>
                         </div>
