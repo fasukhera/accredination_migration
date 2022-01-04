@@ -162,23 +162,26 @@
                         </h3>
                     </div>
                 </div>
+                @php
+                    $i = 1
+                @endphp
                 @foreach($data['certificate']->certificate_details->certificate_details_accordian as $key=>$accordion)
                     <div class="row">
                         <div class="col-md-6">
-                            <div class="panel-group" id="accordion1">
+                            <div class="panel-group" id="accordion{{$i}}">
                                 <div class="panel panel-default">
                                     <div class="panel-heading">
                                         <h4 class="panel-title">
-                                            <a data-toggle="collapse" data-parent="#accordion1"
-                                               href="#collapseTwo"><span
+                                            <a data-toggle="collapse" data-parent="#accordion{{$i}}"
+                                               href="#collapse{{$i}}"><span
                                                     class="fa fa-plus"></span> {{(isset($accordion->h1))?$accordion->h1:''}}
                                             </a>
                                         </h4>
                                     </div>
-                                    <div id="collapseTwo" class="panel-collapse collapse">
+                                    <div id="collapse{{$i}}" class="panel-collapse collapse">
                                         <div class="panel-body">
                                             <div class="panel-body">
-                                                <div class="panel-group" id="accordion21">
+                                                <div class="panel-group" id="accordion{{$i+2}}">
                                                     <div class="panel">
                                                         <div class="panel-body">
                                                             <p class="offset-1">
@@ -186,11 +189,11 @@
                                                             </p>
                                                             <ul>
                                                                 @if(isset($data['a']))
-                                                                    @foreach($data['a'] as $anchor)
+                                                                    @foreach($data['a'][$key] as $anchor)
                                                                         <li>
                                                                             <span class="fa fa-link"></span>
                                                                             <a class="offset-1"
-                                                                               href="{{$anchor}}">{{$anchor}}</a>
+                                                                               href="{{$anchor[0]}}">{{$anchor[1]}}</a>
                                                                         </li>
                                                                     @endforeach
                                                                 @endif
@@ -198,26 +201,27 @@
                                                             <div>
                                                                 <ul>
                                                                     @if(isset($data['certificationx']))
-                                                                        @foreach($data['certificationx'] as $certificationx)
-                                                                            <li>
-                                                                                <span
-                                                                                    class="fa fa-link offset-2"></span>
-                                                                                <a class=""
-                                                                                   href="{{$certificationx}}">{{$certificationx}}</a>
-                                                                            </li>
+                                                                        @foreach($data['certificationx'][$key] as $key =>$certificationx)
+                                                                                <li>
+                                                                                    <span class="fa fa-link"></span>
+                                                                                    <a class="offset-1"
+                                                                                       href="{{$certificationx[0]}}">{{$certificationx[1]}}</a>
+                                                                                </li>
                                                                         @endforeach
                                                                     @endif
+
                                                                 </ul>
                                                             </div>
                                                         </div>
 
-                                                        <a data-toggle="collapse" data-parent="#accordion21"
-                                                           href="#collapseTwoOne" style="color: #000 !important;"><span
+                                                        <a data-toggle="collapse" data-parent="#accordion{{$i+2}}"
+                                                           href="#collapse{{$i+2}}"
+                                                           style="color: #000 !important;"><span
                                                                 class="fa fa-plus"
                                                                 style="color: #000 !important;"></span>
                                                             {{(isset($accordion->h2))?$accordion->h2:''}}
                                                         </a>
-                                                        <div id="collapseTwoOne" class="panel-collapse collapse">
+                                                        <div id="collapse{{$i+2}}" class="panel-collapse collapse">
                                                             <div class="panel-body offset-1"><p>
                                                                     {{(isset($accordion->p2))?$accordion->p2:''}}
                                                                 </p></div>
@@ -231,6 +235,9 @@
                             </div>
                         </div>
                     </div>
+                    @php
+                        $i++
+                    @endphp
                 @endforeach
             </div>
         </section>

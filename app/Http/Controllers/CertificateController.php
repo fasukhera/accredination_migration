@@ -42,32 +42,37 @@ class CertificateController extends Controller
             $data['certificate'] = $certificate;
             $data['certificates'] = $certificates;
         }
-//        foreach ($certificate->certificate_details->certificate_details_accordian as $accordian_anchor) {
-//            if (isset($accordian_anchor->a)) {
-//                $anchor[] = explode(',', $accordian_anchor->a);
-////                $n = explode('##', $accordian_anchor->a);
-//                $anchor[] = array_filter($anchor);
-//                foreach ($anchor as $aa) {
-//                    foreach ($aa as $a) {
-//                        var_dump($a);
-//                        $anchor[] = str_replace('##', ',', $a);
-//                    }
-//                }
-//                dd('faran');
-//                $data['a'] = array_filter($anchor);
-//            } else {
-//                $data['a'] = [];
-//            }
-//        }
-//        dd($data['a']);
-        if (isset($certificate->certificate_details->certificate_details_accordian->certification)) {
-            $certification = explode(',', $certificate->certificate_details->certificate_details_accordian->certification);
-            $data['certificationx'] = array_filter($certification);
-        } else {
-            $data['certificationx'] = [];
+        $peta = [];
+        $i = 0;
+        foreach ($certificate->certificate_details->certificate_details_accordian as $accordian_anchor) {
+            if (isset($accordian_anchor->a)) {
+                $anchor = explode(',', $accordian_anchor->a);
+                $peta['a'][$i] = array_filter($anchor);
+                foreach ($peta['a'][$i] as $ancho){
+                    $anchossxd = explode('##', $ancho);
+                    $data['a'][$i][]  = $anchossxd;
+                }
+            } else {
+                $data['a'] = [];
+            }
+            $i++;
+        }
+        $j = 0;
+        $hexa=[];
+        foreach ($certificate->certificate_details->certificate_details_accordian as $certificate_anchor) {
+            if (isset($certificate_anchor->certification)) {
+                $certification = explode(',', $certificate_anchor->certification);
+                $hexa['certificationx'][$j] = array_filter($certification);
+                foreach ($hexa['certificationx'][$j] as $certi){
+                    $certificationxssd = explode('##', $certi);
+                    $data['certificationx'][$j][]  = $certificationxssd;
+                }
+            } else {
+                $data['certificationx'] = [];
+            }
+            $j++;
         }
         return view('certificate', compact('data'));
-//        return redirect('');
     }
 
     /**
