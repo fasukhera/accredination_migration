@@ -42,22 +42,24 @@ class CertificateController extends Controller
             $data['certificate'] = $certificate;
             $data['certificates'] = $certificates;
         }
-        foreach ($certificate->certificate_details->certificate_details_accordian as $accordian_anchor) {
-            if (isset($accordian_anchor->a)) {
-                $anchor[] = explode(',', $accordian_anchor->a);
-//                $n = explode('##', $accordian_anchor->a);
-                $anchor[] = array_filter($anchor);
-                foreach ($anchor as $aa) {
-                    foreach ($aa as $a) {
-                        $anchor[] = str_replace('##', ',', $a);
-                    }
-                }
-                $data['a'] = array_filter($anchor);
-            } else {
-                $data['a'] = [];
-            }
-        }
-        dd($data['a']);
+//        foreach ($certificate->certificate_details->certificate_details_accordian as $accordian_anchor) {
+//            if (isset($accordian_anchor->a)) {
+//                $anchor[] = explode(',', $accordian_anchor->a);
+////                $n = explode('##', $accordian_anchor->a);
+//                $anchor[] = array_filter($anchor);
+//                foreach ($anchor as $aa) {
+//                    foreach ($aa as $a) {
+//                        var_dump($a);
+//                        $anchor[] = str_replace('##', ',', $a);
+//                    }
+//                }
+//                dd('faran');
+//                $data['a'] = array_filter($anchor);
+//            } else {
+//                $data['a'] = [];
+//            }
+//        }
+//        dd($data['a']);
         if (isset($certificate->certificate_details->certificate_details_accordian->certification)) {
             $certification = explode(',', $certificate->certificate_details->certificate_details_accordian->certification);
             $data['certificationx'] = array_filter($certification);
