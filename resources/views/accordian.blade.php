@@ -270,12 +270,14 @@
                         </div>
 
                         <div class="form-group" id="tags">
-                            <label>Anchors*</label>
-                            <input type="text" name="a" placeholder="Add a tag"/>
+                            <label>Anchors* <small>Please add url then double hash sign i.e: ## and press tab to add new Anchor</small></label>
+                            <br>
+                            <input type="text" name="a" placeholder="Add an Anchor tag"/>
                         </div>
 
                         <div class="form-group" id="tags">
-                            <label>Certification Anchors*</label>
+                            <label>Certification Anchors* <small>Please add url then double hash sign i.e: ## and press tab to add new Certification</small></label>
+                            <br>
                             <input type="text" name="certification" placeholder="Add a tag"/>
                         </div>
                         <div class="form-group">
@@ -340,7 +342,7 @@
         $("#tags input").on({
             focusout: function () {
                 var txt = this.value
-                    // .replace(/[^a-z0-9\+\-\.\#]/ig, ''); // allowed characters
+                // .replace(/[^a-z0-9\+\-\.\#]/ig, ''); // allowed characters
                 if (txt) $("<span/>", {text: txt.toLowerCase(), insertBefore: this});
                 this.value = "";
             },

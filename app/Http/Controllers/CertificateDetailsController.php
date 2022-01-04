@@ -39,6 +39,9 @@ class CertificateDetailsController extends Controller
             'p1' => 'required',
             'v1' => 'required',
         ]);
+        if($request->has('new_certificate')){
+            
+        }
         $data = $request->except(['v1']);
         $file = $request->file('v1');
         $current = Carbon::now();

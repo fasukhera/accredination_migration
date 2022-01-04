@@ -24,6 +24,6 @@ class CertificateDetails extends Model
 
     public function certificate_details_accordian()
     {
-        return $this->hasOne(CertificateDetailsAccordian::class);
+        return $this->hasMany(CertificateDetailsAccordian::class);
     }
 }

@@ -44,8 +44,8 @@ class CertificateDetailsAccordianController extends Controller
             'main_h' => 'required',
             'h1' => 'required',
             'p1' => 'required',
-            'a' => 'required', //comma separated
-            'certification' => 'required', //comma seprated
+            'a' => 'required', //comma separated and visible names are ## seprated
+            'certification' => 'required', //comma seprated and visible names are ## seprated
             'h2' => 'required',
             'p2' => 'required'
         ]);

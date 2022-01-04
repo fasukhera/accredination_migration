@@ -141,7 +141,6 @@
                                             <li>
                                                 <span class="fa fa-check"></span>
                                                 {{$li}}
-
                                             </li>
                                         @endforeach
                                     @endif
@@ -163,59 +162,66 @@
                         </h3>
                     </div>
                 </div>
-                <div class="row">
-                    <div class="col-md-6">
-                        <div class="panel-group" id="accordion1">
-                            <div class="panel panel-default">
-                                <div class="panel-heading">
-                                    <h4 class="panel-title">
-                                        <a data-toggle="collapse" data-parent="#accordion1" href="#collapseTwo"><span
-                                                class="fa fa-plus"></span> {{(isset($data['certificate']->certificate_details->certificate_details_accordian->h1))?$data['certificate']->certificate_details->certificate_details_accordian->h1:''}}
-                                        </a>
-                                    </h4>
-                                </div>
-                                <div id="collapseTwo" class="panel-collapse collapse">
-                                    <div class="panel-body">
+                @foreach($data['certificate']->certificate_details->certificate_details_accordian as $key=>$accordion)
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="panel-group" id="accordion1">
+                                <div class="panel panel-default">
+                                    <div class="panel-heading">
+                                        <h4 class="panel-title">
+                                            <a data-toggle="collapse" data-parent="#accordion1"
+                                               href="#collapseTwo"><span
+                                                    class="fa fa-plus"></span> {{(isset($accordion->h1))?$accordion->h1:''}}
+                                            </a>
+                                        </h4>
+                                    </div>
+                                    <div id="collapseTwo" class="panel-collapse collapse">
                                         <div class="panel-body">
-                                            <div class="panel-group" id="accordion21">
-                                                <div class="panel">
-                                                    <div class="panel-body">
-                                                        <p class="offset-1">
-                                                            {{(isset($data['certificate']->certificate_details->certificate_details_accordian->p1))?$data['certificate']->certificate_details->certificate_details_accordian->p1:''}}
-                                                        </p>
+                                            <div class="panel-body">
+                                                <div class="panel-group" id="accordion21">
+                                                    <div class="panel">
+                                                        <div class="panel-body">
+                                                            <p class="offset-1">
+                                                                {{(isset($accordion->p1))?$accordion->p1:''}}
+                                                            </p>
                                                             <ul>
                                                                 @if(isset($data['a']))
                                                                     @foreach($data['a'] as $anchor)
                                                                         <li>
                                                                             <span class="fa fa-link"></span>
-                                                                            <a class="offset-1" href="{{$anchor}}">{{$anchor}}</a>
+                                                                            <a class="offset-1"
+                                                                               href="{{$anchor}}">{{$anchor}}</a>
                                                                         </li>
                                                                     @endforeach
                                                                 @endif
                                                             </ul>
-                                                        <div>
-                                                            <ul>
-                                                                @if(isset($data['certificationx']))
-                                                                    @foreach($data['certificationx'] as $certificationx)
-                                                                        <li>
-                                                                            <span class="fa fa-link offset-2"></span>
-                                                                            <a class="" href="{{$certificationx}}">{{$certificationx}}</a>
-                                                                        </li>
-                                                                    @endforeach
-                                                                @endif
-                                                            </ul>
+                                                            <div>
+                                                                <ul>
+                                                                    @if(isset($data['certificationx']))
+                                                                        @foreach($data['certificationx'] as $certificationx)
+                                                                            <li>
+                                                                                <span
+                                                                                    class="fa fa-link offset-2"></span>
+                                                                                <a class=""
+                                                                                   href="{{$certificationx}}">{{$certificationx}}</a>
+                                                                            </li>
+                                                                        @endforeach
+                                                                    @endif
+                                                                </ul>
+                                                            </div>
                                                         </div>
-                                                    </div>
 
-                                                    <a data-toggle="collapse" data-parent="#accordion21"
-                                                       href="#collapseTwoOne" style="color: #000 !important;"><span
-                                                            class="fa fa-plus" style="color: #000 !important;"></span>
-                                                        {{(isset($data['certificate']->certificate_details->certificate_details_accordian->h2))?$data['certificate']->certificate_details->certificate_details_accordian->h2:''}}
-                                                    </a>
-                                                    <div id="collapseTwoOne" class="panel-collapse collapse">
-                                                        <div class="panel-body offset-1"><p>
-                                                                {{(isset($data['certificate']->certificate_details->certificate_details_accordian->p2))?$data['certificate']->certificate_details->certificate_details_accordian->p2:''}}
-                                                            </p></div>
+                                                        <a data-toggle="collapse" data-parent="#accordion21"
+                                                           href="#collapseTwoOne" style="color: #000 !important;"><span
+                                                                class="fa fa-plus"
+                                                                style="color: #000 !important;"></span>
+                                                            {{(isset($accordion->h2))?$accordion->h2:''}}
+                                                        </a>
+                                                        <div id="collapseTwoOne" class="panel-collapse collapse">
+                                                            <div class="panel-body offset-1"><p>
+                                                                    {{(isset($accordion->p2))?$accordion->p2:''}}
+                                                                </p></div>
+                                                        </div>
                                                     </div>
                                                 </div>
                                             </div>
@@ -225,70 +231,7 @@
                             </div>
                         </div>
                     </div>
-                </div>
-                <div class="row">
-                    <div class="col-md-6">
-                        <div class="panel-group" id="accordion1">
-                            <div class="panel panel-default">
-                                <div class="panel-heading">
-                                    <h4 class="panel-title">
-                                        <a data-toggle="collapse" data-parent="#accordion1" href="#collapseTwo"><span
-                                                class="fa fa-plus"></span> {{(isset($data['certificate']->certificate_details->certificate_details_accordian->h1))?$data['certificate']->certificate_details->certificate_details_accordian->h1:''}}
-                                        </a>
-                                    </h4>
-                                </div>
-                                <div id="collapseTwo" class="panel-collapse collapse">
-                                    <div class="panel-body">
-                                        <div class="panel-body">
-                                            <div class="panel-group" id="accordion21">
-                                                <div class="panel">
-                                                    <div class="panel-body">
-                                                        <p class="offset-1">
-                                                            {{(isset($data['certificate']->certificate_details->certificate_details_accordian->p1))?$data['certificate']->certificate_details->certificate_details_accordian->p1:''}}
-                                                        </p>
-                                                        <ul>
-                                                            @if(isset($data['a']))
-                                                                @foreach($data['a'] as $anchor)
-                                                                    <li>
-                                                                        <span class="fa fa-link"></span>
-                                                                        <a class="offset-1" href="{{$anchor}}">{{$anchor}}</a>
-                                                                    </li>
-                                                                @endforeach
-                                                            @endif
-                                                        </ul>
-                                                        <div>
-                                                            <ul>
-                                                                @if(isset($data['certificationx']))
-                                                                    @foreach($data['certificationx'] as $certificationx)
-                                                                        <li>
-                                                                            <span class="fa fa-link offset-2"></span>
-                                                                            <a class="" href="{{$certificationx}}">{{$certificationx}}</a>
-                                                                        </li>
-                                                                    @endforeach
-                                                                @endif
-                                                            </ul>
-                                                        </div>
-                                                    </div>
-
-                                                    <a data-toggle="collapse" data-parent="#accordion21"
-                                                       href="#collapseTwoOne" style="color: #000 !important;"><span
-                                                            class="fa fa-plus" style="color: #000 !important;"></span>
-                                                        {{(isset($data['certificate']->certificate_details->certificate_details_accordian->h2))?$data['certificate']->certificate_details->certificate_details_accordian->h2:''}}
-                                                    </a>
-                                                    <div id="collapseTwoOne" class="panel-collapse collapse">
-                                                        <div class="panel-body offset-1"><p>
-                                                                {{(isset($data['certificate']->certificate_details->certificate_details_accordian->p2))?$data['certificate']->certificate_details->certificate_details_accordian->p2:''}}
-                                                            </p></div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+                @endforeach
             </div>
         </section>
         @include('includes.footer')
