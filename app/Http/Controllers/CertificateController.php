@@ -25,6 +25,7 @@ class CertificateController extends Controller
         $name = $request->all();
         $name = array_keys($name);
         $name = $name[0];
+        $name = str_replace('_',' ',$name);
         if ($name != '' || $name != null) {
             $certificate = Certificate::
             with('certificate_details', 'certificate_details.certificate_details_accordian')->
