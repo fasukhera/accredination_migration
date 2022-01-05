@@ -188,7 +188,7 @@
                                                                 {{(isset($accordion->p1))?$accordion->p1:''}}
                                                             </p>
                                                             <ul>
-                                                                @if(isset($data['a']))
+                                                                @if(isset($data['a'][$key]))
                                                                     @foreach($data['a'][$key] as $anchor)
                                                                         <li>
                                                                             <span class="fa fa-link"></span>
@@ -200,7 +200,7 @@
                                                             </ul>
                                                             <div>
                                                                 <ul>
-                                                                    @if(isset($data['certificationx']))
+                                                                    @if(isset($data['certificationx'][$key]))
                                                                         @foreach($data['certificationx'][$key] as $key =>$certificationx)
                                                                                 <li>
                                                                                     <span class="fa fa-link"></span>

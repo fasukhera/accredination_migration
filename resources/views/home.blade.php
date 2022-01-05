@@ -281,8 +281,8 @@
         // ::: TAGS BOX
         $("#tags input").on({
             focusout: function () {
-                var txt = this.value.replace(/[^a-z0-9\+\-\.\#]/ig, ''); // allowed characters
-                if (txt) $("<span/>", {text: txt.toLowerCase(), insertBefore: this});
+                var txt = this.value; //.replace(/[^a-z0-9\+\-\.\#]/ig, '') allowed characters
+                if (txt) $("<span/>", {text: txt, insertBefore: this});
                 this.value = "";
             },
             keyup: function (ev) {
