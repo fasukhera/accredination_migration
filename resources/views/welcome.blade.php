@@ -715,9 +715,10 @@
                             <div class="item-icon">
                                 <i class="flaticon-quote"></i>
                             </div>
-                            <p>i was looking for a qualification that was suitable for the IT market in the UK.
-                                 I soon found out the BSC was globally recognised. This was to my advantage due 
-                                 to the pandemic and working from home i could apply for jobs all over the world.</p>
+                            <p>In many of my Business Analyst roles, I have been asked about my level of education.
+                                 Mentioning going through my diploma with BCS was positively acknowledged. I have completed the
+                                  Requirements Engineering module with BCS and it was very informative and really helped me excel
+                                   in my current role through the knowledge gained.</p>
                         </div>
                         <div class="bottom-box">
                             <div class="media">
