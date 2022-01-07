@@ -10,11 +10,7 @@
     'locale' => 'en',
     'fallback_locale' => 'en',
     'faker_locale' => 'en_US',
-<<<<<<< Updated upstream
-    'key' => 'base64:jtWWj954R7dvqJ4IIqUGD+lW06Unu4Q7ZlbYthGZht4=',
-=======
     'key' => 'base64:kI/7XzltPihHTH17ma7cied12hdaivGLyk/34jX+BI0=',
->>>>>>> Stashed changes
     'cipher' => 'AES-256-CBC',
     'providers' => 
     array (

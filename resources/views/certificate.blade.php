@@ -3,18 +3,51 @@
 @include('includes.head')
 <style>
     {{--  Accordian Styling  --}}
-    .panel {
-        background-image: linear-gradient(to bottom right, #e7e7e7, #cdecf8, #e7e7e7, #cdecf8);
-        padding: 0.5rem 1rem;
+    .panel-default{
+        background: rgba(110, 156, 225, 0.1); 
+        padding-top: 1rem;
+        padding-bottom: 0.5rem;
+        padding-left: 1rem;
     }
 
-    .panel.panel {
-        background-color: white;
+    .panel-body-links{
+        padding-left: 20px;
+        padding-top:10px;
+        padding-bottom: 10px;
     }
 
-    .panel .panel-heading .panel-title {
-        margin: unset;
+    .panel-body-p1{
+        margin: 0px;
+        padding-bottom: 0px;
+    }
+    .panel-body-p2{
+        margin: 0px;
+        padding-top: 10px;
+    }
 
+    .panel-body-sub{
+        padding-left: 20px;
+        padding-top: 25px;
+        padding-bottom: 10px;
+    }
+
+    .panel-body-link-icon{
+        margin: 0px;
+        padding-left: 10px;
+    }
+
+    .panel-body-certificate{
+        padding-top: 20px;
+    }
+
+    .panel-title {
+        padding-bottom: 10px;
+
+    }
+
+    .feature-check-icon{
+        padding-right: 20px;
+        
     }
 
     .panel .panel-heading .panel-title a,
@@ -23,7 +56,7 @@
     }
 
     .panel .panel-body a {
-        color: green;
+        color: #000;
     }
 
 
@@ -116,7 +149,7 @@
                     <div class="col-lg-6 col-12 has-animation active-animation">
                         <div class="feature-box-layout1">
                             <div class="translate-left-75 opacity-animation transition-150 transition-delay-10">
-                                <video width="320" height="240" controls>
+                                <video width="500" height="281" controls>
                                     <source
                                         src="{{(isset($data['certificate']->certificate_details->v1))?$data['certificate']->certificate_details->v1:''}}"
                                         type="video/mp4">
@@ -139,7 +172,7 @@
                                     @if(isset($data['li']))
                                         @foreach($data['li'] as $li)
                                             <li>
-                                                <span class="fa fa-check"></span>
+                                                <span class="feature-check-icon fa fa-check"></span>
                                                 {{$li}}
                                             </li>
                                         @endforeach
@@ -167,7 +200,7 @@
                 @endphp
                 @foreach($data['certificate']->certificate_details->certificate_details_accordian as $key=>$accordion)
                     <div class="row">
-                        <div class="col-md-6">
+                        <div class="col-md-12">
                             <div class="panel-group" id="accordion{{$i}}">
                                 <div class="panel panel-default">
                                     <div class="panel-heading">
@@ -179,32 +212,32 @@
                                         </h4>
                                     </div>
                                     <div id="collapse{{$i}}" class="panel-collapse collapse">
-                                        <div class="panel-body">
+                                        <div class="col-md-12 panel-body">
                                             <div class="panel-body">
                                                 <div class="panel-group" id="accordion{{$i+2}}">
-                                                    <div class="panel">
-                                                        <div class="panel-body">
-                                                            <p class="offset-1">
+                                                    <div class="panel">                                                   
+                                                            <p class="panel-body-p1 offset-1">
                                                                 {{(isset($accordion->p1))?$accordion->p1:''}}
                                                             </p>
+                                                        <div class="panel-body-links">
                                                             <ul>
                                                                 @if(isset($data['a'][$key]))
                                                                     @foreach($data['a'][$key] as $anchor)
                                                                         <li>
                                                                             <span class="fa fa-link"></span>
-                                                                            <a class="offset-1"
+                                                                            <a class="panel-body-link-icon offset-1"
                                                                                href="{{$anchor[0]}}">{{$anchor[1]}}</a>
                                                                         </li>
                                                                     @endforeach
                                                                 @endif
                                                             </ul>
-                                                            <div>
+                                                            <div class="panel-body-certificate">
                                                                 <ul>
                                                                     @if(isset($data['certificationx'][$key]))
                                                                         @foreach($data['certificationx'][$key] as $key =>$certificationx)
                                                                                 <li>
-                                                                                    <span class="fa fa-link"></span>
-                                                                                    <a class="offset-1"
+                                                                                    <span class="fas fa-certificate"></span>
+                                                                                    <a class="panel-body-link-icon offset-1"
                                                                                        href="{{$certificationx[0]}}">{{$certificationx[1]}}</a>
                                                                                 </li>
                                                                         @endforeach
@@ -214,17 +247,20 @@
                                                             </div>
                                                         </div>
 
-                                                        <a data-toggle="collapse" data-parent="#accordion{{$i+2}}"
-                                                           href="#collapse{{$i+2}}"
-                                                           style="color: #000 !important;"><span
+                                                        <div class="panel-body-sub">
+
+                                                            <a data-toggle="collapse" data-parent="#accordion{{$i+2}}"
+                                                                href="#collapse{{$i+2}}"
+                                                                style="color: #000 !important;"><span
                                                                 class="fa fa-plus"
                                                                 style="color: #000 !important;"></span>
-                                                            {{(isset($accordion->h2))?$accordion->h2:''}}
-                                                        </a>
-                                                        <div id="collapse{{$i+2}}" class="panel-collapse collapse">
-                                                            <div class="panel-body offset-1"><p>
-                                                                    {{(isset($accordion->p2))?$accordion->p2:''}}
-                                                                </p></div>
+                                                                {{(isset($accordion->h2))?$accordion->h2:''}}
+                                                             </a>
+                                                            <div id="collapse{{$i+2}}" class="panel-collapse collapse">
+                                                                <div class="panel-body-p2 offset-1"><p>
+                                                                        {{(isset($accordion->p2))?$accordion->p2:''}}
+                                                                    </p></div>
+                                                            </div>
                                                         </div>
                                                     </div>
                                                 </div>
@@ -235,6 +271,7 @@
                             </div>
                         </div>
                     </div>
+                    &nbsp;
                     @php
                         $i++
                     @endphp
