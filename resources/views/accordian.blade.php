@@ -163,7 +163,11 @@
         <i class="fas fa-angle-double-up"></i>
     </a>
     <div id="main_content">
+<<<<<<< HEAD
     @include('includes.header_admin_panel')
+=======
+        @include('includes.header_admin_panel')
+>>>>>>> 5b54a45e43f14359dd12dfc4d954ccd55ab76e6b
         <section class="feature-wrap-layout1">
             <div class="card offset-3 col-md-6">
                 @if ($errors->any())

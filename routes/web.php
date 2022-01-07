@@ -6,9 +6,10 @@ use Illuminate\Support\Facades\Route;
 Auth::routes();
 //landing page
 Route::get('/', 'CertificateController@landing')->name('landing');
-Route::group(['middleware' => 'auth'], function () {
 //certificate client
-    Route::get('/certification', 'CertificateController@index')->name('certificate');
+Route::get('/certification', 'CertificateController@index')->name('certificate');
+
+Route::group(['middleware' => 'auth'], function () {
 //Certificate name add
     Route::get('/home', 'CertificateController@create')->name('home');
     Route::post('/add_new_certificate', 'CertificateController@store')->name('add_new_certificate');
