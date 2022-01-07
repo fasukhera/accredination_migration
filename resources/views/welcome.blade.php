@@ -59,7 +59,7 @@
                         <div class="translate-right-75 opacity-animation transition-150 transition-delay-2600">
                             <div class="main-banner-box-layout1">
                                 <div class="item-figure">
-                                    <img src="{{asset('img\main.jpg')}}" alt="Illustration">
+                                    <img src="{{asset('img\hero-image.png')}}" alt="Illustration">
                                 </div>
                             </div>
                         </div>
