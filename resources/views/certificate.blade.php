@@ -40,6 +40,10 @@
         padding-top: 20px;
     }
 
+    .anchor-link{
+    color: green;
+    }
+
     .panel-title {
         padding-bottom: 10px;
 
@@ -56,7 +60,7 @@
     }
 
     .panel .panel-body a {
-        color: #000;
+        
     }
 
 
@@ -181,7 +185,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="translate-bottom-75 opacity-animation transition-150 transition-delay-100">
+                    <div class="col-md-12 translate-bottom-75 opacity-animation transition-150 transition-delay-100">
                         <h3 class="item-title">{{(isset($data['certificate']->certificate_details->h2))?$data['certificate']->certificate_details->h2:''}}</h3>
                     </div>
                     <div class="translate-bottom-75 opacity-animation transition-150 transition-delay-900">
@@ -220,12 +224,12 @@
                                                                 {{(isset($accordion->p1))?$accordion->p1:''}}
                                                             </p>
                                                         <div class="panel-body-links">
-                                                            <ul>
+                                                            <ul class="">
                                                                 @if(isset($data['a'][$key]))
                                                                     @foreach($data['a'][$key] as $anchor)
                                                                         <li>
                                                                             <span class="fa fa-link"></span>
-                                                                            <a class="panel-body-link-icon offset-1"
+                                                                            <a class="anchor-link panel-body-link-icon offset-1"
                                                                                href="{{$anchor[0]}}">{{$anchor[1]}}</a>
                                                                         </li>
                                                                     @endforeach
