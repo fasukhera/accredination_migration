@@ -966,8 +966,8 @@
                     <div class="testimonial-box-layout1" style="width:60%; height:40%; padding-left: 150px">
                         <img src="{{asset('img/astrazeneca.png')}}" alt="Brand-thumb" class="">
                     </div>
-                    <div class="testimonial-box-layout1" style=" width:60%; height:40%; padding-left: 150px">
-                        <img src="{{asset('img/aviva.png')}}" alt="Brand-thumb" class="aviva-brand">
+                    <div class="testimonial-box-layout1" style="width:60%; height:40%; padding-left: 150px">
+                        <img src="{{asset('img/aviva.png')}}" alt="Brand-thumb" class="">
                     </div>
                     <div class="testimonial-box-layout1" style="width:60%; height:40%; padding-left: 150px">
                         <img src="{{asset('img/bank.png')}}" alt="Brand-thumb" class="">
@@ -976,7 +976,7 @@
                         <img src="{{asset('img/barclyas.png')}}" alt="Brand-thumb" class="">
                     </div>
                     <div class="testimonial-box-layout1" style="width:60%; height:40%; padding-left: 150px">
-                        <img src="{{asset('img/bt.png')}}" alt="Brand-thumb" class="">
+                        <img src="{{asset('img/bt.jfif')}}" alt="Brand-thumb" class="">
                     </div>
                     <div class="testimonial-box-layout1" style="width:60%; height:40%; padding-left: 150px">
                         <img src="{{asset('img/delolite.png')}}" alt="Brand-thumb" class="">
@@ -984,7 +984,7 @@
                     <div class="testimonial-box-layout1" style="width:60%; height:40%; padding-left: 150px">
                         <img src="{{asset('img/llyods.png')}}" alt="Brand-thumb" class="">
                     </div>
-                    <div class="testimonial-box-layout1" style="width:60%; height:40%; padding-left: 150px">
+                    <div class="testimonial-box-layout1" style="background:none; width:60%; height:40%; padding-left: 150px">
                         <img src="{{asset('img/RSA.png')}}" alt="Brand-thumb" class="">
                     </div>
                     <div class="testimonial-box-layout1" style="width:60%; height:40%; padding-left: 150px">
