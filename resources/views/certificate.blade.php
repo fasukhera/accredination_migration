@@ -59,10 +59,6 @@
         color: #000 !important;
     }
 
-    .panel .panel-body a {
-        
-    }
-
 
 </style>
 <body>
@@ -153,7 +149,7 @@
                     <div class="col-lg-6 col-12 has-animation active-animation">
                         <div class="feature-box-layout1">
                             <div class="translate-left-75 opacity-animation transition-150 transition-delay-10">
-                                <video width="500" height="281" controls>
+                                <video width="600" height="400" controls>
                                     <source
                                         src="{{(isset($data['certificate']->certificate_details->v1))?$data['certificate']->certificate_details->v1:''}}"
                                         type="video/mp4">
@@ -165,13 +161,13 @@
                     <div
                         class="col-lg-6 col-12 d-flex align-items-center justify-content-center has-animation active-animation">
                         <div class="feature-box-layout1">
-                            <div class="translate-bottom-75 opacity-animation transition-150 transition-delay-100">
+                            <div class="col-lg-12 translate-bottom-75 opacity-animation transition-150 transition-delay-100">
                                 <h3 class="item-title">{{(isset($data['certificate']->certificate_details->h1))?$data['certificate']->certificate_details->h1:''}}</h3>
                             </div>
-                            <div class="translate-bottom-75 opacity-animation transition-150 transition-delay-900">
+                            <div class="col-lg-12 translate-bottom-75 opacity-animation transition-150 transition-delay-900">
                                 <p>{{(isset($data['certificate']->certificate_details->p1))?$data['certificate']->certificate_details->p1:''}}</p>
                             </div>
-                            <div class="translate-bottom-75 opacity-animation transition-150 transition-delay-900">
+                            <div class="col-lg-12 translate-bottom-75 opacity-animation transition-150 transition-delay-900">
                                 <ul>
                                     @if(isset($data['li']))
                                         @foreach($data['li'] as $li)
