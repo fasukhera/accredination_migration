@@ -62,7 +62,9 @@
                         <h3 class="footer-widget-heading">Contact Info</h3>
                         <p></p>
                         <ul class="footer-contact">
-                            <li><i class="flaticon-placeholder"></i>UK: 115 Sutton New Road, Birmingham, B23 6RP /// Pakistan: 18 F/1, Block 6, PECHS, Karachi, 75400
+                            <li><i class="flaticon-placeholder"></i><strong>UK</strong>: 115 Sutton New Road, Birmingham, B23 6RP 
+                            </li>
+                            <li><i class="flaticon-placeholder"></i><strong>Pakistan</strong>: 18 F/1, Block 6, PECHS, Karachi, 75400
                             </li>
                             <li><i class="flaticon-plane"></i>info@accredination.co.uk/li>
                             <li><i class="flaticon-telephone"></i>+44 (0) 800 058 2509</li>

@@ -25,12 +25,10 @@
         <div class="offcanvas-footer">
             <div class="item-title">Follow Me</div>
             <ul class="offcanvas-social">
-                <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
-                <li><a href="#"><i class="fab fa-twitter"></i></a></li>
-                <li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
-                <li><a href="#"><i class="fab fa-google-plus-g"></i></a></li>
-                <li><a href="#"><i class="fab fa-pinterest"></i></a></li>
-                <li><a href="#"><i class="fas fa-rss"></i></a></li>
+                <li><a href="https://www.facebook.com/accredination/"><i class="fab fa-facebook-f"></i></a></li>
+                <li><a href="https://twitter.com/accredination/"><i class="fab fa-twitter"></i></a></li>
+                <li><a href="https://www.instagram.com/accredination/"><i class="fab fa-instagram"></i></a></li>
+                <li><a href="https://www.linkedin.com/company/accredination/"><i class="fab fa-linkedin-in"></i></a></li>
             </ul>
         </div>
     </div>

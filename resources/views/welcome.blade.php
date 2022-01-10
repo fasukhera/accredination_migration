@@ -336,7 +336,7 @@
                                     </svg>
                                 </div>
                                 <h3 class="item-title"><a href="service-details.html">Consulting</a></h3>
-                                <p>We curate partnerships with world class and respected AccrediNation bodies. We help
+                                <p>We create partnerships with world class and respected AccrediNation bodies. We help
                                     build credible human resources by identifying appropriate AccrediNation solutions
                                     for their institutions and public bodies, to support them in strengthening their
                                     value and reputation.</p>
@@ -357,7 +357,7 @@
         <section class="process-wrap-layout1 section-padding-md bg-color-light position-relative">
             <div class="container">
                 <div class="section-heading heading-dark heading-layout1 has-animation">
-                    <h2 class="heading-main-title">Developed by Leading Employers</h2>
+                    <h2 class="heading-main-title">Developed by leading employers</h2>
                     <div class="heading-icon">
                         <svg class="dash-left" width="100" height="20">
                             <g fill="none" stroke-width="4">

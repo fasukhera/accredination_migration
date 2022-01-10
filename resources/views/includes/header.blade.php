@@ -9,10 +9,10 @@
                 <div class="row no-gutters d-flex align-items-center position-relative">
                     <div class="col-lg-2 d-flex justify-content-start">
                         <div class="temp-logo text-center">
-                            <a href="index.html" class="default-logo">
+                            <a href="" class="default-logo">
                                 <img src="{{asset('logo.png')}}" alt="logo" class="img-fluid">
                             </a>
-                            <a href="index.html" class="sticky-logo">
+                            <a href="" class="sticky-logo">
                                 <img src="{{asset('logo-black.png')}}" alt="logo" class="img-fluid">
                             </a>
                         </div>
