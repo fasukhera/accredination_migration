@@ -13,10 +13,10 @@
                         </div>
                         <p class="about-paragraph">Building Quality and Integrity One Nation at a Time</p>
                         <ul class="footer-social">
-                            <li><a href="https://www.facebook.com/accredination/"><i class="fab fa-facebook-f"></i></a></li>
-                            <li><a href="https://twitter.com/accredination/"><i class="fab fa-twitter"></i></a></li>
-                            <li><a href="https://www.instagram.com/accredination/"><i class="fab fa-instagram"></i></a></li>
-                            <li><a href="https://www.linkedin.com/company/accredination/"><i class="fab fa-linkedin"></i></a></li>
+                            <li><a target="_blank" href="https://www.facebook.com/accredination/"><i class="fab fa-facebook-f"></i></a></li>
+                            <li><a target="_blank" href="https://twitter.com/accredination/"><i class="fab fa-twitter"></i></a></li>
+                            <li><a target="_blank" href="https://www.instagram.com/accredination/"><i class="fab fa-instagram"></i></a></li>
+                            <li><a target="_blank" href="https://www.linkedin.com/company/accredination/"><i class="fab fa-linkedin"></i></a></li>
                         </ul>
                     </div>
                 </div>
