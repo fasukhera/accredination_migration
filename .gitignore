@@ -12,3 +12,6 @@ npm-debug.log
 yarn-error.log
 bootstrap/cache/config.php
 
+composer.lock
+.gitignore
+storage/logs/laravel.log
