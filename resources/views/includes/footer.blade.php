@@ -61,7 +61,7 @@
                 <div class="col-xl-3 col-lg-4 col-md-7 col-12">
                     <div class="footer-widgets">
                         <h3 class="footer-widget-heading">Contact Info</h3>
-                        <p>Grursus mal suada faci lisis Lorem to ipsum consectetur.</p>
+                        <p></p>
                         <ul class="footer-contact">
                             <li><i class="flaticon-placeholder"></i>UK: 115 Sutton New Road, Birmingham, B23 6RP /// Pakistan: 18 F/1, Block 6, PECHS, Karachi, 75400
                             </li>
