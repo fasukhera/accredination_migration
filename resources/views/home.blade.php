@@ -235,7 +235,7 @@
     </div>
     </section>
     @include('includes.footer')
-    @include('includes.offcanvas')
+    @include('includes.offcanvas2')
 </div>
 </div>
 

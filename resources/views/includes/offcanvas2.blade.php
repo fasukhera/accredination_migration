@@ -10,14 +10,14 @@
         <nav>
             <ul class="offcanvas-nav">
                 <li class="nav-item">
-                    <a href="">Certifications</a>
+                    <a href="{{route('home')}}">Add New Certificate</a>
                 </li>
                 <li class="nav-item">
-                    <a href="">Higher Education Qualifications</a>
+                    <a href="{{route('certificate_details')}}">Add Certificate Details</a>
                 </li>
 
                 <li class="nav-item">
-                    <a href="">Consulting</a>
+                    <a href="{{route('accordion')}}">Add Certificate Accordion</a>
                 </li>
 
             </ul>
