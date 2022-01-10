@@ -976,7 +976,7 @@
                         <img src="{{asset('img/barclyas.png')}}" alt="Brand-thumb" class="">
                     </div>
                     <div class="testimonial-box-layout1" style="width:60%; height:40%; padding-left: 150px">
-                        <img src="{{asset('img/bt.jfif')}}" alt="Brand-thumb" class="">
+                        <img src="{{asset('img/bt.png')}}" alt="Brand-thumb" class="">
                     </div>
                     <div class="testimonial-box-layout1" style="width:60%; height:40%; padding-left: 150px">
                         <img src="{{asset('img/delolite.png')}}" alt="Brand-thumb" class="">
