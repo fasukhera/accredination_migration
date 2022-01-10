@@ -964,39 +964,41 @@
                         <img src="{{asset('img/accenture.png')}}" alt="Brand-thumb" class="">
                     </div>
                     <div class="testimonial-box-layout1" style="width:60%; height:40%; padding-left: 150px">
-                        <img src="{{asset('img/accenture.png')}}" alt="Brand-thumb" class="">
+                        <img src="{{asset('img/astrazeneca.png')}}" alt="Brand-thumb" class="">
+                    </div>
+                    <div class="testimonial-box-layout1" style=" width:60%; height:40%; padding-left: 150px">
+                        <img src="{{asset('img/aviva.png')}}" alt="Brand-thumb" class="aviva-brand">
                     </div>
                     <div class="testimonial-box-layout1" style="width:60%; height:40%; padding-left: 150px">
-                        <img src="{{asset('img/accenture.png')}}" alt="Brand-thumb" class="">
+                        <img src="{{asset('img/bank.png')}}" alt="Brand-thumb" class="">
                     </div>
-
-                </div>
-            </div>
-        </section>
-        <section id="brand-wrap-layout1" class=" d-none brand-wrap-layout1 bg-color-accent2">
-            <div class="container">
-                <div class="rc-carousel" data-loop="true" data-items="8" data-margin="30" data-autoplay="false"
-                     data-autoplay-timeout="5000" data-smart-speed="700" data-dots="false" data-nav="false"
-                     data-nav-speed="false" data-r-x-small="2" data-r-x-small-nav="false"
-                     data-r-x-small-dots="false" data-r-x-medium="3" data-r-x-medium-nav="false"
-                     data-r-x-medium-dots="false" data-r-small="4" data-r-small-nav="false" data-r-small-dots="false"
-                     data-r-medium="4" data-r-medium-nav="false" data-r-medium-dots="false" data-r-large="5"
-                     data-r-large-nav="false" data-r-large-dots="false" data-r-extra-large="6"
-                     data-r-extra-large-nav="false" data-r-extra-large-dots="false">
-                    <div class="brand-box-layout1"><img src="{{asset('img/accenture.png')}}" alt="Brand-thumb"></div>
-                    <div class="brand-box-layout1"><img src="{{asset('img/astrazeneca.png')}}" alt="Brand-thumb"></div>
-                    <div class="brand-box-layout1"><img src="{{asset('img/aviva.png')}}" alt="Brand-thumb"></div>
-                    <div class="brand-box-layout1"><img src="{{asset('img/bank.png')}}" alt="Brand-thumb"></div>
-                    <div class="brand-box-layout1"><img src="{{asset('img/barclyas.png')}}" alt="Brand-thumb"></div>
-                    <div class="brand-box-layout1"><img src="{{asset('img/bt.jfif')}}" alt="Brand-thumb"></div>
-                    <div class="brand-box-layout1"><img src="{{asset('img/delolite.png')}}" alt="Brand-thumb"></div>
-                    <div class="brand-box-layout1"><img src="{{asset('img/llyods.png')}}" alt="Brand-thumb"></div>
-                    <div class="brand-box-layout1"><img src="{{asset('img/RSA.png')}}" alt="Brand-thumb"></div>
-                    <div class="brand-box-layout1"><img src="{{asset('img/sopra.png')}}" alt="Brand-thumb"></div>
-                    <div class="brand-box-layout1"><img src="{{asset('img/telefonica.png')}}" alt="Brand-thumb"></div>
-                    <div class="brand-box-layout1"><img src="{{asset('img/veritas.png')}}" alt="Brand-thumb"></div>
-                    <div class="brand-box-layout1"><img src="{{asset('img/world pay.png')}}" alt="Brand-thumb"></div>
-
+                    <div class="testimonial-box-layout1" style="width:60%; height:40%; padding-left: 150px">
+                        <img src="{{asset('img/barclyas.png')}}" alt="Brand-thumb" class="">
+                    </div>
+                    <div class="testimonial-box-layout1" style="width:60%; height:40%; padding-left: 150px">
+                        <img src="{{asset('img/bt.png')}}" alt="Brand-thumb" class="">
+                    </div>
+                    <div class="testimonial-box-layout1" style="width:60%; height:40%; padding-left: 150px">
+                        <img src="{{asset('img/delolite.png')}}" alt="Brand-thumb" class="">
+                    </div>
+                    <div class="testimonial-box-layout1" style="width:60%; height:40%; padding-left: 150px">
+                        <img src="{{asset('img/llyods.png')}}" alt="Brand-thumb" class="">
+                    </div>
+                    <div class="testimonial-box-layout1" style="width:60%; height:40%; padding-left: 150px">
+                        <img src="{{asset('img/RSA.png')}}" alt="Brand-thumb" class="">
+                    </div>
+                    <div class="testimonial-box-layout1" style="width:60%; height:40%; padding-left: 150px">
+                        <img src="{{asset('img/sopra.png')}}" alt="Brand-thumb" class="">
+                    </div>
+                    <div class="testimonial-box-layout1" style="width:60%; height:40%; padding-left: 150px">
+                        <img src="{{asset('img/telefonica.png')}}" alt="Brand-thumb" class="">
+                    </div>
+                    <div class="testimonial-box-layout1" style="width:60%; height:40%; padding-left: 150px">
+                        <img src="{{asset('img/veritas.png')}}" alt="Brand-thumb" class="">
+                    </div>
+                    <div class="testimonial-box-layout1" style="width:60%; height:40%; padding-left: 150px">
+                        <img src="{{asset('img/world pay.png')}}" alt="Brand-thumb" class="">
+                    </div>
                 </div>
             </div>
         </section>
