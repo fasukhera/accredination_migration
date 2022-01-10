@@ -377,7 +377,7 @@
 
 
                     </div>
-                    <p class="heading-paragraph">Take your IT career to the next level with BCS professional
+                    <p class="heading-paragraph" style="font-size:18px">Take your IT career to the next level with BCS professional
                         certification. Developed in collaboration with leading employers, our training programmes help
                         you sharpen your business focus and understand how you can use technology to make a real
                         difference in a progressive organisation.</p>
@@ -397,7 +397,10 @@
                                             </div>
                                             <div class="item-content">
                                                 <h3 class="item-title">Certifications </h3>
-                                                <p> in 11 core subject areas</p>
+                                            
+                                                <p style="font-size:18px">in 11 core subject areas</p>
+
+        
                                             </div>
                                         </div>
                                     </div>
@@ -419,7 +422,7 @@
                                             </div>
                                             <div class="item-content">
                                                 <h3 class="item-title">Exams </h3>
-                                                <p> delivered in the last 10 years</p>
+                                                <p style="font-size:18px"> delivered in the last 10 years</p>
                                             </div>
                                         </div>
                                     </div>
@@ -441,7 +444,7 @@
                                             </div>
                                             <div class="item-content">
                                                 <h3 class="item-title">Training</h3>
-                                                <p> providers accredited by BCS</p>
+                                                <p style="font-size:18px"> providers accredited by BCS</p>
                                             </div>
                                         </div>
                                     </div>
@@ -641,7 +644,7 @@
         <section class="testimonial-wrap-layout2 section-padding-md bg-color-accent2">
             <div class="container">
                 <div class="section-heading heading-dark heading-layout1 has-animation">
-                    <h2 class="heading-main-title">Clients Testimonials</h2>
+                    <h2 class="heading-main-title">Clients testimonials</h2>
                     <div class="heading-icon">
                         <svg class="dash-left" width="100" height="20">
                             <g fill="none" stroke-width="4">
@@ -696,7 +699,7 @@
                             <div class="item-icon">
                                 <i class="flaticon-quote"></i>
                             </div>
-                            <p>As i prepared to take my Business Analyst career the next level. I knew a professional
+                            <p >As i prepared to take my Business Analyst career the next level. I knew a professional
                                 certificate to my name would make me stand apart from others.My BCS
                                 certificate has definitely helped in my career progression and also provided me with the
                                 knowledge and skills required to conduct analysis in my job.</p>
@@ -941,7 +944,7 @@
         <section class="testimonial-wrap-layout2 section-padding-md bg-color-accent2">
             <div class="container">
                 <div class="section-heading heading-dark heading-layout1 has-animation">
-                    <h2 class="heading-main-title">Previous Clients</h2>
+                    <h2 class="heading-main-title">Previous clients</h2>
                     <div class="heading-icon">
                         <svg class="dash-right" width="100" height="20">
                             <g fill="none" stroke-width="4">
