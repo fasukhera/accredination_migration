@@ -24358,9 +24358,12 @@ ul.pagination-layout2 .center-btn a:hover {
 /*--------------------------------------
 	4.21 Testimonial
 ---------------------------------------*/
-.testimonial-box-layout1 {
-  text-align: center;
-  margin-bottom: 21px;
+
+
+.testimonial-carousel{
+  height: 700px;
+  width: 500px;
+  padding-left: 70px;
 }
 
 .testimonial-box-layout1 .top-box {
@@ -24464,7 +24467,7 @@ ul.pagination-layout2 .center-btn a:hover {
 }
 
 .testimonial-box-layout1 .bottom-box .media .media-body .item-designation {
-  font-size: 15px;
+  font-size: 50px;
 }
 
 .testimonial-box-layout2 {

@@ -147,7 +147,7 @@
         <section class="feature-wrap-layout1">
             <div class="container">
                 <div class="row gutters-50">
-                    <div class="col-lg-6 col-12 has-animation active-animation">
+                    <div class="col-lg-6 col-12 d-flex align-items-center justify-content-center has-animation active-animation">
                         <div class="feature-box-layout1">
                             <div class="translate-left-75 opacity-animation transition-150 transition-delay-10">
                                 <video width="100%" height="400" controls>

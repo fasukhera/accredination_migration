@@ -674,63 +674,14 @@
                      data-r-medium="2" data-r-medium-nav="true" data-r-medium-dots="false" data-r-large="2"
                      data-r-large-nav="true" data-r-large-dots="false" data-r-extra-large="2"
                      data-r-extra-large-nav="true" data-r-extra-large-dots="false">
-                    <div class="testimonial-box-layout1">
-                        <div class="top-box">
-                            <div class="item-icon">
-                                <i class="flaticon-quote"></i>
-                            </div>
-                            <p>Forever indebted to Asad and the team for catapulting my Business Analyst career. Can
-                                honestly say without their help I would not be where I am. The team is extremely
-                                knowledgable, well connected and solution oriented. They'll be with you every step of
-                                the way, I could not recommend them highly enough</p>
-                        </div>
-                        <div class="bottom-box">
-                            <div class="media">
-                                <img src="media/testimonial/Testimonial-Img-1.png" alt="Testimonial">
-                                <div class="media-body space-sm">
-                                    <h3 class="item-title">Rizwan Dookanwala</h3>
-                                    {{--                                    <div class="item-designation">Apps Developer</div>--}}
-                                </div>
-                            </div>
-                        </div>
+                    <div class="testimonial-carousel">
+                    <img src="media/testimonial/rizwan-01.png" alt="Testimonial">
                     </div>
-                    <div class="testimonial-box-layout1">
-                        <div class="top-box">
-                            <div class="item-icon">
-                                <i class="flaticon-quote"></i>
-                            </div>
-                            <p >As i prepared to take my Business Analyst career the next level. I knew a professional
-                                certificate to my name would make me stand apart from others.My BCS
-                                certificate has definitely helped in my career progression and also provided me with the
-                                knowledge and skills required to conduct analysis in my job.</p>
-                        </div>
-                        <div class="bottom-box">
-                            <div class="media">
-                                <img src="media/testimonial/Testimonial-Img-2.png" alt="Testimonial">
-                                <div class="media-body space-sm">
-                                    <h3 class="item-title">Patrick Giwa</h3>
-                                </div>
-                            </div>
-                        </div>
+                    <div class="testimonial-carousel">
+                    <img src="media/testimonial/patrick-01.png" alt="Testimonial">
                     </div>
-                    <div class="testimonial-box-layout1">
-                        <div class="top-box">
-                            <div class="item-icon">
-                                <i class="flaticon-quote"></i>
-                            </div>
-                            <p>In many of my Business Analyst roles, I have been asked about my level of education.
-                                 Mentioning going through my diploma with BCS was positively acknowledged. I have completed the
-                                  Requirements Engineering module with BCS and it was very informative and really helped me excel
-                                   in my current role through the knowledge gained.</p>
-                        </div>
-                        <div class="bottom-box">
-                            <div class="media">
-                                <img src="media/testimonial/Testimonial-Img-3.png" alt="Testimonial">
-                                <div class="media-body space-sm">
-                                    <h3 class="item-title">Kashif Khan</h3>
-                                </div>
-                            </div>
-                        </div>
+                    <div class="testimonial-carousel">
+                    <img src="media/testimonial/kashif-01.png" alt="Testimonial">
                     </div>
                 </div>
             </div>
