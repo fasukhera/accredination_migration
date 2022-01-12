@@ -666,7 +666,7 @@
                     </div>
 
                 </div>
-                <div class="rc-carousel nav-control-layout1" data-loop="true" data-items="3" data-margin="10"
+                <div class="col-lg-12 rc-carousel nav-control-layout1" data-loop="true" data-items="3" data-margin=""
                      data-autoplay="false" data-autoplay-timeout="5000" data-smart-speed="700" data-dots="false"
                      data-nav="true" data-nav-speed="false" data-r-x-small="1" data-r-x-small-nav="true"
                      data-r-x-small-dots="false" data-r-x-medium="1" data-r-x-medium-nav="true"
