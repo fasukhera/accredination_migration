@@ -10,7 +10,7 @@
     'locale' => 'en',
     'fallback_locale' => 'en',
     'faker_locale' => 'en_US',
-    'key' => 'base64:5qqj/fgCFKMHemm4JV0LqaPAvsLawI1Tvxr0OPxx+zM=',
+    'key' => 'base64:Gw9SXHR+1SLGhwqgfJb9jTtvutxx2x7XOHyM0UdmcjI=',
     'cipher' => 'AES-256-CBC',
     'providers' => 
     array (
@@ -177,7 +177,7 @@
       'file' => 
       array (
         'driver' => 'file',
-        'path' => 'C:\\Users\\jessi\\OneDrive\\Documents\\accredination\\storage\\framework/cache/data',
+        'path' => 'C:\\Users\\User\\Desktop\\accredination\\storage\\framework/cache/data',
       ),
       'memcached' => 
       array (
@@ -343,12 +343,12 @@
       'local' => 
       array (
         'driver' => 'local',
-        'root' => 'C:\\Users\\jessi\\OneDrive\\Documents\\accredination\\storage\\app',
+        'root' => 'C:\\Users\\User\\Desktop\\accredination\\storage\\app',
       ),
       'public' => 
       array (
         'driver' => 'local',
-        'root' => 'C:\\Users\\jessi\\OneDrive\\Documents\\accredination\\storage\\app/public',
+        'root' => 'C:\\Users\\User\\Desktop\\accredination\\storage\\app/public',
         'url' => 'http://localhost/storage',
         'visibility' => 'public',
       ),
@@ -365,7 +365,7 @@
     ),
     'links' => 
     array (
-      'C:\\Users\\jessi\\OneDrive\\Documents\\accredination\\public\\storage' => 'C:\\Users\\jessi\\OneDrive\\Documents\\accredination\\storage\\app/public',
+      'C:\\Users\\User\\Desktop\\accredination\\public\\storage' => 'C:\\Users\\User\\Desktop\\accredination\\storage\\app/public',
     ),
   ),
   'hashing' => 
@@ -399,13 +399,13 @@
       'single' => 
       array (
         'driver' => 'single',
-        'path' => 'C:\\Users\\jessi\\OneDrive\\Documents\\accredination\\storage\\logs/laravel.log',
+        'path' => 'C:\\Users\\User\\Desktop\\accredination\\storage\\logs/laravel.log',
         'level' => 'debug',
       ),
       'daily' => 
       array (
         'driver' => 'daily',
-        'path' => 'C:\\Users\\jessi\\OneDrive\\Documents\\accredination\\storage\\logs/laravel.log',
+        'path' => 'C:\\Users\\User\\Desktop\\accredination\\storage\\logs/laravel.log',
         'level' => 'debug',
         'days' => 14,
       ),
@@ -455,7 +455,7 @@
       ),
       'emergency' => 
       array (
-        'path' => 'C:\\Users\\jessi\\OneDrive\\Documents\\accredination\\storage\\logs/laravel.log',
+        'path' => 'C:\\Users\\User\\Desktop\\accredination\\storage\\logs/laravel.log',
       ),
     ),
   ),
@@ -512,7 +512,7 @@
       'theme' => 'default',
       'paths' => 
       array (
-        0 => 'C:\\Users\\jessi\\OneDrive\\Documents\\accredination\\resources\\views/vendor/mail',
+        0 => 'C:\\Users\\User\\Desktop\\accredination\\resources\\views/vendor/mail',
       ),
     ),
   ),
@@ -591,7 +591,7 @@
     'lifetime' => '120',
     'expire_on_close' => false,
     'encrypt' => false,
-    'files' => 'C:\\Users\\jessi\\OneDrive\\Documents\\accredination\\storage\\framework/sessions',
+    'files' => 'C:\\Users\\User\\Desktop\\accredination\\storage\\framework/sessions',
     'connection' => NULL,
     'table' => 'sessions',
     'store' => NULL,
@@ -611,9 +611,9 @@
   array (
     'paths' => 
     array (
-      0 => 'C:\\Users\\jessi\\OneDrive\\Documents\\accredination\\resources\\views',
+      0 => 'C:\\Users\\User\\Desktop\\accredination\\resources\\views',
     ),
-    'compiled' => 'C:\\Users\\jessi\\OneDrive\\Documents\\accredination\\storage\\framework\\views',
+    'compiled' => 'C:\\Users\\User\\Desktop\\accredination\\storage\\framework\\views',
   ),
   'flare' => 
   array (

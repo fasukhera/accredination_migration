@@ -24,6 +24,14 @@ Route::group(['middleware' => 'auth'], function () {
 //accordion
     Route::get('/accordion', 'CertificateDetailsAccordianController@index')->name('accordion');
     Route::post('/accordion_upload', 'CertificateDetailsAccordianController@store')->name('accordion_submit');
+
+//Page
+    Route::get("/page", "PageControllers\PageCertificateController@create")->name("home");
+    Route::post('/add_page', 'PageControllers\PageCertificateController@store')->name('add_page');
+
+//PageDetails
+    Route::get("/page_details", "PageControllers\PageCertificateDetailsController@index")->name("page_details");
+    Route::post('/page_details', 'PageCertificateDetailsController@store')->name('page_details');
 });
 
 Route::get('send-mail', function () {
