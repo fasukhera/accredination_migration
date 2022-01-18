@@ -4,6 +4,7 @@ namespace App\Http\Controllers\PageControllers;
 
 use App\PageApp\PageCertificate;
 use App\PageApp\PageCertificateDetails;
+use App\Certificate;
 use Carbon\Carbon;
 use Illuminate\Http\Request;
 
@@ -39,7 +40,7 @@ class PageCertificateController extends PageController
                 $data['li'] = [];
             }
 
-            $certificates = PageCertificate::get();
+            $certificates = Certificate::get();
             $data['certificate'] = $certificate;
             $data['certificates'] = $certificates;
         }
