@@ -17,7 +17,7 @@ class PageCertificateDetailsController extends PageController
     public function index()
     {
         $certificates = PageCertificate::get();
-        return view('home', compact('certificates'));
+        return view('add_page_data', compact('certificates'));
     }
 
     /**
@@ -36,8 +36,14 @@ class PageCertificateDetailsController extends PageController
         $this->validate($request, [
             'certificate_id' => 'required',
             'h1' => 'required',
+            'h2' => 'required',
             'p1' => 'required',
-            'v1' => 'required',
+            'h2' => 'required',
+            'li' => 'required',
+            'h2' => 'required',
+            'p' => 'null',
+            'a' => 'required',
+            'v1' => 'required'
         ]);
         if($request->has('new_certificate')){
             
@@ -54,9 +60,9 @@ class PageCertificateDetailsController extends PageController
         $file->move($destination_path, $fileName);
         $destination_path = '/storage/' . $fileName;
         $data['v1'] = $destination_path;
-        $create = CertificateDetails::create($data);
-        $certificates = Certificate::get();
-        return redirect('/home')->with(['status', 'Certification Added Successfully', $certificates]);
+        $create = PageCertificateDetails::create($data);
+        $certificates = PageCertificate::get();
+        return redirect('/page_details')->with(['status', 'Certification Added Successfully', $certificates]);
     }
 
     /**

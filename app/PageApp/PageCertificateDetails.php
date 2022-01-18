@@ -26,8 +26,4 @@ class PageCertificateDetails extends Model
         return $this->belongsTo(PageCertificate::class, 'certificate_id');
     }
 
-    public function page_certificate_accordian()
-    {
-        return $this->hasMany(PageCertificateAccordian::class);
-    }
 }

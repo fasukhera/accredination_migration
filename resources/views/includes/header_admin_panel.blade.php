@@ -22,7 +22,7 @@
                                     <a href="{{route('home')}}">Add New Certificate</a>
                                 </li>
                                 <li>
-                                    <a href="{{route('certificate_details')}}">Add Certificate Details</a>
+                                    <a href="{{route('page_details')}}">Add Certificate Details</a>
                                 </li>
                                 <li>
                                     <a href="{{route('accordion')}}">Add Certificate Accordion</a>

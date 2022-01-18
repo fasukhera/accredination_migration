@@ -53,7 +53,7 @@ class CertificateDetailsController extends Controller
         $destination_path = storage_path('app/public/');
         $file->move($destination_path, $fileName);
         $destination_path = '/storage/' . $fileName;
-        $data['v1'] = $destination_path;
+        $data['v1'] = $des.tination_path;
         $create = CertificateDetails::create($data);
         $certificates = Certificate::get();
         return redirect('/home')->with(['status', 'Certification Added Successfully', $certificates]);

@@ -16,7 +16,7 @@ class PageCertificateController extends PageController
      */
     public function landing()
     {
-        $certificates = PageCertificate::with('certificate_details')->get();
+        $certificates = PageCertificate::with('page_details')->get();
         return view('welcome', compact('certificates'));
     }
 
@@ -28,12 +28,12 @@ class PageCertificateController extends PageController
         $name = str_replace('_',' ',$name);
         if ($name != '' || $name != null) {
             $certificate = PageCertificate::
-            with('certificate_details', 'certificate_details.certificate_details_accordian')->
+            with('page_details')->
             where('name', $name)->first();
         }
-        if ($certificate->certificate_details != '' || $certificate->certificate_details != null) {
-            if (isset($certificate->certificate_details->li)) {
-                $li = explode(',', $certificate->certificate_details->li);
+        if ($certificate->page_details != '' || $certificate->page_details != null) {
+            if (isset($certificate->page_details->li)) {
+                $li = explode(',', $certificate->page_details->li);
                 $data['li'] = array_filter($li);
             } else {
                 $data['li'] = [];
@@ -43,37 +43,8 @@ class PageCertificateController extends PageController
             $data['certificate'] = $certificate;
             $data['certificates'] = $certificates;
         }
-        $peta = [];
-        $i = 0;
-        foreach ($certificate->certificate_details->certificate_details_accordian as $accordian_anchor) {
-            if (isset($accordian_anchor->a)) {
-                $anchor = explode(',', $accordian_anchor->a);
-                $peta['a'][$i] = array_filter($anchor);
-                foreach ($peta['a'][$i] as $ancho){
-                    $anchossxd = explode('##', $ancho);
-                    $data['a'][$i][]  = $anchossxd;
-                }
-            } else {
-                $data['a'] = [];
-            }
-            $i++;
-        }
-        $j = 0;
-        $hexa=[];
-        foreach ($certificate->certificate_details->certificate_details_accordian as $certificate_anchor) {
-            if (isset($certificate_anchor->certification)) {
-                $certification = explode(',', $certificate_anchor->certification);
-                $hexa['certificationx'][$j] = array_filter($certification);
-                foreach ($hexa['certificationx'][$j] as $certi){
-                    $certificationxssd = explode('##', $certi);
-                    $data['certificationx'][$j][]  = $certificationxssd;
-                }
-            } else {
-                $data['certificationx'] = [];
-            }
-            $j++;
-        }
-        return view('certificate', compact('data'));
+
+        return view('view_page', compact('data'));
     }
 
     /**

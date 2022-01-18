@@ -20,7 +20,7 @@ class PageCertificateAccordian extends Model
         'a', //comma separated
     ];
 
-    public function page_certificate_details()
+    public function page_details()
     {
         return $this->belongsTo(PageCertificateDetails::class, 'certificate_details_id');
     }

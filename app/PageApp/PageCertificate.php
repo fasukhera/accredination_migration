@@ -12,6 +12,8 @@ class PageCertificate extends Model
 
     public function page_details()
     {
-        return $this->hasOne(PageCertificateDetails::class);
+        return $this->hasOne(PageCertificateDetails::class,'certificate_id');
     }
+
+
 }

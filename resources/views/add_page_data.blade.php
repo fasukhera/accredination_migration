@@ -2,65 +2,152 @@
 <html lang="en">
 @include('includes.head')
 <style>
-    {{--  Accordian Styling  --}}
-    .panel-default{
-        background: rgba(110, 156, 225, 0.1); 
-        padding-top: 1rem;
-        padding-bottom: 0.5rem;
-        padding-left: 1rem;
+    .file-upload {
+        background-color: #ffffff;
+        width: 600px;
+        margin: 0 auto;
+        padding: 20px;
     }
 
-    .panel-body-links{
-        padding-left: 20px;
-        padding-top:10px;
-        padding-bottom: 10px;
+    .file-upload-btn {
+        width: 100%;
+        margin: 0;
+        color: #fff;
+        background: #1FB264;
+        border: none;
+        padding: 10px;
+        border-radius: 4px;
+        border-bottom: 4px solid #15824B;
+        transition: all .2s ease;
+        outline: none;
+        text-transform: uppercase;
+        font-weight: 700;
     }
 
-    .panel-body-p1{
-        margin: 0px;
-        padding-bottom: 0px;
-    }
-    .panel-body-p2{
-        margin: 0px;
-        padding-top: 10px;
+    .file-upload-btn:hover {
+        background: #1AA059;
+        color: #ffffff;
+        transition: all .2s ease;
+        cursor: pointer;
     }
 
-    .panel-body-sub{
-        padding-left: 20px;
-        padding-top: 25px;
-        padding-bottom: 10px;
+    .file-upload-btn:active {
+        border: 0;
+        transition: all .2s ease;
     }
 
-    .panel-body-link-icon{
-        margin: 0px;
-        padding-left: 10px;
+    .file-upload-content {
+        display: none;
+        text-align: center;
     }
 
-    .panel-body-certificate{
-        padding-top: 20px;
+    .file-upload-input {
+        position: absolute;
+        margin: 0;
+        padding: 0;
+        width: 100%;
+        height: 100%;
+        outline: none;
+        opacity: 0;
+        cursor: pointer;
     }
 
-    .anchor-link{
-    color: green;
+    .image-upload-wrap {
+        margin-top: 20px;
+        border: 4px dashed #1FB264;
+        position: relative;
     }
 
-    .panel-title {
-        padding-bottom: 10px;
-
+    .image-dropping,
+    .image-upload-wrap:hover {
+        background-color: #1FB264;
+        border: 4px dashed #ffffff;
     }
 
-    .feature-check-icon{
-        padding-right: 10px;
-        padding-bottom: 20px;
-        
+    .image-title-wrap {
+        padding: 0 15px 15px 15px;
+        color: #222;
     }
 
-    .panel .panel-heading .panel-title a,
-    .panel .panel-body p {
-        color: #000 !important;
+    .drag-text {
+        text-align: center;
     }
 
+    .drag-text h3 {
+        font-weight: 100;
+        text-transform: uppercase;
+        color: #15824B;
+        padding: 60px 0;
+    }
 
+    .file-upload-image {
+        max-height: 200px;
+        max-width: 200px;
+        margin: auto;
+        padding: 20px;
+    }
+
+    .remove-image {
+        width: 200px;
+        margin: 0;
+        color: #fff;
+        background: #cd4535;
+        border: none;
+        padding: 10px;
+        border-radius: 4px;
+        border-bottom: 4px solid #b02818;
+        transition: all .2s ease;
+        outline: none;
+        text-transform: uppercase;
+        font-weight: 700;
+    }
+
+    .remove-image:hover {
+        background: #c13b2a;
+        color: #ffffff;
+        transition: all .2s ease;
+        cursor: pointer;
+    }
+
+    .remove-image:active {
+        border: 0;
+        transition: all .2s ease;
+    }
+</style>
+<!-- tags -->
+<style>
+
+    #tags > span {
+        cursor: pointer;
+        display: block;
+        float: left;
+        color: #fff;
+        background: #789;
+        padding: 5px;
+        padding-right: 25px;
+        margin: 4px;
+    }
+
+    #tags > span:hover {
+        opacity: 0.7;
+    }
+
+    #tags > span:after {
+        position: absolute;
+        content: "×";
+        border: 1px solid;
+        padding: 2px 5px;
+        margin-left: 3px;
+        font-size: 11px;
+    }
+
+    #tags > input {
+        background: #eee;
+        border: 0;
+        margin: 4px;
+        padding: 7px;
+        width: auto;
+    }
 </style>
 <body>
 
@@ -76,219 +163,175 @@
         <i class="fas fa-angle-double-up"></i>
     </a>
     <div id="main_content">
-        <div class="sticky-on sticky">
-            <div id="sticky-placeholder"></div>
-            <div id="navbar-wrap" class="navbar-wrap">
-                <div class="navbar-layout1">
-                    <div class="container">
-                        <div class="row no-gutters d-flex align-items-center position-relative">
-                            <div class="col-lg-2 d-flex justify-content-start">
-                                <div class="temp-logo text-center">
-                                    <a href="index.html" class="default-logo">
-                                        <img src="{{asset('logo.png')}}" alt="logo" class="img-fluid">
-                                    </a>
-                                    <a href="index.html" class="sticky-logo">
-                                        <img src="{{asset('logo-black.png')}}" alt="logo" class="img-fluid">
-                                    </a>
-                                </div>
-                            </div>
-                            <div class="col-lg-9 d-flex justify-content-end possition-static">
-                                <nav id="dropdown" class="template-main-menu">
-                                    <ul>
-
-                                        <li>
-                                            <a href="#">Certifications</a>
-                                            <ul class="dropdown-menu-col-1">
-                                                @if($data['certificates']!= '' || $data['certificates']!= null)
-                                                    @foreach($data['certificates'] as $certificate)
-                                                        <li>
-                                                            <a href="{{route('certificate',$certificate->name)}}"><span>{{$certificate->name}}</span></a>
-                                                        </li>
-                                                    @endforeach
-                                                @endif
-                                            </ul>
-                                        </li>
-                                        <li>
-                                            <a href="#">Higher Education Qualifications</a>
-                                        </li>
-                                        <li>
-                                            <a href="#">Consulting</a>
-                                        </li>
-
-                                    </ul>
-                                </nav>
-                            </div>
-                            <div class="col-lg-1 d-flex justify-content-end">
-                                <ul class="header-action-items">
-                                    <li class="single-item d-none">
-                                        <a href="#template-search" title="Search" class="header-search">
-                                            <i class="flaticon-search"></i>
-                                        </a>
-                                    </li>
-                                    <li class="single-item mr-2 d-none">
-                                        <a href="#" class="item-btn btn-ghost btn-light">Get a Quote</a>
-                                    </li>
-                                    <li class="single-item">
-                                        <button type="button" class="offcanvas-menu-btn menu-status-open">
-		                    <span class="menu-btn-icon">
-		                        <span></span>
-		                        <span></span>
-		                        <span></span>
-		                    </span>
-                                        </button>
-                                    </li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
+@include('includes.header_admin_panel')
         <section class="feature-wrap-layout1">
-            <div class="container">
-                <div class="row gutters-50">
-                    <div class="col-lg-6 col-12 d-flex align-items-center justify-content-center has-animation active-animation">
-                        <div class="feature-box-layout1">
-                            <div class="translate-left-75 opacity-animation transition-150 transition-delay-10">
-                                <video width="100%" height="400" controls>
-                                    <source
-                                        src="{{(isset($data['certificate']->certificate_details->v1))?$data['certificate']->certificate_details->v1:''}}"
-                                        type="video/mp4">
-                                    Your browser does not support the video tag.
-                                </video>
-                            </div>
+            <div class="card offset-3 col-md-6">
+                @if ($errors->any())
+                    <div class="alert alert-danger">
+                        <ul>
+                            @foreach ($errors->all() as $error)
+                                <li>{{ $error }}</li>
+                            @endforeach
+                        </ul>
+                    </div>
+                @endif
+                <h5 class="card-header">Add Page Details</h5>
+                <div class="card-body">
+                    <form action="{{route('form_submit')}}" method="POST" enctype="multipart/form-data"
+                          id="certificate">
+                        @csrf
+                        <div class="form-group">
+                            <label>Certification*</label>
+                            <select class="form-control" name="certificate_id" required>
+                                <option value="">Select Certification</option>
+                                @foreach($certificates as $certificate)
+                                    <option value="{{$certificate->id}}">{{$certificate->name}}</option>
+                                @endforeach
+                            </select>
                         </div>
-                    </div>
-                    <div
-                        class="col-lg-6 col-12 d-flex align-items-center justify-content-center has-animation active-animation">
-                        <div class="feature-box-layout1">
-                            <div class="col-lg-12 translate-bottom-75 opacity-animation transition-150 transition-delay-100">
-                                <h3 class="item-title">{{(isset($data['certificate']->certificate_details->h1))?$data['certificate']->certificate_details->h1:''}}</h3>
-                            </div>
-                            <div class="col-lg-12 translate-bottom-75 opacity-animation transition-150 transition-delay-900">
-                                <p>{{(isset($data['certificate']->certificate_details->p1))?$data['certificate']->certificate_details->p1:''}}</p>
-                            </div>
-                            <div class="col-lg-12 translate-bottom-75 opacity-animation transition-150 transition-delay-900">
-                                <ul>
-                                    @if(isset($data['li']))
-                                        @foreach($data['li'] as $li)
-                                            <li class="row">
 
-                                                <span class=" fa fa-check" style="margin-top: 10px;"></span>
-                                                <p class="col-sm"> {{$li}} </p>
-                                            </li>
-                                        @endforeach
-                                    @endif
-                                </ul>
-                            </div>
+                        <div class="form-group">
+                            <label>Main heading*</label>
+                            <input type="text" class="form-control" name="h1">
                         </div>
-                    </div>
-                    <div class="col-md-12 translate-bottom-75 opacity-animation transition-150 transition-delay-100">
-                        <h3 class="item-title">{{(isset($data['certificate']->certificate_details->h2))?$data['certificate']->certificate_details->h2:''}}</h3>
-                    </div>
-                    <div class="translate-bottom-75 opacity-animation transition-150 transition-delay-900">
-                        <p>
-                            {{(isset($data['certificate']->certificate_details->p2))?$data['certificate']->certificate_details->p2:''}}
-                        </p>
-                    </div>
-                    <div class="translate-bottom-75 opacity-animation transition-150 transition-delay-100">
-                        <h3 class="item-title">
-                            {{(isset($data['certificate']->certificate_details->certificate_details_accordian->main_h))?$data['certificate']->certificate_details->certificate_details_accordian->main_h:''}}
-                        </h3>
-                    </div>
-                </div>
-                @php
-                    $i = 1
-                @endphp
-                @foreach($data['certificate']->certificate_details->certificate_details_accordian as $key=>$accordion)
-                    <div class="row">
-                        <div class="col-md-12">
-                            <div class="panel-group" id="accordion{{$i}}">
-                                <div class="panel panel-default">
-                                    <div class="panel-heading">
-                                        <h4 class="panel-title">
-                                            <a data-toggle="collapse" data-parent="#accordion{{$i}}"
-                                               href="#collapse{{$i}}"><span
-                                                    class="fa fa-plus"></span> {{(isset($accordion->h1))?$accordion->h1:''}}
-                                            </a>
-                                        </h4>
-                                    </div>
-                                    <div id="collapse{{$i}}" class="panel-collapse collapse">
-                                        <div class="col-md-12 panel-body">
-                                            <div class="panel-body">
-                                                <div class="panel-group" id="accordion{{$i+2}}">
-                                                    <div class="panel">                                                   
-                                                            <p class="panel-body-p1 offset-1">
-                                                                {{(isset($accordion->p1))?$accordion->p1:''}}
-                                                            </p>
-                                                        <div class="panel-body-links">
-                                                            <ul class="">
-                                                                @if(isset($data['a'][$key]))
-                                                                    @foreach($data['a'][$key] as $anchor)
-                                                                        <li>
-                                                                            <span class="fa fa-link"></span>
-                                                                            <a class="anchor-link panel-body-link-icon offset-1"
-                                                                               href="{{$anchor[0]}}">{{$anchor[1]}}</a>
-                                                                        </li>
-                                                                    @endforeach
-                                                                @endif
-                                                            </ul>
-                                                            <div class="panel-body-certificate">
-                                                                <ul>
-                                                                    @if(isset($data['certificationx'][$key]))
-                                                                        @foreach($data['certificationx'][$key] as $key =>$certificationx)
-                                                                                <li>
-                                                                                    <span class="fas fa-certificate"></span>
-                                                                                    <a class="panel-body-link-icon offset-1"
-                                                                                       href="{{$certificationx[0]}}">{{$certificationx[1]}}</a>
-                                                                                </li>
-                                                                        @endforeach
-                                                                    @endif
 
-                                                                </ul>
-                                                            </div>
-                                                        </div>
+                        <div class="form-group">
+                            <label>Second heading*</label>
+                            <input type="text" class="form-control" name="h2">
+                        </div>
 
-                                                        <div class="panel-body-sub">
+                        <div class="form-group">
+                            <label>First Paragraph*</label>
+                            <input type="text" class="form-control" name="p1" required>
+                        </div>
 
-                                                            <a data-toggle="collapse" data-parent="#accordion{{$i+2}}"
-                                                                href="#collapse{{$i+2}}"
-                                                                style="color: #000 !important;"><span
-                                                                class="fa fa-plus"
-                                                                style="color: #000 !important;"></span>
-                                                                {{(isset($accordion->h2))?$accordion->h2:''}}
-                                                             </a>
-                                                            <div id="collapse{{$i+2}}" class="panel-collapse collapse">
-                                                                <div class="panel-body-p2 offset-1"><p>
-                                                                        {{(isset($accordion->p2))?$accordion->p2:''}}
-                                                                    </p></div>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
+                        <div class="form-group">
+                            <label>Third heading*</label>
+                            <input type="text" class="form-control" name="h2" required>
+                        </div>
+
+                        <div class="form-group" id="tags">
+                            <label>Key Points</label>
+                            <input type="text" name="li" placeholder="Add a tag"/>
+                        </div>
+                        <button type="submit" class="btn btn-primary mb-2 pull-right">Submit</button>
+
+                        <div class="form-group">
+                            <label>Fourth heading*</label>
+                            <input type="text" class="form-control" name="h2" required>
+                        </div>
+
+                        <div class="form-group">
+                            <label>Final Paragraph*</label>
+                            <input type="text" class="form-control" name="p1" required>
+                        </div>
+
+                        
+                        <div class="form-group" id="tags">
+                            <label>Anchors* <small>Please add url then double hash sign i.e: ## and press tab to add new Anchor</small></label>
+                            <br>
+                            <input type="text" name="a" placeholder="Add an Anchor tag"/>
+                        </div>
+
+                        <div class="form-group">
+                            <div class="file-upload">
+                                <button class="file-upload-btn" type="button"
+                                        onclick="$('.file-upload-input').trigger( 'click' )">Add Video
+                                </button>
+
+                                <div class="image-upload-wrap">
+                                    <input name="v1" class="file-upload-input" type='file' onchange="readURL(this);"
+                                           accept="video/*"/>
+                                    <div class="drag-text">
+                                        <h3>Drag and drop a file or select add Video</h3>
                                     </div>
                                 </div>
+                                <div class="file-upload-content">
+                                    <div class="file-upload-image"></div>
+                                    <div class="image-title-wrap">
+                                        <button type="button" onclick="removeUpload()" class="remove-image">Remove <span
+                                                class="image-title">Uploaded Video</span></button>
+                                    </div>
+                                </div>
+
                             </div>
                         </div>
-                    </div>
-                    &nbsp;
-                    @php
-                        $i++
-                    @endphp
-                @endforeach
+
+                       
+                    </form>
+                </div>
             </div>
-        </section>
-        @include('includes.footer')
-        @include('includes.offcanvas')
     </div>
+    </section>
+    @include('includes.footer')
+    @include('includes.offcanvas2')
+</div>
 </div>
 
 <!-- Dependency Scripts -->
 @include('includes.dependencies')
 <script src="assets/js/app.js"></script>
+<script>
+    function readURL(input) {
+        if (input.files && input.files[0]) {
 
+            var reader = new FileReader();
+
+            reader.onload = function (e) {
+                $('.image-upload-wrap').hide();
+
+                $('.file-upload-image').attr('src', e.target.result);
+                $('.file-upload-content').show();
+
+                $('.image-title').html(input.files[0].name);
+            };
+
+            reader.readAsDataURL(input.files[0]);
+
+        } else {
+            removeUpload();
+        }
+    }
+
+    function removeUpload() {
+        $('.file-upload-input').replaceWith($('.file-upload-input').clone());
+        $('.file-upload-content').hide();
+        $('.image-upload-wrap').show();
+    }
+
+    $('.image-upload-wrap').bind('dragover', function () {
+        $('.image-upload-wrap').addClass('image-dropping');
+    });
+    $('.image-upload-wrap').bind('dragleave', function () {
+        $('.image-upload-wrap').removeClass('image-dropping');
+    });
+
+    $(function () { // DOM ready
+        // ::: TAGS BOX
+        $("#tags input").on({
+            focusout: function () {
+                var txt = this.value; //.replace(/[^a-z0-9\+\-\.\#]/ig, '') allowed characters
+                if (txt) $("<span/>", {text: txt, insertBefore: this});
+                this.value = "";
+            },
+            keyup: function (ev) {
+                // if: comma|enter (delimit more keyCodes with | pipe)
+                if (/(188|13)/.test(ev.which)) $(this).focusout();
+            }
+        });
+        $('#tags').on('click', 'span', function () {
+            if (confirm("Remove " + $(this).text() + "?")) $(this).remove();
+        });
+
+    });
+
+    $("#certificate").on('submit', function (e) {
+        let tags = "";
+        $("form #tags span").each(function (index, value) {
+            tags += value.innerText + ",";
+        })
+        $("form #tags input").val(tags)
+    });
+</script>
 </body>
-
 </html>
