@@ -35,31 +35,46 @@ class PageCertificateDetailsController extends PageController
     {
         $this->validate($request, [
             'certificate_id' => 'required',
-            'h1' => 'required',
-            'h2' => 'required',
-            'p1' => 'required',
-            'h2' => 'required',
-            'li' => 'required',
-            'h2' => 'required',
-            'p' => 'null',
-            'a' => 'required',
-            'v1' => 'required'
+            'h1',
+            'p1',
+            'p2',
+            'wh',
+            'wp',
+            'li1',
+            'eh',
+            'ep',
+            'li2',
+            'lh',
+            'lp',
+            'li3',
+            'rh',
+            'rp',
+            'li4',
+            'bh',
+            'l-bh1',
+            'l-bp1',
+            'l-bh2',
+            'l-bp2',
+            'l-bh3',
+            'l-bp3',
+            'l-bh4',
+            'l-bp4',
+            'r-bh1',
+            'r-bp1',
+            'r-bh2',
+            'r-bp2',
+            'r-bh3',
+            'r-bp3',
+            'r-bh4',
+            'r-bp4',
+            'last-h',
+            'last-li'
         ]);
         if($request->has('new_certificate')){
             
         }
-        $data = $request->except(['v1']);
-        $file = $request->file('v1');
-        $current = Carbon::now();
-        $current = str_replace(' ', '_', $current);
-        $current = str_replace(' ', '', $current);
-        $current = str_replace('-', '', $current);
-        $current = str_replace(':', '', $current);
-        $fileName = $current . '.' . $file->getClientOriginalExtension();
-        $destination_path = storage_path('app/public/');
-        $file->move($destination_path, $fileName);
-        $destination_path = '/storage/' . $fileName;
-        $data['v1'] = $destination_path;
+        $data = $request->all();
+       
         $create = PageCertificateDetails::create($data);
         $certificates = PageCertificate::get();
         return redirect('/page_details')->with(['status', 'Certification Added Successfully', $certificates]);

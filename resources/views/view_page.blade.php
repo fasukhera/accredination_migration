@@ -155,7 +155,7 @@
                                 <h1 class="item-title">{{(isset($data['certificate']->page_details->h1))?$data['certificate']->page_details->h1:''}}</h1>
                             </div>
                             <div class="col-lg-12 translate-bottom-75 opacity-animation transition-150 transition-delay-900">
-                                <p>{{(isset($data['certificate']->page_certificate_details->p1))?$data['certificate']->page_certificate_details->p1:''}}</p>
+                                <p>{{(isset($data['certificate']->page_details->p1))?$data['certificate']->page_details->p1:''}}</p>
                             </div>
                             <div class="col-lg-12 translate-bottom-75 opacity-animation transition-150 transition-delay-900">
                                 <ul>
@@ -173,7 +173,7 @@
                         </div>
                     </div>
                     <div class="col-md-12 translate-bottom-75 opacity-animation transition-150 transition-delay-100">
-                        <h3 class="item-title">{{(isset($data['certificate']->certificate_details->h2))?$data['certificate']->certificate_details->h2:''}}</h3>
+                        <h3 class="item-title">{{(isset($data['certificate']->page_details->h2))?$data['certificate']->page_details->h2:''}}</h3>
                     </div>
                     <div class="translate-bottom-75 opacity-animation transition-150 transition-delay-900">
                         <p>

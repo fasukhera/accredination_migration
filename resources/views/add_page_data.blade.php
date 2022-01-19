@@ -216,7 +216,7 @@
 
                         <div class="form-group">
                             <label>Who Heading*</label>
-                            <input type="text" class="form-control" name="wh" required>
+                            <input type="text" class="form-control" name="wh" >
                         </div>
 
                         <div class="form-group">
@@ -228,7 +228,7 @@
                             <label>Key Points</label>
                             <input type="text" name="li1" placeholder="Add a tag"/>
                         </div>
-                        <button type="submit" class="btn btn-primary mb-2 pull-right">Submit</button>
+                        
                         <div style="border-bottom: 2px solid black; padding-top: 25px;">
                         </div>
 
@@ -236,7 +236,7 @@
 
                         <div class="form-group">
                             <label>Entry Heading*</label>
-                            <input type="text" class="form-control" name="eh" required>
+                            <input type="text" class="form-control" name="eh" >
                         </div>
 
                         <div class="form-group">
@@ -248,7 +248,7 @@
                             <label>Key Points</label>
                             <input type="text" name="li2" placeholder="Add a tag"/>
                         </div>
-                        <button type="submit" class="btn btn-primary mb-2 pull-right">Submit</button>
+                       
                         <div style="border-bottom: 2px solid black; padding-top: 25px;">
                         </div>
 
@@ -256,7 +256,7 @@
 
                         <div class="form-group">
                             <label>Learn Heading*</label>
-                            <input type="text" class="form-control" name="lh" required>
+                            <input type="text" class="form-control" name="lh" >
                         </div>
 
                         <div class="form-group">
@@ -268,7 +268,7 @@
                             <label>Key Points</label>
                             <input type="text" name="li3" placeholder="Add a tag"/>
                         </div>
-                        <button type="submit" class="btn btn-primary mb-2 pull-right">Submit</button>
+                        
                         <div style="border-bottom: 2px solid black; padding-top: 25px;">
                         </div>
 
@@ -276,7 +276,7 @@
 
                         <div class="form-group">
                             <label>Resource Heading*</label>
-                            <input type="text" class="form-control" name="rh" required>
+                            <input type="text" class="form-control" name="rh" >
                         </div>
 
                         <div class="form-group">
@@ -288,7 +288,7 @@
                             <label>Key Points</label>
                             <input type="text" name="li4" placeholder="Add a tag"/>
                         </div>
-                        <button type="submit" class="btn btn-primary mb-2 pull-right">Submit</button>
+                        
                         <div style="border-bottom: 2px solid black; padding-top: 25px;">
                         </div>
 
@@ -299,7 +299,7 @@
                         
                         <div class="form-group">
                             <label>Box Header*</label>
-                            <input type="text" class="form-control" name="bh" required>
+                            <input type="text" class="form-control" name="bh" >
                         </div>
                         <div style="border-bottom: 2px solid black; padding-top: 25px;">
                         </div>
@@ -308,12 +308,12 @@
 
                         <div class="form-group">
                             <label>1st Header*</label>
-                            <input type="text" class="form-control" name="l-bh1" required>
+                            <input type="text" class="form-control" name="l-bh1" >
                         </div>
 
                         <div class="form-group">
                             <label>1st Paragraph*</label>
-                            <input type="text" class="form-control" name="l-bp1" required>
+                            <input type="text" class="form-control" name="l-bp1" >
                         </div>
 
                         <div style="border-bottom: 2px solid black;">
@@ -323,12 +323,12 @@
 
                         <div class="form-group">
                             <label>2nd Header*</label>
-                            <input type="text" class="form-control" name="l-bh2" required>
+                            <input type="text" class="form-control" name="l-bh2" >
                         </div>
 
                         <div class="form-group">
                             <label>2nd Paragraph*</label>
-                            <input type="text" class="form-control" name="l-bp2" required>
+                            <input type="text" class="form-control" name="l-bp2" >
                         </div>
                         <div style="border-bottom: 2px solid black; padding-top: 25px;">
                         </div>
@@ -337,12 +337,12 @@
 
                         <div class="form-group">
                             <label>3rd Header*</label>
-                            <input type="text" class="form-control" name="l-bh3" required>
+                            <input type="text" class="form-control" name="l-bh3" >
                         </div>
 
                         <div class="form-group">
                             <label>3rd Paragraph*</label>
-                            <input type="text" class="form-control" name="l-bp3" required>
+                            <input type="text" class="form-control" name="l-bp3" >
                         </div>
                         <div style="border-bottom: 2px solid black; padding-top: 25px;">
                         </div>
@@ -351,12 +351,12 @@
 
                         <div class="form-group">
                             <label>4th Header*</label>
-                            <input type="text" class="form-control" name="l-bh4" required>
+                            <input type="text" class="form-control" name="l-bh4" >
                         </div>
 
                         <div class="form-group">
                             <label>4th Paragraph*</label>
-                            <input type="text" class="form-control" name="l-bp4" required>
+                            <input type="text" class="form-control" name="l-bp4" >
                         </div>
                         <div style="border-bottom: 2px solid black; padding-top: 25px;">
                         </div>
@@ -370,12 +370,12 @@
 
                         <div class="form-group">
                             <label>1st Header*</label>
-                            <input type="text" class="form-control" name="r-bh1" required>
+                            <input type="text" class="form-control" name="r-bh1" >
                         </div>
 
                         <div class="form-group">
                             <label>1st Paragraph*</label>
-                            <input type="text" class="form-control" name="r-bp1" required>
+                            <input type="text" class="form-control" name="r-bp1" >
                         </div>
 
                         <div style="border-bottom: 2px solid black;">
@@ -385,12 +385,12 @@
 
                         <div class="form-group">
                             <label>2nd Header*</label>
-                            <input type="text" class="form-control" name="r-bh2" required>
+                            <input type="text" class="form-control" name="r-bh2" >
                         </div>
 
                         <div class="form-group">
                             <label>2nd Paragraph*</label>
-                            <input type="text" class="form-control" name="r-bp2" required>
+                            <input type="text" class="form-control" name="r-bp2" >
                         </div>
                         <div style="border-bottom: 2px solid black; padding-top: 25px;">
                         </div>
@@ -399,12 +399,12 @@
 
                         <div class="form-group">
                             <label>3rd Header*</label>
-                            <input type="text" class="form-control" name="r-bh3" required>
+                            <input type="text" class="form-control" name="r-bh3" >
                         </div>
 
                         <div class="form-group">
                             <label>3rd Paragraph*</label>
-                            <input type="text" class="form-control" name="r-bp3" required>
+                            <input type="text" class="form-control" name="r-bp3" >
                         </div>
                         <div style="border-bottom: 2px solid black; padding-top: 25px;">
                         </div>
@@ -413,12 +413,12 @@
 
                         <div class="form-group">
                             <label>4th Header*</label>
-                            <input type="text" class="form-control" name="r-bh4" required>
+                            <input type="text" class="form-control" name="r-bh4" >
                         </div>
 
                         <div class="form-group">
                             <label>4th Paragraph*</label>
-                            <input type="text" class="form-control" name="r-bp4" required>
+                            <input type="text" class="form-control" name="r-bp4" >
                         </div>
                         <div style="border-bottom: 2px solid black; padding-top: 25px;">
                         </div>
@@ -427,7 +427,7 @@
                         
                         <div class="form-group">
                             <label>1st Header*</label>
-                            <input type="text" class="form-control" name="last-h" required>
+                            <input type="text" class="form-control" name="last-h" >
                         </div>
 
                         <div class="form-group" id="tags">
@@ -435,7 +435,9 @@
                             <input type="text" name="last-li" placeholder="Add a tag"/>
                         </div>
                         <button type="submit" class="btn btn-primary mb-2 pull-right">Submit</button>
-                        
+                        <div style="border-bottom: 2px solid black; padding-top: 25px;">
+                        </div>
+
                        
 
                        
