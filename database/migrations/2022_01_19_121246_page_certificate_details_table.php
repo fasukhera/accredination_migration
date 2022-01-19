@@ -4,7 +4,7 @@ use Illuminate\Database\Migrations\Migration;
 use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Support\Facades\Schema;
 
-class PageCertificateDetailsMigration extends Migration
+class PageCertificateDetailsTable extends Migration
 {
     /**
      * Run the migrations.
@@ -16,21 +16,17 @@ class PageCertificateDetailsMigration extends Migration
         Schema::create('page_certificate_details', function (Blueprint $table) {
             $table->id();
             $table->string('h1');
-            $table->string('h2')->nullable();
             $table->string('p1')->nullable();
+            $table->string('v1')->nullable();
             $table->string('h2')->nullable();
-            $table->string('p')->nullable();
-            $table->string('h2')->nullable();
+            $table->string('p2')->nullable();
+            $table->string('v2')->nullable();
             $table->string('li')->nullable(); //comma seprated
-            $table->string("h2")->nullable();
-            $table->string("p")->nullable();
-            $table->string("a")->nullable();
             $table->unsignedBigInteger('certificate_id');
             $table->foreign('certificate_id')->references('id')->on('certificates');
             $table->timestamps();
         });
     }
-
     /**
      * Reverse the migrations.
      *
@@ -38,6 +34,6 @@ class PageCertificateDetailsMigration extends Migration
      */
     public function down()
     {
-        Schema::dropIfExists('certificate_details');
+        Schema::dropIfExists('page_certificate_details');
     }
 }

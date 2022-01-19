@@ -40,24 +40,23 @@
         padding-top: 20px;
     }
 
-    .anchor-link{
-    color: green;
-    }
-
     .panel-title {
         padding-bottom: 10px;
 
     }
 
     .feature-check-icon{
-        padding-right: 10px;
-        padding-bottom: 20px;
+        padding-right: 20px;
         
     }
 
     .panel .panel-heading .panel-title a,
     .panel .panel-body p {
         color: #000 !important;
+    }
+
+    .panel .panel-body a {
+        color: #000;
     }
 
 
@@ -147,10 +146,10 @@
         <section class="feature-wrap-layout1">
             <div class="container">
                 <div class="row gutters-50">
-                    <div class="col-lg-6 col-12 d-flex align-items-center justify-content-center has-animation active-animation">
+                    <div class="col-lg-6 col-12 has-animation active-animation">
                         <div class="feature-box-layout1">
                             <div class="translate-left-75 opacity-animation transition-150 transition-delay-10">
-                                <video width="100%" height="400" controls>
+                                <video width="500" height="281" controls>
                                     <source
                                         src="{{(isset($data['certificate']->certificate_details->v1))?$data['certificate']->certificate_details->v1:''}}"
                                         type="video/mp4">
@@ -162,20 +161,19 @@
                     <div
                         class="col-lg-6 col-12 d-flex align-items-center justify-content-center has-animation active-animation">
                         <div class="feature-box-layout1">
-                            <div class="col-lg-12 translate-bottom-75 opacity-animation transition-150 transition-delay-100">
+                            <div class="translate-bottom-75 opacity-animation transition-150 transition-delay-100">
                                 <h3 class="item-title">{{(isset($data['certificate']->certificate_details->h1))?$data['certificate']->certificate_details->h1:''}}</h3>
                             </div>
-                            <div class="col-lg-12 translate-bottom-75 opacity-animation transition-150 transition-delay-900">
+                            <div class="translate-bottom-75 opacity-animation transition-150 transition-delay-900">
                                 <p>{{(isset($data['certificate']->certificate_details->p1))?$data['certificate']->certificate_details->p1:''}}</p>
                             </div>
-                            <div class="col-lg-12 translate-bottom-75 opacity-animation transition-150 transition-delay-900">
+                            <div class="translate-bottom-75 opacity-animation transition-150 transition-delay-900">
                                 <ul>
                                     @if(isset($data['li']))
                                         @foreach($data['li'] as $li)
-                                            <li class="row">
-
-                                                <span class=" fa fa-check" style="margin-top: 10px;"></span>
-                                                <p class="col-sm"> {{$li}} </p>
+                                            <li>
+                                                <span class="feature-check-icon fa fa-check"></span>
+                                                {{$li}}
                                             </li>
                                         @endforeach
                                     @endif
@@ -183,7 +181,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-12 translate-bottom-75 opacity-animation transition-150 transition-delay-100">
+                    <div class="translate-bottom-75 opacity-animation transition-150 transition-delay-100">
                         <h3 class="item-title">{{(isset($data['certificate']->certificate_details->h2))?$data['certificate']->certificate_details->h2:''}}</h3>
                     </div>
                     <div class="translate-bottom-75 opacity-animation transition-150 transition-delay-900">
@@ -222,12 +220,12 @@
                                                                 {{(isset($accordion->p1))?$accordion->p1:''}}
                                                             </p>
                                                         <div class="panel-body-links">
-                                                            <ul class="">
+                                                            <ul>
                                                                 @if(isset($data['a'][$key]))
                                                                     @foreach($data['a'][$key] as $anchor)
                                                                         <li>
                                                                             <span class="fa fa-link"></span>
-                                                                            <a class="anchor-link panel-body-link-icon offset-1"
+                                                                            <a class="panel-body-link-icon offset-1"
                                                                                href="{{$anchor[0]}}">{{$anchor[1]}}</a>
                                                                         </li>
                                                                     @endforeach
@@ -281,7 +279,7 @@
             </div>
         </section>
         @include('includes.footer')
-        @include('includes.offcanvas')
+        @include('includes.offcanvas2')
     </div>
 </div>
 

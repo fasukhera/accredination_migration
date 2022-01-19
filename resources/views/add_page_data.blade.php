@@ -190,72 +190,253 @@
                             </select>
                         </div>
 
+                        <!-- This is the upper portion of the page -->
+
                         <div class="form-group">
-                            <label>Main heading*</label>
+                            <label>HEADER*</label>
                             <input type="text" class="form-control" name="h1">
                         </div>
 
                         <div class="form-group">
-                            <label>Second heading*</label>
-                            <input type="text" class="form-control" name="h2">
+                            <label>Paragraph 1*</label>
+                            <input type="text" class="form-control" name="p1">
+                            
+                        
                         </div>
 
                         <div class="form-group">
-                            <label>First Paragraph*</label>
-                            <input type="text" class="form-control" name="p1" required>
+                            <label>Paragraph 2*</label>
+                            <input type="text" class="form-control" name="p2">
+                            
+                            <div style="border-bottom: 2px solid black; padding-top: 25px;">
+                            </div>
+                        </div>
+
+                        <!-- TOP LEFT BOX -->
+
+                        <div class="form-group">
+                            <label>Who Heading*</label>
+                            <input type="text" class="form-control" name="wh" required>
                         </div>
 
                         <div class="form-group">
-                            <label>Third heading*</label>
-                            <input type="text" class="form-control" name="h2" required>
+                            <label>Who Paragraph 1*</label>
+                            <input type="text" class="form-control" name="wp">
                         </div>
 
                         <div class="form-group" id="tags">
                             <label>Key Points</label>
-                            <input type="text" name="li" placeholder="Add a tag"/>
+                            <input type="text" name="li1" placeholder="Add a tag"/>
                         </div>
                         <button type="submit" class="btn btn-primary mb-2 pull-right">Submit</button>
+                        <div style="border-bottom: 2px solid black; padding-top: 25px;">
+                        </div>
+
+                        <!-- TOP RIGHT BOX -->
 
                         <div class="form-group">
-                            <label>Fourth heading*</label>
-                            <input type="text" class="form-control" name="h2" required>
+                            <label>Entry Heading*</label>
+                            <input type="text" class="form-control" name="eh" required>
                         </div>
 
                         <div class="form-group">
-                            <label>Final Paragraph*</label>
-                            <input type="text" class="form-control" name="p1" required>
+                            <label>Entry Paragraph 1*</label>
+                            <input type="text" class="form-control" name="ep">
+                        </div>
+
+                        <div class="form-group" id="tags">
+                            <label>Key Points</label>
+                            <input type="text" name="li2" placeholder="Add a tag"/>
+                        </div>
+                        <button type="submit" class="btn btn-primary mb-2 pull-right">Submit</button>
+                        <div style="border-bottom: 2px solid black; padding-top: 25px;">
+                        </div>
+
+                        <!-- BOTTOM LEFT BOX -->
+
+                        <div class="form-group">
+                            <label>Learn Heading*</label>
+                            <input type="text" class="form-control" name="lh" required>
+                        </div>
+
+                        <div class="form-group">
+                            <label>Learn Paragraph 1*</label>
+                            <input type="text" class="form-control" name="lp">
+                        </div>
+
+                        <div class="form-group" id="tags">
+                            <label>Key Points</label>
+                            <input type="text" name="li3" placeholder="Add a tag"/>
+                        </div>
+                        <button type="submit" class="btn btn-primary mb-2 pull-right">Submit</button>
+                        <div style="border-bottom: 2px solid black; padding-top: 25px;">
+                        </div>
+
+                        <!-- BOTTOM RIGHT BOX -->
+
+                        <div class="form-group">
+                            <label>Resource Heading*</label>
+                            <input type="text" class="form-control" name="rh" required>
+                        </div>
+
+                        <div class="form-group">
+                            <label>Resource Paragraph 1*</label>
+                            <input type="text" class="form-control" name="rp">
+                        </div>
+
+                        <div class="form-group" id="tags">
+                            <label>Key Points</label>
+                            <input type="text" name="li4" placeholder="Add a tag"/>
+                        </div>
+                        <button type="submit" class="btn btn-primary mb-2 pull-right">Submit</button>
+                        <div style="border-bottom: 2px solid black; padding-top: 25px;">
                         </div>
 
                         
-                        <div class="form-group" id="tags">
-                            <label>Anchors* <small>Please add url then double hash sign i.e: ## and press tab to add new Anchor</small></label>
-                            <br>
-                            <input type="text" name="a" placeholder="Add an Anchor tag"/>
+                        <!-- CERTIFICATION BOX -->
+
+                        <!-- LEFT BOX -->
+                        
+                        <div class="form-group">
+                            <label>Box Header*</label>
+                            <input type="text" class="form-control" name="bh" required>
+                        </div>
+                        <div style="border-bottom: 2px solid black; padding-top: 25px;">
+                        </div>
+
+                        <!-- 1st box -->
+
+                        <div class="form-group">
+                            <label>1st Header*</label>
+                            <input type="text" class="form-control" name="l-bh1" required>
                         </div>
 
                         <div class="form-group">
-                            <div class="file-upload">
-                                <button class="file-upload-btn" type="button"
-                                        onclick="$('.file-upload-input').trigger( 'click' )">Add Video
-                                </button>
-
-                                <div class="image-upload-wrap">
-                                    <input name="v1" class="file-upload-input" type='file' onchange="readURL(this);"
-                                           accept="video/*"/>
-                                    <div class="drag-text">
-                                        <h3>Drag and drop a file or select add Video</h3>
-                                    </div>
-                                </div>
-                                <div class="file-upload-content">
-                                    <div class="file-upload-image"></div>
-                                    <div class="image-title-wrap">
-                                        <button type="button" onclick="removeUpload()" class="remove-image">Remove <span
-                                                class="image-title">Uploaded Video</span></button>
-                                    </div>
-                                </div>
-
-                            </div>
+                            <label>1st Paragraph*</label>
+                            <input type="text" class="form-control" name="l-bp1" required>
                         </div>
+
+                        <div style="border-bottom: 2px solid black;">
+                        </div>
+
+                        <!-- 2nd box -->
+
+                        <div class="form-group">
+                            <label>2nd Header*</label>
+                            <input type="text" class="form-control" name="l-bh2" required>
+                        </div>
+
+                        <div class="form-group">
+                            <label>2nd Paragraph*</label>
+                            <input type="text" class="form-control" name="l-bp2" required>
+                        </div>
+                        <div style="border-bottom: 2px solid black; padding-top: 25px;">
+                        </div>
+
+                        <!-- 3rd box -->
+
+                        <div class="form-group">
+                            <label>3rd Header*</label>
+                            <input type="text" class="form-control" name="l-bh3" required>
+                        </div>
+
+                        <div class="form-group">
+                            <label>3rd Paragraph*</label>
+                            <input type="text" class="form-control" name="l-bp3" required>
+                        </div>
+                        <div style="border-bottom: 2px solid black; padding-top: 25px;">
+                        </div>
+
+                        <!-- 4th box -->
+
+                        <div class="form-group">
+                            <label>4th Header*</label>
+                            <input type="text" class="form-control" name="l-bh4" required>
+                        </div>
+
+                        <div class="form-group">
+                            <label>4th Paragraph*</label>
+                            <input type="text" class="form-control" name="l-bp4" required>
+                        </div>
+                        <div style="border-bottom: 2px solid black; padding-top: 25px;">
+                        </div>
+
+                        <!-- ---------------------------------------------------------------------- -->
+
+
+                        <!-- RIGHT BOX -->
+
+                        <!-- 1st box -->
+
+                        <div class="form-group">
+                            <label>1st Header*</label>
+                            <input type="text" class="form-control" name="r-bh1" required>
+                        </div>
+
+                        <div class="form-group">
+                            <label>1st Paragraph*</label>
+                            <input type="text" class="form-control" name="r-bp1" required>
+                        </div>
+
+                        <div style="border-bottom: 2px solid black;">
+                        </div>
+
+                        <!-- 2nd box -->
+
+                        <div class="form-group">
+                            <label>2nd Header*</label>
+                            <input type="text" class="form-control" name="r-bh2" required>
+                        </div>
+
+                        <div class="form-group">
+                            <label>2nd Paragraph*</label>
+                            <input type="text" class="form-control" name="r-bp2" required>
+                        </div>
+                        <div style="border-bottom: 2px solid black; padding-top: 25px;">
+                        </div>
+
+                        <!-- 3rd box -->
+
+                        <div class="form-group">
+                            <label>3rd Header*</label>
+                            <input type="text" class="form-control" name="r-bh3" required>
+                        </div>
+
+                        <div class="form-group">
+                            <label>3rd Paragraph*</label>
+                            <input type="text" class="form-control" name="r-bp3" required>
+                        </div>
+                        <div style="border-bottom: 2px solid black; padding-top: 25px;">
+                        </div>
+
+                        <!-- 4th box -->
+
+                        <div class="form-group">
+                            <label>4th Header*</label>
+                            <input type="text" class="form-control" name="r-bh4" required>
+                        </div>
+
+                        <div class="form-group">
+                            <label>4th Paragraph*</label>
+                            <input type="text" class="form-control" name="r-bp4" required>
+                        </div>
+                        <div style="border-bottom: 2px solid black; padding-top: 25px;">
+                        </div>
+
+                        <!-- ---------------------------------------------------------------------- -->
+                        
+                        <div class="form-group">
+                            <label>1st Header*</label>
+                            <input type="text" class="form-control" name="last-h" required>
+                        </div>
+
+                        <div class="form-group" id="tags">
+                            <label>Key Points</label>
+                            <input type="text" name="last-li" placeholder="Add a tag"/>
+                        </div>
+                        <button type="submit" class="btn btn-primary mb-2 pull-right">Submit</button>
+                        
+                       
 
                        
                     </form>

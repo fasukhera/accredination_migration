@@ -147,26 +147,15 @@
         <section class="feature-wrap-layout1">
             <div class="container">
                 <div class="row gutters-50">
-                    <div class="col-lg-6 col-12 d-flex align-items-center justify-content-center has-animation active-animation">
-                        <div class="feature-box-layout1">
-                            <div class="translate-left-75 opacity-animation transition-150 transition-delay-10">
-                                <video width="100%" height="400" controls>
-                                    <source
-                                        src="{{(isset($data['certificate']->certificate_details->v1))?$data['certificate']->certificate_details->v1:''}}"
-                                        type="video/mp4">
-                                    Your browser does not support the video tag.
-                                </video>
-                            </div>
-                        </div>
-                    </div>
+                    
                     <div
                         class="col-lg-6 col-12 d-flex align-items-center justify-content-center has-animation active-animation">
                         <div class="feature-box-layout1">
                             <div class="col-lg-12 translate-bottom-75 opacity-animation transition-150 transition-delay-100">
-                                <h3 class="item-title">{{(isset($data['certificate']->certificate_details->h1))?$data['certificate']->certificate_details->h1:''}}</h3>
+                                <h1 class="item-title">{{(isset($data['certificate']->page_details->h1))?$data['certificate']->page_details->h1:''}}</h1>
                             </div>
                             <div class="col-lg-12 translate-bottom-75 opacity-animation transition-150 transition-delay-900">
-                                <p>{{(isset($data['certificate']->certificate_details->p1))?$data['certificate']->certificate_details->p1:''}}</p>
+                                <p>{{(isset($data['certificate']->page_certificate_details->p1))?$data['certificate']->page_certificate_details->p1:''}}</p>
                             </div>
                             <div class="col-lg-12 translate-bottom-75 opacity-animation transition-150 transition-delay-900">
                                 <ul>

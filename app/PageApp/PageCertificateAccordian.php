@@ -8,7 +8,7 @@ class PageCertificateAccordian extends Model
 {
     protected $fillable = [
         'certificate_details_id',
-        'main_h',
+        'mh1',
         'h2',
         'p1',
         "h2",

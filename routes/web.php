@@ -21,8 +21,8 @@ Route::group(['middleware' => 'auth'], function () {
     Route::get('/home', 'CertificateController@create')->name('home');
     Route::post('/add_new_certificate', 'CertificateController@store')->name('add_new_certificate');
 //certificate details ADMIN
-    // Route::get('/certificate', 'CertificateDetailsController@index')->name('certificate_details');
-    // Route::post('/certificate_upload', 'CertificateDetailsController@store')->name('form_submit');
+    Route::get('/certificate', 'CertificateDetailsController@index')->name('certificate_details');
+     Route::post('/certificate_upload', 'CertificateDetailsController@store')->name('form_submit');
 //accordion
     Route::get('/accordion', 'CertificateDetailsAccordianController@index')->name('accordion');
     Route::post('/accordion_upload', 'CertificateDetailsAccordianController@store')->name('accordion_submit');
