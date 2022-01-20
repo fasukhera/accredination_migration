@@ -52,7 +52,7 @@ class PageCertificateDetailsTable extends Migration
 
 
             $table->unsignedBigInteger('certificate_id')->nullable;
-            $table->foreign('certificate_id')->references('id')->on('certificates')->nullOnDelete;
+            $table->foreign('certificate_id')->references('id')->on('page_certificates')->nullOnDelete;
             $table->timestamps();
         });
     }
