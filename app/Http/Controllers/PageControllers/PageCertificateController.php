@@ -40,6 +40,8 @@ class PageCertificateController extends PageController
                 $data['li'] = [];
             }
 
+        
+
             $certificates = Certificate::get();
             $data['certificate'] = $certificate;
             $data['certificates'] = $certificates;

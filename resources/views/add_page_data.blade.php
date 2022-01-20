@@ -308,12 +308,12 @@
 
                         <div class="form-group">
                             <label>1st Header*</label>
-                            <input type="text" class="form-control" name="l-bh1" >
+                            <input type="text" class="form-control" name="l_bh1" >
                         </div>
 
                         <div class="form-group">
                             <label>1st Paragraph*</label>
-                            <input type="text" class="form-control" name="l-bp1" >
+                            <input type="text" class="form-control" name="l_bp1" >
                         </div>
 
                         <div style="border-bottom: 2px solid black;">
@@ -323,12 +323,12 @@
 
                         <div class="form-group">
                             <label>2nd Header*</label>
-                            <input type="text" class="form-control" name="l-bh2" >
+                            <input type="text" class="form-control" name="l_bh2" >
                         </div>
 
                         <div class="form-group">
                             <label>2nd Paragraph*</label>
-                            <input type="text" class="form-control" name="l-bp2" >
+                            <input type="text" class="form-control" name="l_bp2" >
                         </div>
                         <div style="border-bottom: 2px solid black; padding-top: 25px;">
                         </div>
@@ -337,12 +337,12 @@
 
                         <div class="form-group">
                             <label>3rd Header*</label>
-                            <input type="text" class="form-control" name="l-bh3" >
+                            <input type="text" class="form-control" name="l_bh3" >
                         </div>
 
                         <div class="form-group">
                             <label>3rd Paragraph*</label>
-                            <input type="text" class="form-control" name="l-bp3" >
+                            <input type="text" class="form-control" name="l_bp3" >
                         </div>
                         <div style="border-bottom: 2px solid black; padding-top: 25px;">
                         </div>
@@ -351,7 +351,7 @@
 
                         <div class="form-group">
                             <label>4th Header*</label>
-                            <input type="text" class="form-control" name="l-bh4" >
+                            <input type="text" class="form-control" name="l_bh4" >
                         </div>
 
                         <div class="form-group">
@@ -370,12 +370,12 @@
 
                         <div class="form-group">
                             <label>1st Header*</label>
-                            <input type="text" class="form-control" name="r-bh1" >
+                            <input type="text" class="form-control" name="r_bh1" >
                         </div>
 
                         <div class="form-group">
                             <label>1st Paragraph*</label>
-                            <input type="text" class="form-control" name="r-bp1" >
+                            <input type="text" class="form-control" name="r_bp1" >
                         </div>
 
                         <div style="border-bottom: 2px solid black;">
@@ -385,12 +385,12 @@
 
                         <div class="form-group">
                             <label>2nd Header*</label>
-                            <input type="text" class="form-control" name="r-bh2" >
+                            <input type="text" class="form-control" name="r_bh2" >
                         </div>
 
                         <div class="form-group">
                             <label>2nd Paragraph*</label>
-                            <input type="text" class="form-control" name="r-bp2" >
+                            <input type="text" class="form-control" name="r_bp2" >
                         </div>
                         <div style="border-bottom: 2px solid black; padding-top: 25px;">
                         </div>
@@ -399,12 +399,12 @@
 
                         <div class="form-group">
                             <label>3rd Header*</label>
-                            <input type="text" class="form-control" name="r-bh3" >
+                            <input type="text" class="form-control" name="r_bh3" >
                         </div>
 
                         <div class="form-group">
                             <label>3rd Paragraph*</label>
-                            <input type="text" class="form-control" name="r-bp3" >
+                            <input type="text" class="form-control" name="r_bp3" >
                         </div>
                         <div style="border-bottom: 2px solid black; padding-top: 25px;">
                         </div>
@@ -413,12 +413,12 @@
 
                         <div class="form-group">
                             <label>4th Header*</label>
-                            <input type="text" class="form-control" name="r-bh4" >
+                            <input type="text" class="form-control" name="r_bh4" >
                         </div>
 
                         <div class="form-group">
                             <label>4th Paragraph*</label>
-                            <input type="text" class="form-control" name="r-bp4" >
+                            <input type="text" class="form-control" name="r_bp4" >
                         </div>
                         <div style="border-bottom: 2px solid black; padding-top: 25px;">
                         </div>
@@ -427,7 +427,7 @@
                         
                         <div class="form-group">
                             <label>1st Header*</label>
-                            <input type="text" class="form-control" name="last-h" >
+                            <input type="text" class="form-control" name="last_h" >
                         </div>
 
                         <div class="form-group" id="tags">
