@@ -73,7 +73,7 @@ class PageCertificateController extends PageController
         } else {
             return redirect('/page')->with(['status', 'Certification Already Exists']);
         }
-        return redirect('/page')->with(['status', 'Certification Added Successfully']);
+        return redirect('/page_details')->with(['status', 'Certification Added Successfully']);
     }
 
     /**

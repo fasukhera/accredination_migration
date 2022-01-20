@@ -27,6 +27,9 @@
                                 <li>
                                     <a href="{{route('accordion')}}">Add Certificate Accordion</a>
                                 </li>
+                                <li>
+                                    <a href="{{route('page')}}">Add Certificate Page</a>
+                                </li>
 
                             </ul>
                         </nav>

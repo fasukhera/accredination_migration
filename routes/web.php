@@ -29,7 +29,7 @@ Route::group(['middleware' => 'auth'], function () {
 
 
 //Page
-    Route::get("/page", "PageControllers\PageCertificateController@create")->name("home");
+    Route::get("/page", "PageControllers\PageCertificateController@create")->name("page");
     Route::post('/add_page', 'PageControllers\PageCertificateController@store')->name('add_page');
 
 //PageDetails
