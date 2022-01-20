@@ -295,7 +295,7 @@
                       <!-- Inside Box Header = 2 <-->
                       <div class="translate-bottom-75 opacity-animation transition-150 transition-delay-900">
                         <h3>
-                            {{(isset($data['certificate']->page_details->l_bh1))?$data['certificate']->page_details->l_bh1:''}}
+                            {{(isset($data['certificate']->page_details->l_bh2))?$data['certificate']->page_details->l_bh2:''}}
                         </h3>
                     </div>
                         <!-- Box Paragraph = 2 <-->
@@ -332,30 +332,30 @@
                  <!-- Inside Box Header = 1 <-->
                  <div class="translate-bottom-75 opacity-animation transition-150 transition-delay-900">
                         <h3>
-                            {{(isset($data['certificate']->page_details->l_bh1))?$data['certificate']->page_details->l_bh1:''}}
+                            {{(isset($data['certificate']->page_details->r_bh1))?$data['certificate']->page_details->r_bh1:''}}
                         </h3>
                     </div>
                         <!-- Box Paragraph = 1 <-->
                     <div class="col-lg-12 translate-bottom-75 opacity-animation transition-150 transition-delay-900">
-                                <p>{{(isset($data['certificate']->page_details->l_bp1))?$data['certificate']->page_details->l_bp1:''}}</p>
+                                <p>{{(isset($data['certificate']->page_details->r_bp1))?$data['certificate']->page_details->r_bp1:''}}</p>
                             </div>
 
 
                       <!-- Inside Box Header = 2 <-->
                       <div class="translate-bottom-75 opacity-animation transition-150 transition-delay-900">
                         <h3>
-                            {{(isset($data['certificate']->page_details->l_bh1))?$data['certificate']->page_details->l_bh1:''}}
+                            {{(isset($data['certificate']->page_details->r_bh2))?$data['certificate']->page_details->r_bh2:''}}
                         </h3>
                     </div>
                         <!-- Box Paragraph = 2 <-->
                     <div class="col-lg-12 translate-bottom-75 opacity-animation transition-150 transition-delay-900">
-                                <p>{{(isset($data['certificate']->page_details->l_bp2))?$data['certificate']->page_details->l_bp2:''}}</p>
+                                <p>{{(isset($data['certificate']->page_details->r_bp2))?$data['certificate']->page_details->r_bp2:''}}</p>
                             </div>
 
                        <!-- Inside Box Header = 3 <-->
                        <div class="translate-bottom-75 opacity-animation transition-150 transition-delay-900">
                         <h3>
-                            {{(isset($data['certificate']->page_details->l_bh3))?$data['certificate']->page_details->l_bh3:''}}
+                            {{(isset($data['certificate']->page_details->r_bh3))?$data['certificate']->page_details->r_bh3:''}}
                         </h3>
                     </div>
                         <!-- Box Paragraph = 3 <-->
@@ -367,13 +367,36 @@
                       <!-- Inside Box Header = 4 <-->
                       <div class="translate-bottom-75 opacity-animation transition-150 transition-delay-900">
                         <h3>
-                            {{(isset($data['certificate']->page_details->l_bh4))?$data['certificate']->page_details->l_bh4:''}}
+                            {{(isset($data['certificate']->page_details->r_bh4))?$data['certificate']->page_details->r_bh4:''}}
                         </h3>
                     </div>
                         <!-- Box Paragraph = 4 <-->
                     <div class="col-lg-12 translate-bottom-75 opacity-animation transition-150 transition-delay-900">
-                                <p>{{(isset($data['certificate']->page_details->l_bp4))?$data['certificate']->page_details->l_bp4:''}}</p>
+                                <p>{{(isset($data['certificate']->page_details->r_bp4))?$data['certificate']->page_details->r_bp4:''}}</p>
                             </div>
+
+                 <!-- Last Header <-->
+                 <div class="translate-bottom-75 opacity-animation transition-150 transition-delay-900">
+                        <h3>
+                            {{(isset($data['certificate']->page_details->last_h))?$data['certificate']->page_details->last_h:''}}
+                        </h3>
+                    </div>
+
+                 <!-- Last Tags <-->
+                 <div class="col-lg-12 translate-bottom-75 opacity-animation transition-150 transition-delay-900">
+                                <ul>
+                                    @if(isset($data['li']))
+                                        @foreach($data['li'] as $li)
+                                            <li class="row">
+
+                                                <span class=" fa fa-check" style="margin-top: 10px;"></span>
+                                                <p class="col-sm"> {{$li}} </p>
+                                            </li>
+                                        @endforeach
+                                    @endif
+                                </ul>
+                            </div>
+                        
                    
                 </div>
                 @php
