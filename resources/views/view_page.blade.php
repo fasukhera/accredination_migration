@@ -183,8 +183,8 @@
                               <!-- Who Tags Paragraph <-->
                             <div class="col-lg-12 translate-bottom-75 opacity-animation transition-150 transition-delay-900">
                                 <ul>
-                                    @if(isset($data['li']))
-                                        @foreach($data['li'] as $li)
+                                    @if(isset($data['li1']))
+                                        @foreach($data['li1'] as $li)
                                             <li class="row">
 
                                                 <span class=" fa fa-check" style="margin-top: 10px;"></span>
@@ -209,8 +209,8 @@
                               <!-- Entry Tags Paragraph <-->
                             <div class="col-lg-12 translate-bottom-75 opacity-animation transition-150 transition-delay-900">
                                 <ul>
-                                    @if(isset($data['li']))
-                                        @foreach($data['li'] as $li)
+                                    @if(isset($data['li2']))
+                                        @foreach($data['li2'] as $li)
                                             <li class="row">
 
                                                 <span class=" fa fa-check" style="margin-top: 10px;"></span>
@@ -235,8 +235,8 @@
                               <!-- Learn Tags Paragraph <-->
                             <div class="col-lg-12 translate-bottom-75 opacity-animation transition-150 transition-delay-900">
                                 <ul>
-                                    @if(isset($data['li']))
-                                        @foreach($data['li'] as $li)
+                                    @if(isset($data['li3']))
+                                        @foreach($data['li3'] as $li)
                                             <li class="row">
 
                                                 <span class=" fa fa-check" style="margin-top: 10px;"></span>
@@ -260,8 +260,8 @@
                               <!-- Resource Tags Paragraph <-->
                             <div class="col-lg-12 translate-bottom-75 opacity-animation transition-150 transition-delay-900">
                                 <ul>
-                                    @if(isset($data['li']))
-                                        @foreach($data['li'] as $li)
+                                    @if(isset($data['li4']))
+                                        @foreach($data['li4'] as $li)
                                             <li class="row">
 
                                                 <span class=" fa fa-check" style="margin-top: 10px;"></span>
@@ -385,8 +385,8 @@
                  <!-- Last Tags <-->
                  <div class="col-lg-12 translate-bottom-75 opacity-animation transition-150 transition-delay-900">
                                 <ul>
-                                    @if(isset($data['li']))
-                                        @foreach($data['li'] as $li)
+                                    @if(isset($data['last_li']))
+                                        @foreach($data['last_li'] as $li)
                                             <li class="row">
 
                                                 <span class=" fa fa-check" style="margin-top: 10px;"></span>

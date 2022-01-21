@@ -33,14 +33,51 @@ class PageCertificateController extends PageController
             where('name', $name)->first();
         }
         if ($certificate->page_details != '' || $certificate->page_details != null) {
-            if (isset($certificate->page_details->li)) {
-                $li = explode(',', $certificate->page_details->li);
-                $data['li'] = array_filter($li);
+            if (isset($certificate->page_details->li1)) {
+                $li = explode(',', $certificate->page_details->li1);
+                $data['li1'] = array_filter($li);
             } else {
-                $data['li'] = [];
+                $data['li1'] = [];
             }
 
-        
+            $certificates = Certificate::get();
+            $data['certificate'] = $certificate;
+            $data['certificates'] = $certificates;
+        }
+
+        if ($certificate->page_details != '' || $certificate->page_details != null) {
+            if (isset($certificate->page_details->li3)) {
+                $li = explode(',', $certificate->page_details->li3);
+                $data['li3'] = array_filter($li);
+            } else {
+                $data['li3'] = [];
+            }
+
+            $certificates = Certificate::get();
+            $data['certificate'] = $certificate;
+            $data['certificates'] = $certificates;
+        }
+
+        if ($certificate->page_details != '' || $certificate->page_details != null) {
+            if (isset($certificate->page_details->li4)) {
+                $li = explode(',', $certificate->page_details->li4);
+                $data['li4'] = array_filter($li);
+            } else {
+                $data['li4'] = [];
+            }
+
+            $certificates = Certificate::get();
+            $data['certificate'] = $certificate;
+            $data['certificates'] = $certificates;
+        }
+
+        if ($certificate->page_details != '' || $certificate->page_details != null) {
+            if (isset($certificate->page_details->last_li)) {
+                $li = explode(',', $certificate->page_details->last_li);
+                $data['last_li'] = array_filter($li);
+            } else {
+                $data['last_li'] = [];
+            }
 
             $certificates = Certificate::get();
             $data['certificate'] = $certificate;
