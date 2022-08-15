@@ -1,3 +1,27 @@
+<style>
+    @media only screen and (max-width: 1000px) {
+        .template-main-menu {
+            display: none !important;
+        }
+        .temp-logo {
+            width: 200px !important;
+            height: 40px !important;
+            padding-top: 10px !important;
+        }
+        .single-item{
+            padding-top: 10px !important;
+        }
+        
+    }
+    @media only screen and (min-width: 1000px) {
+        .temp-logo{
+            position: relative !important;
+        }
+        
+    }
+
+
+</style>
 <div class="sticky-on sticky">
     <div id="sticky-placeholder"></div>
     <div id="navbar-wrap" class="navbar-wrap">
@@ -6,10 +30,10 @@
                 <div class="row no-gutters d-flex align-items-center position-relative">
                     <div class="col-lg-2 d-flex justify-content-start">
                         <div class="temp-logo text-center">
-                            <a href="index.html" class="default-logo">
+                            <a href="{{route('landing')}}" class="default-logo">
                                 <img src="{{asset('logo.png')}}" alt="logo" class="img-fluid">
                             </a>
-                            <a href="index.html" class="sticky-logo">
+                            <a href="{{route('landing')}}" class="sticky-logo">
                                 <img src="{{asset('logo-black.png')}}" alt="logo" class="img-fluid">
                             </a>
                         </div>

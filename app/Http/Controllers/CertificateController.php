@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers;
 
+use App\PageApp\PageMembership;
 use App\Certificate;
 use App\CertificateDetails;
 use Carbon\Carbon;
@@ -16,8 +17,12 @@ class CertificateController extends Controller
      */
     public function landing()
     {
-        $certificates = Certificate::with('certificate_details')->get();
-        return view('welcome', compact('certificates'));
+       
+        $data['certificates'] = Certificate::with('certificate_details')->orderby('name','ASC')->get();
+        $certificates = $data['certificates'];
+        $membership = PageMembership::with('page_details')->get();
+
+        return view('welcome', compact('data','certificates','membership'));
     }
 
     public function index(Request $request)
@@ -31,6 +36,8 @@ class CertificateController extends Controller
             with('certificate_details', 'certificate_details.certificate_details_accordian')->
             where('name', $name)->first();
         }
+        
+        
         if ($certificate->certificate_details != '' || $certificate->certificate_details != null) {
             if (isset($certificate->certificate_details->li)) {
                 $li = explode(',', $certificate->certificate_details->li);
@@ -57,6 +64,7 @@ class CertificateController extends Controller
                 $data['a'] = [];
             }
             $i++;
+            
         }
         $j = 0;
         $hexa=[];
@@ -73,6 +81,7 @@ class CertificateController extends Controller
             }
             $j++;
         }
+        $data['membership'] = PageMembership::with('page_details')->get();
         return view('certificate', compact('data'));
     }
 

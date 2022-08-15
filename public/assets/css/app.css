@@ -383,32 +383,7 @@ h6 {
   outline: none;
 }
 
-@media only screen and (max-width: 991px) {
-  .nav-control-layout1 .owl-nav button {
-    height: 55px;
-    width: 55px;
-  }
-  .nav-control-layout1 .owl-nav button i {
-    font-size: 18px;
-  }
-}
 
-@media only screen and (max-width: 767px) {
-  .nav-control-layout1 .owl-nav button {
-    height: 50px;
-    width: 50px;
-  }
-}
-
-@media only screen and (max-width: 575px) {
-  .nav-control-layout1 .owl-nav button {
-    height: 40px;
-    width: 40px;
-  }
-  .nav-control-layout1 .owl-nav button i {
-    font-size: 16px;
-  }
-}
 
 .nav-control-layout1 .owl-nav .owl-prev {
   left: 15px;
@@ -427,11 +402,7 @@ h6 {
   left: -15px;
 }
 
-@media only screen and (max-width: 1199px) {
-  .nav-control-layout1:hover .owl-prev {
-    left: 0;
-  }
-}
+
 
 .nav-control-layout1:hover .owl-next {
   right: -15px;
@@ -500,15 +471,7 @@ h6 {
   outline: none;
 }
 
-@media only screen and (max-width: 991px) {
-  .nav-control-layout2 .owl-nav button {
-    height: 55px;
-    width: 55px;
-  }
-  .nav-control-layout2 .owl-nav button i:before {
-    font-size: 22px;
-  }
-}
+
 
 @media only screen and (max-width: 767px) {
   .nav-control-layout2 .owl-nav button {
@@ -608,35 +571,7 @@ h6 {
   outline: none;
 }
 
-@media only screen and (max-width: 991px) {
-  .nav-control-layout3 .owl-nav button {
-    height: 55px;
-    width: 55px;
-  }
-  .nav-control-layout3 .owl-nav button i {
-    font-size: 18px;
-  }
-}
 
-@media only screen and (max-width: 767px) {
-  .nav-control-layout3 .owl-nav button {
-    height: 50px;
-    width: 50px;
-  }
-  .nav-control-layout3 .owl-nav button i {
-    font-size: 18px;
-  }
-}
-
-@media only screen and (max-width: 575px) {
-  .nav-control-layout3 .owl-nav button {
-    height: 40px;
-    width: 40px;
-  }
-  .nav-control-layout3 .owl-nav button i {
-    font-size: 16px;
-  }
-}
 
 .nav-control-layout3 .owl-nav .owl-prev {
   left: 15px;
@@ -655,21 +590,7 @@ h6 {
   left: -50px;
 }
 
-@media only screen and (max-width: 1199px) {
-  .nav-control-layout3:hover .owl-prev {
-    left: 0;
-  }
-}
 
-.nav-control-layout3:hover .owl-next {
-  right: -50px;
-}
-
-@media only screen and (max-width: 1199px) {
-  .nav-control-layout3:hover .owl-next {
-    right: 0;
-  }
-}
 
 .nav-control-layout4 .owl-nav {
   margin-top: 0;
@@ -837,15 +758,7 @@ h6 {
   outline: none;
 }
 
-@media only screen and (max-width: 991px) {
-  .nav-control-layout5 .owl-nav button {
-    height: 55px;
-    width: 55px;
-  }
-  .nav-control-layout5 .owl-nav button i {
-    font-size: 18px;
-  }
-}
+
 
 @media only screen and (max-width: 767px) {
   .nav-control-layout5 .owl-nav button {
@@ -958,15 +871,7 @@ h6 {
   outline: none;
 }
 
-@media only screen and (max-width: 991px) {
-  .nav-control-layout6 .owl-nav button {
-    height: 55px;
-    width: 55px;
-  }
-  .nav-control-layout6 .owl-nav button i {
-    font-size: 18px;
-  }
-}
+
 
 @media only screen and (max-width: 767px) {
   .nav-control-layout6 .owl-nav button {
@@ -1072,15 +977,7 @@ h6 {
   outline: none;
 }
 
-@media only screen and (max-width: 991px) {
-  .nav-control-layout7 .owl-nav button {
-    height: 55px;
-    width: 55px;
-  }
-  .nav-control-layout7 .owl-nav button i {
-    font-size: 18px;
-  }
-}
+
 
 @media only screen and (max-width: 767px) {
   .nav-control-layout7 .owl-nav button {
@@ -1148,11 +1045,6 @@ h6 {
   margin-bottom: 30px;
 }
 
-@media only screen and (max-width: 575px) {
-  .owl-custom-nav-layout1 {
-    display: none;
-  }
-}
 
 .owl-custom-nav-layout1 span {
   padding: 5px 0;
@@ -2029,11 +1921,7 @@ footer .footer-widget-heading.heading-light {
   display: table-row;
 }
 
-@media only screen and (max-width: 767px) {
-  .footer-wrap-layout4 .shape-holder {
-    display: none;
-  }
-}
+
 
 .footer-wrap-layout4 .shape-holder .single-shape {
   position: absolute;
@@ -3424,10 +3312,16 @@ button.offcanvas-menu-btn {
 button.offcanvas-menu-btn:focus {
   outline: none;
 }
+@media screen and (min-width:1000px) {
+  .offcanvas-menu-btn .menu-btn-icon { display:none; }
+}
+@media screen and (max-width:600px) {
+  .offcanvas-menu-btn .menu-btn-icon { display:block; }
+}
+
 
 button.offcanvas-menu-btn .menu-btn-icon {
   padding: 10px;
-  display: block;
   width: 50px;
   position: relative;
   height: 50px;
@@ -4593,23 +4487,9 @@ nav.template-main-menu > ul > li > ul > li:hover ul.third-level {
   position: fixed;
 }
 
-@media only screen and (max-width: 991px) {
-  header {
-    display: none;
-  }
-}
 
-@media only screen and (max-width: 991px) {
-  .hide-on-mobile-menu {
-    display: none;
-  }
-}
 
-@media only screen and (min-width: 992px) {
-  .hide-on-desktop-menu {
-    display: none !important;
-  }
-}
+
 
 .mean-container .mean-bar {
   background: transparent !important;
@@ -4735,17 +4615,7 @@ nav.template-main-menu > ul > li > ul > li:hover ul.third-level {
   padding-top: 51px;
 }
 
-@media only screen and (max-width: 991px) {
-  .hide-on-mobile-menu {
-    display: none;
-  }
-}
 
-@media only screen and (min-width: 992px) {
-  .hide-on-desktop-menu {
-    display: none !important;
-  }
-}
 
 .navbar-layout1 {
   background-color: transparent;
@@ -4755,7 +4625,7 @@ nav.template-main-menu > ul > li > ul > li:hover ul.third-level {
 }
 
 .navbar-layout1 .temp-logo {
-  position: relative;
+  position: absolute;
   z-index: 1;
 }
 
@@ -5571,11 +5441,7 @@ nav.template-main-menu > ul > li > ul > li:hover ul.third-level {
   right: 100px;
 }
 
-@media only screen and (max-width: 991px) {
-  #pp-nav {
-    display: none;
-  }
-}
+
 
 #pp-nav ul li {
   height: 15px;
@@ -16305,9 +16171,13 @@ ul.pagination-layout2 .center-btn a:hover {
 /*--- Feature Style One ---*/
 .feature-wrap-layout1 {
   overflow: hidden;
-  padding: 120px 0 90px;
+  padding: 100px 0 90px;
 }
 
+.feature-wrap-layout29 {
+  overflow: hidden;
+  padding: 50px 0 30px;
+}
 @media only screen and (max-width: 991px) {
   .feature-wrap-layout1 {
     padding: 105px 0 45px;
@@ -16364,6 +16234,10 @@ ul.pagination-layout2 .center-btn a:hover {
 
 .feature-box-layout1 {
   margin-bottom: 30px;
+}
+
+.feature-box-layout9000 {
+  margin-bottom: 50px;
 }
 
 @media only screen and (max-width: 991px) {

@@ -16,7 +16,7 @@ class PageCertificateAccordianController extends Controller
      */
     public function index()
     {
-        $certificates = Certificate::with('certificate_details')->get();
+        $certificates = Certificate::with('page_details')->get();
 
         return view('accordian', compact('certificates'));
     }
@@ -54,7 +54,7 @@ class PageCertificateAccordianController extends Controller
         $data['certificate_details_id'] = $certificate_details_id->id;
         $store = PageCertificateAccordian::create($data);
         $certificates = PageCertificate::with('certificate_details')->get();
-        return redirect('/pageaccordion')->with(['status', 'Certification Added Successfully', $certificates]);
+        return redirect('/pageaccordion')->with(['status', 'Certification Added Successfully', $pcertificates]);
 
     }
 

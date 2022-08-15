@@ -10,9 +10,13 @@ Route::group(['prefix' => 'accredination/admin'], function () {
 });
 
 //landing page
-Route::get('/', 'CertificateController@landing')->name('landing');
+Route::get('/', 'PageControllers\PageMembershipController@landing')->name('landing');
 Route::get('/certification', 'CertificateController@index')->name('certificate');
 Route::get('/pagelist', 'PageControllers\PageCertificateController@index')->name('page');
+Route::get('/membership', 'PageControllers\PageMembershipController@index')->name('membership');
+//Send email
+Route::get('/sendemail', 'SendEmailController@index')->name("send_email");
+Route::post('/sendemail/send', 'SendEmailController@send')->name("page_details");
 Route::group(['middleware' => 'auth'], function () {
 //certificate client
     
@@ -35,6 +39,8 @@ Route::group(['middleware' => 'auth'], function () {
 //PageDetails
     Route::get("/page_details", "PageControllers\PageCertificateDetailsController@index")->name("page_details");
     Route::post("/page_upload", "PageControllers\PageCertificateDetailsController@store")->name("form_submit");
+
+
 }); 
 
 
@@ -48,5 +54,3 @@ Route::get('send-mail', function () {
     \Mail::to('fasukhera@gmail.com')->send(new \App\Mail\Enquire($details));
     dd("Email is Sent.");
 });
-
-

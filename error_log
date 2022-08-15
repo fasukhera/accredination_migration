@@ -1,0 +1,427 @@
+[Sat Dec 18 00:01:01.235887 2021] [ssl:warn] [pid 764] AH01909: server1.accredination.co.uk:443:0 server certificate does NOT include an ID which matches the server name
+[Sat Dec 18 16:42:20.577452 2021] [core:error] [pid 127056] [client 195.54.160.149:55832] AH00126: Invalid URI in request POST /cgi-bin/.%2e/.%2e/.%2e/.%2e/bin/sh HTTP/1.1
+[Sun Dec 19 00:00:01.058870 2021] [ssl:warn] [pid 764] AH01909: server1.accredination.co.uk:443:0 server certificate does NOT include an ID which matches the server name
+[Sun Dec 19 13:09:02.690568 2021] [core:error] [pid 133095] [client 195.54.160.149:55488] AH00126: Invalid URI in request POST /cgi-bin/.%2e/.%2e/.%2e/.%2e/bin/sh HTTP/1.1
+[Mon Dec 20 00:00:01.068768 2021] [ssl:warn] [pid 764] AH01909: server1.accredination.co.uk:443:0 server certificate does NOT include an ID which matches the server name
+[Mon Dec 20 09:16:17.349830 2021] [core:error] [pid 135937] [client 195.54.160.149:39480] AH00126: Invalid URI in request POST /cgi-bin/.%2e/.%2e/.%2e/.%2e/bin/sh HTTP/1.1
+[Tue Dec 21 00:00:01.844655 2021] [ssl:warn] [pid 764] AH01909: server1.accredination.co.uk:443:0 server certificate does NOT include an ID which matches the server name
+[Wed Dec 22 00:00:01.939370 2021] [ssl:warn] [pid 764] AH01909: server1.accredination.co.uk:443:0 server certificate does NOT include an ID which matches the server name
+[Wed Dec 22 02:29:14.839579 2021] [core:error] [pid 147805] [client 195.54.160.149:49064] AH00126: Invalid URI in request POST /cgi-bin/.%2e/.%2e/.%2e/.%2e/bin/sh HTTP/1.1
+[Wed Dec 22 22:17:52.432975 2021] [core:error] [pid 152586] [client 195.54.160.149:45338] AH00126: Invalid URI in request POST /cgi-bin/.%2e/.%2e/.%2e/.%2e/bin/sh HTTP/1.1
+[Thu Dec 23 00:00:01.835230 2021] [ssl:warn] [pid 764] AH01909: server1.accredination.co.uk:443:0 server certificate does NOT include an ID which matches the server name
+[Thu Dec 23 18:56:15.130705 2021] [core:error] [pid 154902] [client 195.54.160.149:56212] AH00126: Invalid URI in request POST /cgi-bin/.%2e/.%2e/.%2e/.%2e/bin/sh HTTP/1.1
+[Fri Dec 24 00:00:01.824832 2021] [ssl:warn] [pid 764] AH01909: server1.accredination.co.uk:443:0 server certificate does NOT include an ID which matches the server name
+[Fri Dec 24 15:29:11.985833 2021] [core:error] [pid 162874] [client 195.54.160.149:33738] AH00126: Invalid URI in request POST /cgi-bin/.%2e/.%2e/.%2e/.%2e/bin/sh HTTP/1.1
+[Sat Dec 25 00:00:01.776249 2021] [ssl:warn] [pid 764] AH01909: server1.accredination.co.uk:443:0 server certificate does NOT include an ID which matches the server name
+[Sat Dec 25 12:13:30.254816 2021] [core:error] [pid 171441] [client 195.54.160.149:51418] AH00126: Invalid URI in request POST /cgi-bin/.%2e/.%2e/.%2e/.%2e/bin/sh HTTP/1.1
+[Sun Dec 26 00:00:00.538091 2021] [ssl:warn] [pid 764] AH01909: server1.accredination.co.uk:443:0 server certificate does NOT include an ID which matches the server name
+[Sun Dec 26 08:51:14.727480 2021] [core:error] [pid 188558] [client 195.54.160.149:34232] AH00126: Invalid URI in request POST /cgi-bin/.%2e/.%2e/.%2e/.%2e/bin/sh HTTP/1.1
+[Mon Dec 27 00:00:01.956213 2021] [ssl:warn] [pid 764] AH01909: server1.accredination.co.uk:443:0 server certificate does NOT include an ID which matches the server name
+[Mon Dec 27 05:10:04.283430 2021] [core:error] [pid 240086] [client 195.54.160.149:46090] AH00126: Invalid URI in request POST /cgi-bin/.%2e/.%2e/.%2e/.%2e/bin/sh HTTP/1.1
+[Mon Dec 27 22:23:59.351265 2021] [authz_core:error] [pid 234424] [client 172.105.87.91:43438] AH01630: client denied by server configuration: /var/www/accredination.co.uk/public/server-status
+[Tue Dec 28 00:00:02.713190 2021] [ssl:warn] [pid 764] AH01909: server1.accredination.co.uk:443:0 server certificate does NOT include an ID which matches the server name
+[Tue Dec 28 02:09:58.001904 2021] [core:error] [pid 256279] [client 195.54.160.149:58846] AH00126: Invalid URI in request POST /cgi-bin/.%2e/.%2e/.%2e/.%2e/bin/sh HTTP/1.1
+[Tue Dec 28 22:55:06.628992 2021] [core:error] [pid 257179] [client 195.54.160.149:34648] AH00126: Invalid URI in request POST /cgi-bin/.%2e/.%2e/.%2e/.%2e/bin/sh HTTP/1.1
+[Wed Dec 29 00:00:02.468152 2021] [ssl:warn] [pid 764] AH01909: server1.accredination.co.uk:443:0 server certificate does NOT include an ID which matches the server name
+[Wed Dec 29 19:26:16.740886 2021] [core:error] [pid 314199] [client 195.54.160.149:46006] AH00126: Invalid URI in request POST /cgi-bin/.%2e/.%2e/.%2e/.%2e/bin/sh HTTP/1.1
+[Thu Dec 30 00:00:02.771788 2021] [ssl:warn] [pid 764] AH01909: server1.accredination.co.uk:443:0 server certificate does NOT include an ID which matches the server name
+[Thu Dec 30 16:53:00.100852 2021] [core:error] [pid 318650] [client 195.54.160.149:58472] AH00126: Invalid URI in request POST /cgi-bin/.%2e/.%2e/.%2e/.%2e/bin/sh HTTP/1.1
+[Fri Dec 31 00:00:02.719453 2021] [ssl:warn] [pid 764] AH01909: server1.accredination.co.uk:443:0 server certificate does NOT include an ID which matches the server name
+[Sat Jan 01 00:01:02.116414 2022] [ssl:warn] [pid 764] AH01909: server1.accredination.co.uk:443:0 server certificate does NOT include an ID which matches the server name
+[Sat Jan 01 09:13:27.266852 2022] [core:error] [pid 329379] [client 195.54.160.149:60628] AH00126: Invalid URI in request POST /cgi-bin/.%2e/.%2e/.%2e/.%2e/bin/sh HTTP/1.1
+[Sat Jan 01 13:00:31.252925 2022] [core:error] [pid 329377] [client 161.35.188.242:38356] AH00126: Invalid URI in request GET /cgi-bin/.%2e/%2e%2e/%2e%2e/%2e%2e/%2e%2e/%2e%2e/%2e%2e/%2e%2e/%2e%2e/etc/hosts HTTP/1.1
+[Sat Jan 01 13:00:32.621672 2022] [authz_core:error] [pid 329379] [client 161.35.188.242:39324] AH01630: client denied by server configuration: /var/www/accredination.co.uk/public/server-status
+[Sun Jan 02 00:00:02.531117 2022] [ssl:warn] [pid 764] AH01909: server1.accredination.co.uk:443:0 server certificate does NOT include an ID which matches the server name
+[Sun Jan 02 06:39:46.945546 2022] [core:error] [pid 334966] [client 195.54.160.149:37146] AH00126: Invalid URI in request POST /cgi-bin/.%2e/.%2e/.%2e/.%2e/bin/sh HTTP/1.1
+[Sun Jan 02 23:43:05.640154 2022] [ssl:warn] [pid 764] AH01909: server1.accredination.co.uk:443:0 server certificate does NOT include an ID which matches the server name
+[Sun Jan 02 23:43:09.828904 2022] [ssl:warn] [pid 764] AH01909: server1.accredination.co.uk:443:0 server certificate does NOT include an ID which matches the server name
+[Sun Jan 02 23:43:11.485636 2022] [ssl:warn] [pid 764] AH01909: server1.accredination.co.uk:443:0 server certificate does NOT include an ID which matches the server name
+[Mon Jan 03 00:00:03.072500 2022] [ssl:warn] [pid 764] AH01909: server1.accredination.co.uk:443:0 server certificate does NOT include an ID which matches the server name
+[Mon Jan 03 02:35:56.189327 2022] [core:error] [pid 341434] [client 195.54.160.149:56828] AH00126: Invalid URI in request POST /cgi-bin/.%2e/.%2e/.%2e/.%2e/bin/sh HTTP/1.1
+[Mon Jan 03 13:46:58.872145 2022] [core:error] [pid 341329] [client 167.99.133.28:52796] AH00126: Invalid URI in request GET /cgi-bin/.%2e/%2e%2e/%2e%2e/%2e%2e/%2e%2e/%2e%2e/%2e%2e/%2e%2e/%2e%2e/etc/hosts HTTP/1.1
+[Tue Jan 04 00:00:03.380149 2022] [ssl:warn] [pid 764] AH01909: server1.accredination.co.uk:443:0 server certificate does NOT include an ID which matches the server name
+[Tue Jan 04 00:52:30.899958 2022] [core:error] [pid 348349] [client 45.146.165.37:54708] AH00126: Invalid URI in request POST /cgi-bin/.%2e/.%2e/.%2e/.%2e/bin/sh HTTP/1.1
+[Tue Jan 04 05:26:51.208396 2022] [ssl:error] [pid 348347] [client 54.162.230.71:60644] AH02042: rejecting client initiated renegotiation
+[Tue Jan 04 18:38:40.396598 2022] [core:error] [pid 348346] [client 45.146.165.37:60002] AH00126: Invalid URI in request POST /cgi-bin/.%2e/.%2e/.%2e/.%2e/bin/sh HTTP/1.1
+[Wed Jan 05 00:00:03.096961 2022] [ssl:warn] [pid 764] AH01909: server1.accredination.co.uk:443:0 server certificate does NOT include an ID which matches the server name
+[Wed Jan 05 12:48:44.397864 2022] [core:error] [pid 366121] [client 45.146.165.37:47486] AH00126: Invalid URI in request POST /cgi-bin/.%2e/.%2e/.%2e/.%2e/bin/sh HTTP/1.1
+[Thu Jan 06 00:01:02.769117 2022] [ssl:warn] [pid 764] AH01909: server1.accredination.co.uk:443:0 server certificate does NOT include an ID which matches the server name
+[Thu Jan 06 08:55:01.618704 2022] [core:error] [pid 370834] [client 45.146.165.37:38324] AH00126: Invalid URI in request POST /cgi-bin/.%2e/.%2e/.%2e/.%2e/bin/sh HTTP/1.1
+[Fri Jan 07 00:00:03.383475 2022] [ssl:warn] [pid 764] AH01909: server1.accredination.co.uk:443:0 server certificate does NOT include an ID which matches the server name
+[Fri Jan 07 03:20:30.391785 2022] [core:error] [pid 378518] [client 45.146.165.37:40850] AH00126: Invalid URI in request POST /cgi-bin/.%2e/.%2e/.%2e/.%2e/bin/sh HTTP/1.1
+[Fri Jan 07 06:36:11.707507 2022] [ssl:warn] [pid 380766] AH01909: server1.accredination.co.uk:443:0 server certificate does NOT include an ID which matches the server name
+[Fri Jan 07 06:36:11.804260 2022] [ssl:warn] [pid 380769] AH01909: server1.accredination.co.uk:443:0 server certificate does NOT include an ID which matches the server name
+[Fri Jan 07 23:08:14.805064 2022] [core:error] [pid 385087] [client 45.146.165.37:45494] AH00126: Invalid URI in request POST /cgi-bin/.%2e/.%2e/.%2e/.%2e/bin/sh HTTP/1.1
+[Sat Jan 08 00:00:03.291623 2022] [ssl:warn] [pid 380769] AH01909: server1.accredination.co.uk:443:0 server certificate does NOT include an ID which matches the server name
+[Sat Jan 08 01:41:47.672192 2022] [ssl:error] [pid 385817] [client 3.82.121.161:34266] AH02042: rejecting client initiated renegotiation
+[Sun Jan 09 00:00:03.256914 2022] [ssl:warn] [pid 380769] AH01909: server1.accredination.co.uk:443:0 server certificate does NOT include an ID which matches the server name
+[Sun Jan 09 20:54:38.220815 2022] [authz_core:error] [pid 394441] [client 172.105.87.91:47256] AH01630: client denied by server configuration: /var/www/accredination.co.uk/public/server-status
+[Mon Jan 10 00:00:03.453853 2022] [ssl:warn] [pid 380769] AH01909: server1.accredination.co.uk:443:0 server certificate does NOT include an ID which matches the server name
+[Tue Jan 11 00:00:03.824333 2022] [ssl:warn] [pid 380769] AH01909: server1.accredination.co.uk:443:0 server certificate does NOT include an ID which matches the server name
+[Tue Jan 11 05:55:54.767076 2022] [core:error] [pid 407358] [client 45.146.165.37:36602] AH00126: Invalid URI in request POST /cgi-bin/.%2e/.%2e/.%2e/.%2e/bin/sh HTTP/1.1
+[Wed Jan 12 00:00:03.784192 2022] [ssl:warn] [pid 380769] AH01909: server1.accredination.co.uk:443:0 server certificate does NOT include an ID which matches the server name
+[Wed Jan 12 01:56:07.182790 2022] [core:error] [pid 415266] [client 45.146.165.37:51920] AH00126: Invalid URI in request POST /cgi-bin/.%2e/.%2e/.%2e/.%2e/bin/sh HTTP/1.1
+[Wed Jan 12 14:21:11.802169 2022] [ssl:warn] [pid 678] AH01909: server1.accredination.co.uk:443:0 server certificate does NOT include an ID which matches the server name
+[Wed Jan 12 14:21:11.920701 2022] [ssl:warn] [pid 717] AH01909: server1.accredination.co.uk:443:0 server certificate does NOT include an ID which matches the server name
+[Wed Jan 12 16:05:35.561264 2022] [core:error] [pid 1773] [client 161.35.188.242:40710] AH00126: Invalid URI in request GET /cgi-bin/.%2e/%2e%2e/%2e%2e/%2e%2e/%2e%2e/%2e%2e/%2e%2e/%2e%2e/%2e%2e/etc/hosts HTTP/1.1
+[Wed Jan 12 16:05:36.418010 2022] [authz_core:error] [pid 799] [client 161.35.188.242:41192] AH01630: client denied by server configuration: /var/www/accredination.co.uk/public/server-status
+[Wed Jan 12 22:38:19.891977 2022] [core:error] [pid 4163] [client 45.146.165.37:49908] AH00126: Invalid URI in request POST /cgi-bin/.%2e/.%2e/.%2e/.%2e/bin/sh HTTP/1.1
+[Thu Jan 13 00:00:35.181417 2022] [ssl:warn] [pid 717] AH01909: server1.accredination.co.uk:443:0 server certificate does NOT include an ID which matches the server name
+[Thu Jan 13 12:58:33.340373 2022] [ssl:warn] [pid 675] AH01909: server1.accredination.co.uk:443:0 server certificate does NOT include an ID which matches the server name
+[Thu Jan 13 12:58:33.469377 2022] [ssl:warn] [pid 780] AH01909: server1.accredination.co.uk:443:0 server certificate does NOT include an ID which matches the server name
+[Fri Jan 14 00:00:46.520011 2022] [ssl:warn] [pid 780] AH01909: server1.accredination.co.uk:443:0 server certificate does NOT include an ID which matches the server name
+[Fri Jan 14 15:06:18.535542 2022] [core:error] [pid 8024] [client 45.146.165.37:50130] AH00126: Invalid URI in request POST /cgi-bin/.%2e/.%2e/.%2e/.%2e/bin/sh HTTP/1.1
+[Sat Jan 15 00:00:15.903136 2022] [ssl:warn] [pid 780] AH01909: server1.accredination.co.uk:443:0 server certificate does NOT include an ID which matches the server name
+[Sat Jan 15 11:15:09.908857 2022] [core:error] [pid 14758] [client 45.146.165.37:57908] AH00126: Invalid URI in request POST /cgi-bin/.%2e/.%2e/.%2e/.%2e/bin/sh HTTP/1.1
+[Sun Jan 16 00:00:28.098275 2022] [ssl:warn] [pid 780] AH01909: server1.accredination.co.uk:443:0 server certificate does NOT include an ID which matches the server name
+[Mon Jan 17 00:00:06.318404 2022] [ssl:warn] [pid 780] AH01909: server1.accredination.co.uk:443:0 server certificate does NOT include an ID which matches the server name
+[Mon Jan 17 04:36:28.255360 2022] [core:error] [pid 33636] [client 45.146.165.37:49354] AH00126: Invalid URI in request POST /cgi-bin/.%2e/.%2e/.%2e/.%2e/bin/sh HTTP/1.1
+[Tue Jan 18 00:00:41.320700 2022] [ssl:warn] [pid 780] AH01909: server1.accredination.co.uk:443:0 server certificate does NOT include an ID which matches the server name
+[Tue Jan 18 00:12:29.677115 2022] [core:error] [pid 42255] [client 45.146.165.37:54976] AH00126: Invalid URI in request POST /cgi-bin/.%2e/.%2e/.%2e/.%2e/bin/sh HTTP/1.1
+[Tue Jan 18 20:55:22.041174 2022] [core:error] [pid 42255] [client 45.146.165.37:39608] AH00126: Invalid URI in request POST /cgi-bin/.%2e/.%2e/.%2e/.%2e/bin/sh HTTP/1.1
+[Wed Jan 19 00:00:35.909837 2022] [ssl:warn] [pid 780] AH01909: server1.accredination.co.uk:443:0 server certificate does NOT include an ID which matches the server name
+[Wed Jan 19 13:57:11.730147 2022] [core:error] [pid 51845] [client 161.35.188.242:43534] AH00126: Invalid URI in request GET /cgi-bin/.%2e/%2e%2e/%2e%2e/%2e%2e/%2e%2e/%2e%2e/%2e%2e/%2e%2e/%2e%2e/etc/hosts HTTP/1.1
+[Thu Jan 20 00:00:46.371403 2022] [ssl:warn] [pid 780] AH01909: server1.accredination.co.uk:443:0 server certificate does NOT include an ID which matches the server name
+[Thu Jan 20 11:51:14.046007 2022] [core:error] [pid 63857] [client 45.146.165.37:42440] AH00126: Invalid URI in request POST /cgi-bin/.%2e/.%2e/.%2e/.%2e/bin/sh HTTP/1.1
+[Fri Jan 21 00:00:46.633030 2022] [ssl:warn] [pid 780] AH01909: server1.accredination.co.uk:443:0 server certificate does NOT include an ID which matches the server name
+[Fri Jan 21 14:10:03.169946 2022] [ssl:warn] [pid 730] AH01909: server1.accredination.co.uk:443:0 server certificate does NOT include an ID which matches the server name
+[Fri Jan 21 14:10:03.303160 2022] [ssl:warn] [pid 749] AH01909: server1.accredination.co.uk:443:0 server certificate does NOT include an ID which matches the server name
+[Sat Jan 22 00:00:58.949519 2022] [ssl:warn] [pid 749] AH01909: server1.accredination.co.uk:443:0 server certificate does NOT include an ID which matches the server name
+[Sat Jan 22 05:28:55.794636 2022] [core:error] [pid 5808] [client 45.146.165.37:44584] AH00126: Invalid URI in request POST /cgi-bin/.%2e/.%2e/.%2e/.%2e/bin/sh HTTP/1.1
+[Sat Jan 22 13:35:47.459424 2022] [ssl:error] [pid 5805] [client 44.201.220.90:59614] AH02042: rejecting client initiated renegotiation
+[Sun Jan 23 00:00:07.998987 2022] [ssl:warn] [pid 749] AH01909: server1.accredination.co.uk:443:0 server certificate does NOT include an ID which matches the server name
+[Sun Jan 23 01:23:34.005434 2022] [core:error] [pid 16914] [client 45.146.165.37:35936] AH00126: Invalid URI in request POST /cgi-bin/.%2e/.%2e/.%2e/.%2e/bin/sh HTTP/1.1
+[Sun Jan 23 21:28:50.587881 2022] [core:error] [pid 16914] [client 45.146.165.37:35744] AH00126: Invalid URI in request POST /cgi-bin/.%2e/.%2e/.%2e/.%2e/bin/sh HTTP/1.1
+[Mon Jan 24 00:00:12.146530 2022] [ssl:warn] [pid 749] AH01909: server1.accredination.co.uk:443:0 server certificate does NOT include an ID which matches the server name
+[Mon Jan 24 17:51:34.478039 2022] [core:error] [pid 25662] [client 45.146.165.37:39748] AH00126: Invalid URI in request POST /cgi-bin/.%2e/.%2e/.%2e/.%2e/bin/sh HTTP/1.1
+[Tue Jan 25 00:00:02.964315 2022] [ssl:warn] [pid 749] AH01909: server1.accredination.co.uk:443:0 server certificate does NOT include an ID which matches the server name
+[Tue Jan 25 09:54:02.241952 2022] [ssl:warn] [pid 749] AH01909: server1.accredination.co.uk:443:0 server certificate does NOT include an ID which matches the server name
+[Fri Feb 11 00:00:01.132829 2022] [ssl:warn] [pid 115983] AH01909: server1.accredination.co.uk:443:0 server certificate does NOT include an ID which matches the server name
+[Fri Feb 11 10:15:44.394585 2022] [authz_core:error] [pid 752789] [client 146.196.34.129:9644] AH01630: client denied by server configuration: /var/www/accredination.co.uk/public/server-status
+[Fri Feb 11 14:44:18.934331 2022] [core:error] [pid 766651] [client 45.146.165.37:42212] AH00126: Invalid URI in request POST /cgi-bin/.%2e/.%2e/.%2e/.%2e/bin/sh HTTP/1.1
+[Sat Feb 12 00:00:01.455965 2022] [ssl:warn] [pid 115983] AH01909: server1.accredination.co.uk:443:0 server certificate does NOT include an ID which matches the server name
+[Sat Feb 12 10:42:39.929047 2022] [core:error] [pid 786795] [client 45.146.165.37:40862] AH00126: Invalid URI in request POST /cgi-bin/.%2e/.%2e/.%2e/.%2e/bin/sh HTTP/1.1
+[Sun Feb 13 00:00:05.615036 2022] [ssl:warn] [pid 115983] AH01909: server1.accredination.co.uk:443:0 server certificate does NOT include an ID which matches the server name
+[Sun Feb 13 08:04:09.313099 2022] [core:error] [pid 806841] [client 45.146.165.37:53718] AH00126: Invalid URI in request POST /cgi-bin/.%2e/.%2e/.%2e/.%2e/bin/sh HTTP/1.1
+[Mon Feb 14 00:00:01.056975 2022] [ssl:warn] [pid 115983] AH01909: server1.accredination.co.uk:443:0 server certificate does NOT include an ID which matches the server name
+[Mon Feb 14 03:14:39.311711 2022] [core:error] [pid 827120] [client 45.146.165.37:46742] AH00126: Invalid URI in request POST /cgi-bin/.%2e/.%2e/.%2e/.%2e/bin/sh HTTP/1.1
+[Mon Feb 14 23:55:23.249835 2022] [core:error] [pid 843398] [client 45.146.165.37:57542] AH00126: Invalid URI in request POST /cgi-bin/.%2e/.%2e/.%2e/.%2e/bin/sh HTTP/1.1
+[Tue Feb 15 00:00:02.003483 2022] [ssl:warn] [pid 115983] AH01909: server1.accredination.co.uk:443:0 server certificate does NOT include an ID which matches the server name
+[Tue Feb 15 20:07:13.931485 2022] [core:error] [pid 855371] [client 45.146.165.37:54002] AH00126: Invalid URI in request POST /cgi-bin/.%2e/.%2e/.%2e/.%2e/bin/sh HTTP/1.1
+[Wed Feb 16 00:00:03.381039 2022] [ssl:warn] [pid 115983] AH01909: server1.accredination.co.uk:443:0 server certificate does NOT include an ID which matches the server name
+[Wed Feb 16 18:08:04.978023 2022] [core:error] [pid 879081] [client 45.146.165.37:54998] AH00126: Invalid URI in request POST /cgi-bin/.%2e/.%2e/.%2e/.%2e/bin/sh HTTP/1.1
+[Thu Feb 17 00:00:02.489100 2022] [ssl:warn] [pid 115983] AH01909: server1.accredination.co.uk:443:0 server certificate does NOT include an ID which matches the server name
+[Thu Feb 17 10:41:12.988168 2022] [ssl:error] [pid 899473] [client 54.145.194.67:48264] AH02042: rejecting client initiated renegotiation
+[Thu Feb 17 13:51:09.981006 2022] [core:error] [pid 899723] [client 45.146.165.37:44008] AH00126: Invalid URI in request POST /cgi-bin/.%2e/.%2e/.%2e/.%2e/bin/sh HTTP/1.1
+[Fri Feb 18 00:00:02.606208 2022] [ssl:warn] [pid 115983] AH01909: server1.accredination.co.uk:443:0 server certificate does NOT include an ID which matches the server name
+[Fri Feb 18 09:35:51.224665 2022] [core:error] [pid 941538] [client 45.146.165.37:58916] AH00126: Invalid URI in request POST /cgi-bin/.%2e/.%2e/.%2e/.%2e/bin/sh HTTP/1.1
+[Sat Feb 19 00:00:02.219277 2022] [ssl:warn] [pid 115983] AH01909: server1.accredination.co.uk:443:0 server certificate does NOT include an ID which matches the server name
+[Sat Feb 19 06:56:47.274735 2022] [core:error] [pid 962670] [client 45.146.165.37:35728] AH00126: Invalid URI in request POST /cgi-bin/.%2e/.%2e/.%2e/.%2e/bin/sh HTTP/1.1
+[Sun Feb 20 00:00:02.806366 2022] [ssl:warn] [pid 115983] AH01909: server1.accredination.co.uk:443:0 server certificate does NOT include an ID which matches the server name
+[Sun Feb 20 02:44:57.543123 2022] [core:error] [pid 988751] [client 45.146.165.37:52312] AH00126: Invalid URI in request POST /cgi-bin/.%2e/.%2e/.%2e/.%2e/bin/sh HTTP/1.1
+[Mon Feb 21 00:00:01.948588 2022] [ssl:warn] [pid 115983] AH01909: server1.accredination.co.uk:443:0 server certificate does NOT include an ID which matches the server name
+[Mon Feb 21 00:19:00.859185 2022] [core:error] [pid 1009737] [client 45.146.165.37:51826] AH00126: Invalid URI in request POST /cgi-bin/.%2e/.%2e/.%2e/.%2e/bin/sh HTTP/1.1
+[Mon Feb 21 20:20:20.075658 2022] [core:error] [pid 1028079] [client 45.146.165.37:50376] AH00126: Invalid URI in request POST /cgi-bin/.%2e/.%2e/.%2e/.%2e/bin/sh HTTP/1.1
+[Tue Feb 22 00:00:01.384494 2022] [ssl:warn] [pid 115983] AH01909: server1.accredination.co.uk:443:0 server certificate does NOT include an ID which matches the server name
+[Tue Feb 22 09:33:50.927333 2022] [core:error] [pid 1043703] [client 161.35.86.181:36324] AH00126: Invalid URI in request GET /cgi-bin/.%2e/%2e%2e/%2e%2e/%2e%2e/%2e%2e/%2e%2e/%2e%2e/%2e%2e/%2e%2e/etc/hosts HTTP/1.1
+[Tue Feb 22 15:55:41.315799 2022] [core:error] [pid 1057607] [client 45.146.165.37:37594] AH00126: Invalid URI in request POST /cgi-bin/.%2e/.%2e/.%2e/.%2e/bin/sh HTTP/1.1
+[Wed Feb 23 00:00:10.448631 2022] [ssl:warn] [pid 115983] AH01909: server1.accredination.co.uk:443:0 server certificate does NOT include an ID which matches the server name
+[Wed Feb 23 13:16:09.021623 2022] [core:error] [pid 1080997] [client 45.146.165.37:52602] AH00126: Invalid URI in request POST /cgi-bin/.%2e/.%2e/.%2e/.%2e/bin/sh HTTP/1.1
+[Thu Feb 24 00:00:02.633814 2022] [ssl:warn] [pid 115983] AH01909: server1.accredination.co.uk:443:0 server certificate does NOT include an ID which matches the server name
+[Fri Feb 25 00:00:02.997251 2022] [ssl:warn] [pid 115983] AH01909: server1.accredination.co.uk:443:0 server certificate does NOT include an ID which matches the server name
+[Fri Feb 25 00:56:13.788166 2022] [authz_core:error] [pid 1129349] [client 45.33.101.246:34334] AH01630: client denied by server configuration: /var/www/accredination.co.uk/public/server-status
+[Fri Feb 25 06:20:18.299374 2022] [core:error] [pid 1129349] [client 45.146.165.37:58454] AH00126: Invalid URI in request POST /cgi-bin/.%2e/.%2e/.%2e/.%2e/bin/sh HTTP/1.1
+[Sat Feb 26 00:00:03.034694 2022] [ssl:warn] [pid 115983] AH01909: server1.accredination.co.uk:443:0 server certificate does NOT include an ID which matches the server name
+[Sat Feb 26 02:51:40.010278 2022] [core:error] [pid 1158563] [client 45.146.165.37:57980] AH00126: Invalid URI in request POST /cgi-bin/.%2e/.%2e/.%2e/.%2e/bin/sh HTTP/1.1
+[Sun Feb 27 00:00:03.048480 2022] [ssl:warn] [pid 115983] AH01909: server1.accredination.co.uk:443:0 server certificate does NOT include an ID which matches the server name
+[Sun Feb 27 05:27:14.554068 2022] [core:error] [pid 1185266] [client 45.146.165.37:58596] AH00126: Invalid URI in request POST /cgi-bin/.%2e/.%2e/.%2e/.%2e/bin/sh HTTP/1.1
+[Mon Feb 28 00:00:04.582864 2022] [ssl:warn] [pid 115983] AH01909: server1.accredination.co.uk:443:0 server certificate does NOT include an ID which matches the server name
+[Mon Feb 28 07:15:42.713116 2022] [core:error] [pid 1210584] [client 45.146.165.37:50848] AH00126: Invalid URI in request POST /cgi-bin/.%2e/.%2e/.%2e/.%2e/bin/sh HTTP/1.1
+[Tue Mar 01 00:00:03.782130 2022] [ssl:warn] [pid 115983] AH01909: server1.accredination.co.uk:443:0 server certificate does NOT include an ID which matches the server name
+[Tue Mar 01 10:53:35.789749 2022] [core:error] [pid 1239919] [client 45.146.165.37:34804] AH00126: Invalid URI in request POST /cgi-bin/.%2e/.%2e/.%2e/.%2e/bin/sh HTTP/1.1
+[Wed Mar 02 00:00:04.174032 2022] [ssl:warn] [pid 115983] AH01909: server1.accredination.co.uk:443:0 server certificate does NOT include an ID which matches the server name
+[Wed Mar 02 14:21:50.222096 2022] [core:error] [pid 1274740] [client 45.146.165.37:56526] AH00126: Invalid URI in request POST /cgi-bin/.%2e/.%2e/.%2e/.%2e/bin/sh HTTP/1.1
+[Thu Mar 03 00:00:04.399030 2022] [ssl:warn] [pid 115983] AH01909: server1.accredination.co.uk:443:0 server certificate does NOT include an ID which matches the server name
+[Thu Mar 03 17:03:45.088074 2022] [core:error] [pid 1317054] [client 45.146.165.37:59254] AH00126: Invalid URI in request POST /cgi-bin/.%2e/.%2e/.%2e/.%2e/bin/sh HTTP/1.1
+[Thu Mar 03 23:38:51.833832 2022] [ssl:warn] [pid 115983] AH01909: server1.accredination.co.uk:443:0 server certificate does NOT include an ID which matches the server name
+[Thu Mar 03 23:38:56.045270 2022] [ssl:warn] [pid 115983] AH01909: server1.accredination.co.uk:443:0 server certificate does NOT include an ID which matches the server name
+[Thu Mar 03 23:38:57.635818 2022] [ssl:warn] [pid 115983] AH01909: server1.accredination.co.uk:443:0 server certificate does NOT include an ID which matches the server name
+[Fri Mar 04 00:00:03.588679 2022] [ssl:warn] [pid 115983] AH01909: server1.accredination.co.uk:443:0 server certificate does NOT include an ID which matches the server name
+[Fri Mar 04 05:21:51.756080 2022] [ssl:error] [pid 1328059] [client 3.95.246.2:41774] AH02042: rejecting client initiated renegotiation
+[Sat Mar 05 00:00:03.615372 2022] [ssl:warn] [pid 115983] AH01909: server1.accredination.co.uk:443:0 server certificate does NOT include an ID which matches the server name
+[Sat Mar 05 12:07:13.606391 2022] [core:error] [pid 1348432] [client 45.146.165.37:37604] AH00126: Invalid URI in request POST /cgi-bin/.%2e/.%2e/.%2e/.%2e/bin/sh HTTP/1.1
+[Sun Mar 06 00:00:03.601146 2022] [ssl:warn] [pid 115983] AH01909: server1.accredination.co.uk:443:0 server certificate does NOT include an ID which matches the server name
+[Sun Mar 06 12:47:23.143453 2022] [authz_core:error] [pid 1379216] [client 88.80.186.144:34808] AH01630: client denied by server configuration: /var/www/accredination.co.uk/public/server-status
+[Sun Mar 06 15:06:47.158784 2022] [core:error] [pid 1381824] [client 45.146.165.37:57342] AH00126: Invalid URI in request POST /cgi-bin/.%2e/.%2e/.%2e/.%2e/bin/sh HTTP/1.1
+[Mon Mar 07 00:00:02.736959 2022] [ssl:warn] [pid 115983] AH01909: server1.accredination.co.uk:443:0 server certificate does NOT include an ID which matches the server name
+[Mon Mar 07 18:18:35.353041 2022] [core:error] [pid 1393376] [client 45.146.165.37:40914] AH00126: Invalid URI in request POST /cgi-bin/.%2e/.%2e/.%2e/.%2e/bin/sh HTTP/1.1
+[Tue Mar 08 00:00:03.157033 2022] [ssl:warn] [pid 115983] AH01909: server1.accredination.co.uk:443:0 server certificate does NOT include an ID which matches the server name
+[Wed Mar 09 00:00:02.328490 2022] [ssl:warn] [pid 115983] AH01909: server1.accredination.co.uk:443:0 server certificate does NOT include an ID which matches the server name
+[Wed Mar 09 15:53:11.548708 2022] [core:error] [pid 1447486] [client 161.35.86.181:45860] AH00126: Invalid URI in request GET /cgi-bin/.%2e/%2e%2e/%2e%2e/%2e%2e/%2e%2e/%2e%2e/%2e%2e/%2e%2e/%2e%2e/etc/hosts HTTP/1.1
+[Wed Mar 09 23:51:09.486178 2022] [core:error] [pid 1437123] [client 45.146.165.37:51604] AH00126: Invalid URI in request POST /cgi-bin/.%2e/.%2e/.%2e/.%2e/bin/sh HTTP/1.1
+[Thu Mar 10 00:00:01.939772 2022] [ssl:warn] [pid 115983] AH01909: server1.accredination.co.uk:443:0 server certificate does NOT include an ID which matches the server name
+[Fri Mar 11 00:00:11.056538 2022] [ssl:warn] [pid 115983] AH01909: server1.accredination.co.uk:443:0 server certificate does NOT include an ID which matches the server name
+[Fri Mar 11 03:11:21.074714 2022] [core:error] [pid 1498138] [client 45.146.165.37:59210] AH00126: Invalid URI in request POST /cgi-bin/.%2e/.%2e/.%2e/.%2e/bin/sh HTTP/1.1
+[Sat Mar 12 00:00:04.962491 2022] [ssl:warn] [pid 115983] AH01909: server1.accredination.co.uk:443:0 server certificate does NOT include an ID which matches the server name
+[Sat Mar 12 05:41:59.256093 2022] [core:error] [pid 1530586] [client 45.146.165.37:39488] AH00126: Invalid URI in request POST /cgi-bin/.%2e/.%2e/.%2e/.%2e/bin/sh HTTP/1.1
+[Sun Mar 13 00:00:04.599682 2022] [ssl:warn] [pid 115983] AH01909: server1.accredination.co.uk:443:0 server certificate does NOT include an ID which matches the server name
+[Sun Mar 13 09:43:06.543125 2022] [core:error] [pid 1557406] [client 45.146.165.37:33134] AH00126: Invalid URI in request POST /cgi-bin/.%2e/.%2e/.%2e/.%2e/bin/sh HTTP/1.1
+[Mon Mar 14 00:00:03.460563 2022] [ssl:warn] [pid 115983] AH01909: server1.accredination.co.uk:443:0 server certificate does NOT include an ID which matches the server name
+[Mon Mar 14 06:36:12.290416 2022] [ssl:error] [pid 1572567] [client 18.212.111.158:58476] AH02042: rejecting client initiated renegotiation
+[Mon Mar 14 11:36:17.708248 2022] [core:error] [pid 1572589] [client 45.146.165.37:57440] AH00126: Invalid URI in request POST /cgi-bin/.%2e/.%2e/.%2e/.%2e/bin/sh HTTP/1.1
+[Tue Mar 15 00:00:05.098855 2022] [ssl:warn] [pid 115983] AH01909: server1.accredination.co.uk:443:0 server certificate does NOT include an ID which matches the server name
+[Tue Mar 15 15:15:29.064488 2022] [core:error] [pid 1616022] [client 45.146.165.37:55142] AH00126: Invalid URI in request POST /cgi-bin/.%2e/.%2e/.%2e/.%2e/bin/sh HTTP/1.1
+[Wed Mar 16 00:00:05.177116 2022] [ssl:warn] [pid 115983] AH01909: server1.accredination.co.uk:443:0 server certificate does NOT include an ID which matches the server name
+[Wed Mar 16 18:11:13.078092 2022] [core:error] [pid 1626015] [client 45.146.165.37:47522] AH00126: Invalid URI in request POST /cgi-bin/.%2e/.%2e/.%2e/.%2e/bin/sh HTTP/1.1
+[Thu Mar 17 00:00:05.130229 2022] [ssl:warn] [pid 115983] AH01909: server1.accredination.co.uk:443:0 server certificate does NOT include an ID which matches the server name
+[Thu Mar 17 20:41:23.281024 2022] [core:error] [pid 1671908] [client 45.146.165.37:48064] AH00126: Invalid URI in request POST /cgi-bin/.%2e/.%2e/.%2e/.%2e/bin/sh HTTP/1.1
+[Fri Mar 18 00:00:05.310558 2022] [ssl:warn] [pid 115983] AH01909: server1.accredination.co.uk:443:0 server certificate does NOT include an ID which matches the server name
+[Fri Mar 18 06:08:41.398097 2022] [ssl:warn] [pid 1699941] AH01909: server1.accredination.co.uk:443:0 server certificate does NOT include an ID which matches the server name
+[Fri Mar 18 06:08:41.488130 2022] [ssl:warn] [pid 1699942] AH01909: server1.accredination.co.uk:443:0 server certificate does NOT include an ID which matches the server name
+[Fri Mar 18 23:13:03.473921 2022] [core:error] [pid 1699949] [client 45.146.165.37:33986] AH00126: Invalid URI in request POST /cgi-bin/.%2e/.%2e/.%2e/.%2e/bin/sh HTTP/1.1
+[Sat Mar 19 00:00:04.913376 2022] [ssl:warn] [pid 1699942] AH01909: server1.accredination.co.uk:443:0 server certificate does NOT include an ID which matches the server name
+[Sun Mar 20 00:00:06.187695 2022] [ssl:warn] [pid 1699942] AH01909: server1.accredination.co.uk:443:0 server certificate does NOT include an ID which matches the server name
+[Mon Mar 21 00:00:02.248395 2022] [ssl:warn] [pid 1699942] AH01909: server1.accredination.co.uk:443:0 server certificate does NOT include an ID which matches the server name
+[Mon Mar 21 05:19:02.638124 2022] [core:error] [pid 1785303] [client 45.146.165.37:37222] AH00126: Invalid URI in request POST /cgi-bin/.%2e/.%2e/.%2e/.%2e/bin/sh HTTP/1.1
+[Tue Mar 22 00:00:02.643710 2022] [ssl:warn] [pid 1699942] AH01909: server1.accredination.co.uk:443:0 server certificate does NOT include an ID which matches the server name
+[Tue Mar 22 10:13:23.770402 2022] [core:error] [pid 1823523] [client 45.146.165.37:49596] AH00126: Invalid URI in request POST /cgi-bin/.%2e/.%2e/.%2e/.%2e/bin/sh HTTP/1.1
+[Wed Mar 23 00:00:05.535324 2022] [ssl:warn] [pid 1699942] AH01909: server1.accredination.co.uk:443:0 server certificate does NOT include an ID which matches the server name
+[Wed Mar 23 12:41:25.846843 2022] [core:error] [pid 1852414] [client 45.146.165.37:43524] AH00126: Invalid URI in request POST /cgi-bin/.%2e/.%2e/.%2e/.%2e/bin/sh HTTP/1.1
+[Thu Mar 24 00:00:04.746124 2022] [ssl:warn] [pid 1699942] AH01909: server1.accredination.co.uk:443:0 server certificate does NOT include an ID which matches the server name
+[Thu Mar 24 18:13:02.227424 2022] [core:error] [pid 1903361] [client 45.146.165.37:55846] AH00126: Invalid URI in request POST /cgi-bin/.%2e/.%2e/.%2e/.%2e/bin/sh HTTP/1.1
+[Fri Mar 25 00:00:02.901930 2022] [ssl:warn] [pid 1699942] AH01909: server1.accredination.co.uk:443:0 server certificate does NOT include an ID which matches the server name
+[Sat Mar 26 00:00:03.500571 2022] [ssl:warn] [pid 1699942] AH01909: server1.accredination.co.uk:443:0 server certificate does NOT include an ID which matches the server name
+[Sun Mar 27 00:00:02.379998 2022] [ssl:warn] [pid 1699942] AH01909: server1.accredination.co.uk:443:0 server certificate does NOT include an ID which matches the server name
+[Sun Mar 27 14:41:51.639193 2022] [core:error] [pid 1973154] [client 45.155.204.146:40364] AH00126: Invalid URI in request POST /cgi-bin/.%2e/.%2e/.%2e/.%2e/bin/sh HTTP/1.1
+[Mon Mar 28 00:00:01.610139 2022] [ssl:warn] [pid 1699942] AH01909: server1.accredination.co.uk:443:0 server certificate does NOT include an ID which matches the server name
+[Mon Mar 28 11:21:15.767582 2022] [core:error] [pid 2008482] [client 45.155.204.146:45710] AH00126: Invalid URI in request POST /cgi-bin/.%2e/.%2e/.%2e/.%2e/bin/sh HTTP/1.1
+[Tue Mar 29 00:00:00.666156 2022] [ssl:warn] [pid 1699942] AH01909: server1.accredination.co.uk:443:0 server certificate does NOT include an ID which matches the server name
+[Tue Mar 29 03:46:12.265215 2022] [authz_core:error] [pid 2027371] [client 45.33.101.246:35530] AH01630: client denied by server configuration: /var/www/accredination.co.uk/public/server-status
+[Tue Mar 29 15:18:14.581739 2022] [core:error] [pid 2042095] [client 45.155.204.146:42322] AH00126: Invalid URI in request POST /cgi-bin/.%2e/.%2e/.%2e/.%2e/bin/sh HTTP/1.1
+[Wed Mar 30 00:00:03.316918 2022] [ssl:warn] [pid 1699942] AH01909: server1.accredination.co.uk:443:0 server certificate does NOT include an ID which matches the server name
+[Wed Mar 30 20:50:30.897791 2022] [core:error] [pid 2073671] [client 45.155.204.146:50474] AH00126: Invalid URI in request POST /cgi-bin/.%2e/.%2e/.%2e/.%2e/bin/sh HTTP/1.1
+[Thu Mar 31 00:00:03.471451 2022] [ssl:warn] [pid 1699942] AH01909: server1.accredination.co.uk:443:0 server certificate does NOT include an ID which matches the server name
+[Thu Mar 31 20:35:49.297546 2022] [authz_core:error] [pid 2080982] [client 88.80.186.144:39136] AH01630: client denied by server configuration: /var/www/accredination.co.uk/public/server-status
+[Fri Apr 01 00:00:01.379261 2022] [ssl:warn] [pid 1699942] AH01909: server1.accredination.co.uk:443:0 server certificate does NOT include an ID which matches the server name
+[Fri Apr 01 02:58:24.606658 2022] [core:error] [pid 2101324] [client 45.155.204.146:39838] AH00126: Invalid URI in request POST /cgi-bin/.%2e/.%2e/.%2e/.%2e/bin/sh HTTP/1.1
+[Sat Apr 02 00:00:08.161046 2022] [ssl:warn] [pid 1699942] AH01909: server1.accredination.co.uk:443:0 server certificate does NOT include an ID which matches the server name
+[Sun Apr 03 00:00:07.072760 2022] [ssl:warn] [pid 1699942] AH01909: server1.accredination.co.uk:443:0 server certificate does NOT include an ID which matches the server name
+[Mon Apr 04 00:00:09.708357 2022] [ssl:warn] [pid 1699942] AH01909: server1.accredination.co.uk:443:0 server certificate does NOT include an ID which matches the server name
+[Tue Apr 05 00:00:03.238631 2022] [ssl:warn] [pid 1699942] AH01909: server1.accredination.co.uk:443:0 server certificate does NOT include an ID which matches the server name
+[Tue Apr 05 16:51:17.146391 2022] [authz_core:error] [pid 2215581] [client 109.74.204.123:59054] AH01630: client denied by server configuration: /var/www/accredination.co.uk/public/server-status
+[Tue Apr 05 17:48:01.142449 2022] [core:error] [pid 2215577] [client 45.155.204.146:37912] AH00126: Invalid URI in request POST /cgi-bin/.%2e/.%2e/.%2e/.%2e/bin/sh HTTP/1.1
+[Wed Apr 06 00:00:07.209952 2022] [ssl:warn] [pid 1699942] AH01909: server1.accredination.co.uk:443:0 server certificate does NOT include an ID which matches the server name
+[Wed Apr 06 21:40:51.502289 2022] [core:error] [pid 2246237] [client 45.155.204.146:57666] AH00126: Invalid URI in request POST /cgi-bin/.%2e/.%2e/.%2e/.%2e/bin/sh HTTP/1.1
+[Thu Apr 07 00:00:07.049985 2022] [ssl:warn] [pid 1699942] AH01909: server1.accredination.co.uk:443:0 server certificate does NOT include an ID which matches the server name
+[Thu Apr 07 06:40:12.258370 2022] [ssl:error] [pid 2274414] [client 18.206.137.173:34530] AH02042: rejecting client initiated renegotiation
+[Fri Apr 08 00:00:07.829710 2022] [ssl:warn] [pid 1699942] AH01909: server1.accredination.co.uk:443:0 server certificate does NOT include an ID which matches the server name
+[Fri Apr 08 01:31:53.274231 2022] [core:error] [pid 2302622] [client 45.155.204.146:60254] AH00126: Invalid URI in request POST /cgi-bin/.%2e/.%2e/.%2e/.%2e/bin/sh HTTP/1.1
+[Fri Apr 08 12:21:33.278604 2022] [core:error] [pid 2309788] [client 185.162.235.162:40162] AH00126: Invalid URI in request GET /cgi-bin/.%2e/%2e%2e/%2e%2e/%2e%2e/%2e%2e/%2e%2e/%2e%2e/%2e%2e/%2e%2e/etc/hosts HTTP/1.1
+[Fri Apr 08 12:21:39.474805 2022] [authz_core:error] [pid 2302619] [client 185.162.235.162:49950] AH01630: client denied by server configuration: /var/www/accredination.co.uk/public/server-status
+[Sat Apr 09 00:00:05.564624 2022] [ssl:warn] [pid 1699942] AH01909: server1.accredination.co.uk:443:0 server certificate does NOT include an ID which matches the server name
+[Sun Apr 10 00:00:07.132021 2022] [ssl:warn] [pid 1699942] AH01909: server1.accredination.co.uk:443:0 server certificate does NOT include an ID which matches the server name
+[Sun Apr 10 11:43:04.656991 2022] [core:error] [pid 2361511] [client 45.155.204.146:43444] AH00126: Invalid URI in request POST /cgi-bin/.%2e/.%2e/.%2e/.%2e/bin/sh HTTP/1.1
+[Mon Apr 11 00:00:00.875735 2022] [ssl:warn] [pid 1699942] AH01909: server1.accredination.co.uk:443:0 server certificate does NOT include an ID which matches the server name
+[Mon Apr 11 16:14:39.023237 2022] [core:error] [pid 2399838] [client 45.155.204.146:58054] AH00126: Invalid URI in request POST /cgi-bin/.%2e/.%2e/.%2e/.%2e/bin/sh HTTP/1.1
+[Tue Apr 12 00:00:05.915571 2022] [ssl:warn] [pid 1699942] AH01909: server1.accredination.co.uk:443:0 server certificate does NOT include an ID which matches the server name
+[Tue Apr 12 09:39:45.776540 2022] [core:error] [pid 2425221] [client 161.35.188.242:35402] AH00126: Invalid URI in request GET /cgi-bin/.%2e/%2e%2e/%2e%2e/%2e%2e/%2e%2e/%2e%2e/%2e%2e/%2e%2e/%2e%2e/etc/hosts HTTP/1.1
+[Tue Apr 12 20:44:20.596309 2022] [core:error] [pid 2413785] [client 45.155.204.146:55022] AH00126: Invalid URI in request POST /cgi-bin/.%2e/.%2e/.%2e/.%2e/bin/sh HTTP/1.1
+[Wed Apr 13 00:00:05.137756 2022] [ssl:warn] [pid 1699942] AH01909: server1.accredination.co.uk:443:0 server certificate does NOT include an ID which matches the server name
+[Thu Apr 14 00:00:04.708952 2022] [ssl:warn] [pid 1699942] AH01909: server1.accredination.co.uk:443:0 server certificate does NOT include an ID which matches the server name
+[Thu Apr 14 00:25:07.675603 2022] [core:error] [pid 2467990] [client 45.155.204.146:43772] AH00126: Invalid URI in request POST /cgi-bin/.%2e/.%2e/.%2e/.%2e/bin/sh HTTP/1.1
+[Thu Apr 14 06:59:45.574371 2022] [ssl:warn] [pid 1699942] AH01909: server1.accredination.co.uk:443:0 server certificate does NOT include an ID which matches the server name
+[Fri Apr 15 00:00:03.924856 2022] [ssl:warn] [pid 1699942] AH01909: server1.accredination.co.uk:443:0 server certificate does NOT include an ID which matches the server name
+[Fri Apr 15 04:18:12.942727 2022] [core:error] [pid 2498331] [client 45.155.204.146:50618] AH00126: Invalid URI in request POST /cgi-bin/.%2e/.%2e/.%2e/.%2e/bin/sh HTTP/1.1
+[Sat Apr 16 00:00:03.592393 2022] [ssl:warn] [pid 1699942] AH01909: server1.accredination.co.uk:443:0 server certificate does NOT include an ID which matches the server name
+[Sat Apr 16 21:47:11.214160 2022] [core:error] [pid 2518678] [client 45.155.204.146:37120] AH00126: Invalid URI in request POST /cgi-bin/.%2e/.%2e/.%2e/.%2e/bin/sh HTTP/1.1
+[Sun Apr 17 00:00:02.489044 2022] [ssl:warn] [pid 1699942] AH01909: server1.accredination.co.uk:443:0 server certificate does NOT include an ID which matches the server name
+[Mon Apr 18 00:00:03.948771 2022] [ssl:warn] [pid 1699942] AH01909: server1.accredination.co.uk:443:0 server certificate does NOT include an ID which matches the server name
+[Mon Apr 18 01:31:28.272077 2022] [core:error] [pid 2568669] [client 45.155.204.146:35774] AH00126: Invalid URI in request POST /cgi-bin/.%2e/.%2e/.%2e/.%2e/bin/sh HTTP/1.1
+[Tue Apr 19 00:00:03.014904 2022] [ssl:warn] [pid 1699942] AH01909: server1.accredination.co.uk:443:0 server certificate does NOT include an ID which matches the server name
+[Tue Apr 19 04:22:49.700543 2022] [ssl:error] [pid 2591547] [client 3.80.219.53:58602] AH02042: rejecting client initiated renegotiation
+[Tue Apr 19 05:22:08.157333 2022] [core:error] [pid 2591546] [client 45.155.204.146:50376] AH00126: Invalid URI in request POST /cgi-bin/.%2e/.%2e/.%2e/.%2e/bin/sh HTTP/1.1
+[Wed Apr 20 00:00:03.767137 2022] [ssl:warn] [pid 1699942] AH01909: server1.accredination.co.uk:443:0 server certificate does NOT include an ID which matches the server name
+[Wed Apr 20 12:49:14.708474 2022] [core:error] [pid 2631915] [client 45.155.204.146:60050] AH00126: Invalid URI in request POST /cgi-bin/.%2e/.%2e/.%2e/.%2e/bin/sh HTTP/1.1
+[Thu Apr 21 00:00:01.074431 2022] [ssl:warn] [pid 1699942] AH01909: server1.accredination.co.uk:443:0 server certificate does NOT include an ID which matches the server name
+[Thu Apr 21 18:00:08.096488 2022] [core:error] [pid 2654304] [client 45.155.204.146:46290] AH00126: Invalid URI in request POST /cgi-bin/.%2e/.%2e/.%2e/.%2e/bin/sh HTTP/1.1
+[Thu Apr 21 19:33:04.972313 2022] [ssl:error] [pid 2678063] [client 54.208.193.217:34050] AH02042: rejecting client initiated renegotiation
+[Thu Apr 21 19:51:53.274454 2022] [ssl:error] [pid 2673328] [client 18.212.13.17:42892] AH02042: rejecting client initiated renegotiation
+[Fri Apr 22 00:00:09.725580 2022] [ssl:warn] [pid 1699942] AH01909: server1.accredination.co.uk:443:0 server certificate does NOT include an ID which matches the server name
+[Fri Apr 22 21:26:15.172355 2022] [core:error] [pid 2700490] [client 45.155.204.146:39576] AH00126: Invalid URI in request POST /cgi-bin/.%2e/.%2e/.%2e/.%2e/bin/sh HTTP/1.1
+[Sat Apr 23 00:00:00.693213 2022] [ssl:warn] [pid 1699942] AH01909: server1.accredination.co.uk:443:0 server certificate does NOT include an ID which matches the server name
+[Sat Apr 23 01:14:29.833810 2022] [core:error] [pid 2713740] [client 5.39.216.167:56108] AH00126: Invalid URI in request GET /dana-na/../dana/html5acc/guacamole/../../../../../../etc/passwd?/dana/html5acc/guacamole/ HTTP/1.1
+[Sat Apr 23 01:14:29.991665 2022] [authz_core:error] [pid 2712544] [client 5.39.216.167:56334] AH01630: client denied by server configuration: /var/www/accredination.co.uk/public/server-status
+[Sun Apr 24 00:00:09.161925 2022] [ssl:warn] [pid 1699942] AH01909: server1.accredination.co.uk:443:0 server certificate does NOT include an ID which matches the server name
+[Sun Apr 24 06:14:07.079302 2022] [core:error] [pid 2735406] [client 45.155.204.146:56958] AH00126: Invalid URI in request POST /cgi-bin/.%2e/.%2e/.%2e/.%2e/bin/sh HTTP/1.1
+[Mon Apr 25 00:00:09.232280 2022] [ssl:warn] [pid 1699942] AH01909: server1.accredination.co.uk:443:0 server certificate does NOT include an ID which matches the server name
+[Mon Apr 25 08:55:18.003110 2022] [core:error] [pid 2756053] [client 213.226.123.30:56154] AH00126: Invalid URI in request POST /cgi-bin/.%2e/.%2e/.%2e/.%2e/bin/sh HTTP/1.1
+[Mon Apr 25 20:52:37.260579 2022] [authz_core:error] [pid 2775208] [client 172.104.140.107:42560] AH01630: client denied by server configuration: /var/www/accredination.co.uk/public/server-status
+[Tue Apr 26 00:00:08.873598 2022] [ssl:warn] [pid 1699942] AH01909: server1.accredination.co.uk:443:0 server certificate does NOT include an ID which matches the server name
+[Wed Apr 27 00:00:07.030377 2022] [ssl:warn] [pid 1699942] AH01909: server1.accredination.co.uk:443:0 server certificate does NOT include an ID which matches the server name
+[Thu Apr 28 00:00:04.106140 2022] [ssl:warn] [pid 1699942] AH01909: server1.accredination.co.uk:443:0 server certificate does NOT include an ID which matches the server name
+[Thu Apr 28 06:34:33.681108 2022] [ssl:warn] [pid 1699942] AH01909: server1.accredination.co.uk:443:0 server certificate does NOT include an ID which matches the server name
+[Fri Apr 29 00:00:05.302415 2022] [ssl:warn] [pid 1699942] AH01909: server1.accredination.co.uk:443:0 server certificate does NOT include an ID which matches the server name
+[Sat Apr 30 00:00:06.303949 2022] [ssl:warn] [pid 1699942] AH01909: server1.accredination.co.uk:443:0 server certificate does NOT include an ID which matches the server name
+[Sat Apr 30 08:44:25.627818 2022] [authz_core:error] [pid 2880439] [client 88.80.186.144:54148] AH01630: client denied by server configuration: /var/www/accredination.co.uk/public/server-status
+[Sun May 01 00:00:04.991787 2022] [ssl:warn] [pid 1699942] AH01909: server1.accredination.co.uk:443:0 server certificate does NOT include an ID which matches the server name
+[Mon May 02 00:00:04.300956 2022] [ssl:warn] [pid 1699942] AH01909: server1.accredination.co.uk:443:0 server certificate does NOT include an ID which matches the server name
+[Tue May 03 00:00:03.559674 2022] [ssl:warn] [pid 1699942] AH01909: server1.accredination.co.uk:443:0 server certificate does NOT include an ID which matches the server name
+[Tue May 03 05:15:09.431403 2022] [ssl:warn] [pid 1699942] AH01909: server1.accredination.co.uk:443:0 server certificate does NOT include an ID which matches the server name
+[Tue May 03 05:15:13.637474 2022] [ssl:warn] [pid 1699942] AH01909: server1.accredination.co.uk:443:0 server certificate does NOT include an ID which matches the server name
+[Tue May 03 05:15:15.713137 2022] [ssl:warn] [pid 1699942] AH01909: server1.accredination.co.uk:443:0 server certificate does NOT include an ID which matches the server name
+[Wed May 04 00:00:02.605464 2022] [ssl:warn] [pid 1699942] AH01909: server1.accredination.co.uk:443:0 server certificate does NOT include an ID which matches the server name
+[Thu May 05 00:00:00.972086 2022] [ssl:warn] [pid 1699942] AH01909: server1.accredination.co.uk:443:0 server certificate does NOT include an ID which matches the server name
+[Thu May 05 20:10:59.449182 2022] [ssl:error] [pid 2986286] [client 54.221.30.250:43070] AH02042: rejecting client initiated renegotiation
+[Fri May 06 00:00:08.038837 2022] [ssl:warn] [pid 1699942] AH01909: server1.accredination.co.uk:443:0 server certificate does NOT include an ID which matches the server name
+[Sat May 07 00:00:05.340558 2022] [ssl:warn] [pid 1699942] AH01909: server1.accredination.co.uk:443:0 server certificate does NOT include an ID which matches the server name
+[Sun May 08 00:00:05.410642 2022] [ssl:warn] [pid 1699942] AH01909: server1.accredination.co.uk:443:0 server certificate does NOT include an ID which matches the server name
+[Mon May 09 00:00:00.923565 2022] [ssl:warn] [pid 1699942] AH01909: server1.accredination.co.uk:443:0 server certificate does NOT include an ID which matches the server name
+[Tue May 10 00:00:03.824232 2022] [ssl:warn] [pid 1699942] AH01909: server1.accredination.co.uk:443:0 server certificate does NOT include an ID which matches the server name
+[Tue May 10 00:49:14.928623 2022] [core:error] [pid 3160329] [client 45.9.20.101:38284] AH00126: Invalid URI in request POST /cgi-bin/.%2e/.%2e/.%2e/.%2e/bin/sh HTTP/1.1
+[Wed May 11 00:00:05.078814 2022] [ssl:warn] [pid 1699942] AH01909: server1.accredination.co.uk:443:0 server certificate does NOT include an ID which matches the server name
+[Wed May 11 19:31:13.201796 2022] [core:error] [pid 3183942] [client 45.9.20.101:53146] AH00126: Invalid URI in request POST /cgi-bin/.%2e/.%2e/.%2e/.%2e/bin/sh HTTP/1.1
+[Thu May 12 00:00:04.772844 2022] [ssl:warn] [pid 1699942] AH01909: server1.accredination.co.uk:443:0 server certificate does NOT include an ID which matches the server name
+[Thu May 12 16:09:07.259974 2022] [core:error] [pid 3206248] [client 45.9.20.101:54330] AH00126: Invalid URI in request POST /cgi-bin/.%2e/.%2e/.%2e/.%2e/bin/sh HTTP/1.1
+[Fri May 13 00:00:03.232256 2022] [ssl:warn] [pid 1699942] AH01909: server1.accredination.co.uk:443:0 server certificate does NOT include an ID which matches the server name
+[Fri May 13 13:04:56.133638 2022] [core:error] [pid 3258661] [client 45.9.20.101:51190] AH00126: Invalid URI in request POST /cgi-bin/.%2e/.%2e/.%2e/.%2e/bin/sh HTTP/1.1
+[Sat May 14 00:00:09.824735 2022] [ssl:warn] [pid 1699942] AH01909: server1.accredination.co.uk:443:0 server certificate does NOT include an ID which matches the server name
+[Sun May 15 00:00:07.399492 2022] [ssl:warn] [pid 1699942] AH01909: server1.accredination.co.uk:443:0 server certificate does NOT include an ID which matches the server name
+[Mon May 16 00:00:06.735234 2022] [ssl:warn] [pid 1699942] AH01909: server1.accredination.co.uk:443:0 server certificate does NOT include an ID which matches the server name
+[Tue May 17 00:00:05.728907 2022] [ssl:warn] [pid 1699942] AH01909: server1.accredination.co.uk:443:0 server certificate does NOT include an ID which matches the server name
+[Wed May 18 00:00:04.866117 2022] [ssl:warn] [pid 1699942] AH01909: server1.accredination.co.uk:443:0 server certificate does NOT include an ID which matches the server name
+[Wed May 18 14:31:57.163816 2022] [ssl:error] [pid 3369261] [client 54.224.113.42:59846] AH02042: rejecting client initiated renegotiation
+[Thu May 19 00:00:03.175810 2022] [ssl:warn] [pid 1699942] AH01909: server1.accredination.co.uk:443:0 server certificate does NOT include an ID which matches the server name
+[Thu May 19 05:06:31.509092 2022] [authz_core:error] [pid 3382654] [client 141.105.66.213:48200] AH01630: client denied by server configuration: /var/www/accredination.co.uk/public/server-status
+[Fri May 20 00:00:00.651595 2022] [ssl:warn] [pid 1699942] AH01909: server1.accredination.co.uk:443:0 server certificate does NOT include an ID which matches the server name
+[Fri May 20 14:14:14.430647 2022] [core:error] [pid 3415731] [client 193.106.191.48:42378] AH00126: Invalid URI in request POST /cgi-bin/.%2e/.%2e/.%2e/.%2e/bin/sh HTTP/1.1
+[Sat May 21 00:00:03.777626 2022] [ssl:warn] [pid 1699942] AH01909: server1.accredination.co.uk:443:0 server certificate does NOT include an ID which matches the server name
+[Sun May 22 00:00:03.106572 2022] [ssl:warn] [pid 1699942] AH01909: server1.accredination.co.uk:443:0 server certificate does NOT include an ID which matches the server name
+[Sun May 22 04:40:07.211792 2022] [ssl:error] [pid 3462071] [client 54.82.9.78:51824] AH02042: rejecting client initiated renegotiation
+[Mon May 23 00:00:02.536608 2022] [ssl:warn] [pid 1699942] AH01909: server1.accredination.co.uk:443:0 server certificate does NOT include an ID which matches the server name
+[Mon May 23 20:09:41.455747 2022] [core:error] [pid 3494826] [client 193.106.191.48:51498] AH00126: Invalid URI in request POST /cgi-bin/.%2e/.%2e/.%2e/.%2e/bin/sh HTTP/1.1
+[Tue May 24 00:00:04.550871 2022] [ssl:warn] [pid 1699942] AH01909: server1.accredination.co.uk:443:0 server certificate does NOT include an ID which matches the server name
+[Wed May 25 00:00:04.474628 2022] [ssl:warn] [pid 1699942] AH01909: server1.accredination.co.uk:443:0 server certificate does NOT include an ID which matches the server name
+[Wed May 25 15:14:53.963472 2022] [core:error] [pid 3546681] [client 193.106.191.48:46012] AH00126: Invalid URI in request POST /cgi-bin/.%2e/.%2e/.%2e/.%2e/bin/sh HTTP/1.1
+[Thu May 26 00:00:05.075172 2022] [ssl:warn] [pid 1699942] AH01909: server1.accredination.co.uk:443:0 server certificate does NOT include an ID which matches the server name
+[Thu May 26 12:58:34.836170 2022] [core:error] [pid 3560547] [client 193.106.191.48:52206] AH00126: Invalid URI in request POST /cgi-bin/.%2e/.%2e/.%2e/.%2e/bin/sh HTTP/1.1
+[Thu May 26 18:38:36.652845 2022] [authz_core:error] [pid 3554546] [client 139.177.191.248:51642] AH01630: client denied by server configuration: /var/www/accredination.co.uk/public/server-status
+[Fri May 27 00:00:01.903534 2022] [ssl:warn] [pid 1699942] AH01909: server1.accredination.co.uk:443:0 server certificate does NOT include an ID which matches the server name
+[Sat May 28 00:00:10.745476 2022] [ssl:warn] [pid 1699942] AH01909: server1.accredination.co.uk:443:0 server certificate does NOT include an ID which matches the server name
+[Sat May 28 07:36:18.528820 2022] [core:error] [pid 3603836] [client 193.106.191.48:57316] AH00126: Invalid URI in request POST /cgi-bin/.%2e/.%2e/.%2e/.%2e/bin/sh HTTP/1.1
+[Sun May 29 00:00:04.852115 2022] [ssl:warn] [pid 1699942] AH01909: server1.accredination.co.uk:443:0 server certificate does NOT include an ID which matches the server name
+[Sun May 29 01:08:40.777853 2022] [authz_core:error] [pid 3628199] [client 109.74.204.123:49844] AH01630: client denied by server configuration: /var/www/accredination.co.uk/public/server-status
+[Sun May 29 06:25:54.069857 2022] [core:error] [pid 3628199] [client 193.106.191.48:58338] AH00126: Invalid URI in request POST /cgi-bin/.%2e/.%2e/.%2e/.%2e/bin/sh HTTP/1.1
+[Mon May 30 00:00:02.462657 2022] [ssl:warn] [pid 1699942] AH01909: server1.accredination.co.uk:443:0 server certificate does NOT include an ID which matches the server name
+[Mon May 30 05:20:59.186613 2022] [core:error] [pid 3656455] [client 193.106.191.48:40458] AH00126: Invalid URI in request POST /cgi-bin/.%2e/.%2e/.%2e/.%2e/bin/sh HTTP/1.1
+[Mon May 30 19:31:53.244996 2022] [core:error] [pid 3661208] [client 161.35.188.242:58754] AH00126: Invalid URI in request GET /cgi-bin/.%2e/%2e%2e/%2e%2e/%2e%2e/%2e%2e/%2e%2e/%2e%2e/%2e%2e/%2e%2e/etc/hosts HTTP/1.1
+[Mon May 30 19:31:53.531256 2022] [core:error] [pid 3667571] [client 161.35.188.242:59038] AH00126: Invalid URI in request GET /cgi-bin/.%2e/%2e%2e/%2e%2e/%2e%2e/%2e%2e/%2e%2e/%2e%2e/%2e%2e/%2e%2e/etc/hosts HTTP/1.1
+[Tue May 31 00:00:08.975479 2022] [ssl:warn] [pid 1699942] AH01909: server1.accredination.co.uk:443:0 server certificate does NOT include an ID which matches the server name
+[Wed Jun 01 00:00:08.481440 2022] [ssl:warn] [pid 1699942] AH01909: server1.accredination.co.uk:443:0 server certificate does NOT include an ID which matches the server name
+[Wed Jun 01 00:17:31.294372 2022] [core:error] [pid 3700805] [client 193.106.191.48:56750] AH00126: Invalid URI in request POST /cgi-bin/.%2e/.%2e/.%2e/.%2e/bin/sh HTTP/1.1
+[Thu Jun 02 00:00:08.035692 2022] [ssl:warn] [pid 1699942] AH01909: server1.accredination.co.uk:443:0 server certificate does NOT include an ID which matches the server name
+[Fri Jun 03 00:00:05.768434 2022] [ssl:warn] [pid 1699942] AH01909: server1.accredination.co.uk:443:0 server certificate does NOT include an ID which matches the server name
+[Fri Jun 03 10:59:10.588254 2022] [ssl:error] [pid 3759462] [client 54.221.143.161:51614] AH02042: rejecting client initiated renegotiation
+[Fri Jun 03 16:58:24.245961 2022] [core:error] [pid 3772929] [client 193.106.191.48:35502] AH00126: Invalid URI in request POST /cgi-bin/.%2e/.%2e/.%2e/.%2e/bin/sh HTTP/1.1
+[Sat Jun 04 00:00:04.526350 2022] [ssl:warn] [pid 1699942] AH01909: server1.accredination.co.uk:443:0 server certificate does NOT include an ID which matches the server name
+[Sun Jun 05 00:00:01.384308 2022] [ssl:warn] [pid 1699942] AH01909: server1.accredination.co.uk:443:0 server certificate does NOT include an ID which matches the server name
+[Sun Jun 05 12:11:58.463934 2022] [core:error] [pid 3842472] [client 193.106.191.48:34150] AH00126: Invalid URI in request POST /cgi-bin/.%2e/.%2e/.%2e/.%2e/bin/sh HTTP/1.1
+[Mon Jun 06 00:00:04.742873 2022] [ssl:warn] [pid 1699942] AH01909: server1.accredination.co.uk:443:0 server certificate does NOT include an ID which matches the server name
+[Mon Jun 06 08:59:54.421641 2022] [core:error] [pid 3862356] [client 193.106.191.48:42702] AH00126: Invalid URI in request POST /cgi-bin/.%2e/.%2e/.%2e/.%2e/bin/sh HTTP/1.1
+[Mon Jun 06 20:13:23.527489 2022] [authz_core:error] [pid 3873335] [client 146.190.27.45:60236] AH01630: client denied by server configuration: /var/www/accredination.co.uk/public/server-status
+[Tue Jun 07 00:00:01.065556 2022] [ssl:warn] [pid 1699942] AH01909: server1.accredination.co.uk:443:0 server certificate does NOT include an ID which matches the server name
+[Tue Jun 07 07:00:23.048142 2022] [core:error] [pid 3882047] [client 193.106.191.48:44038] AH00126: Invalid URI in request POST /cgi-bin/.%2e/.%2e/.%2e/.%2e/bin/sh HTTP/1.1
+[Wed Jun 08 00:00:01.340328 2022] [ssl:warn] [pid 1699942] AH01909: server1.accredination.co.uk:443:0 server certificate does NOT include an ID which matches the server name
+[Thu Jun 09 00:00:09.339359 2022] [ssl:warn] [pid 1699942] AH01909: server1.accredination.co.uk:443:0 server certificate does NOT include an ID which matches the server name
+[Fri Jun 10 00:00:07.462992 2022] [ssl:warn] [pid 1699942] AH01909: server1.accredination.co.uk:443:0 server certificate does NOT include an ID which matches the server name
+[Sat Jun 11 00:00:01.138197 2022] [ssl:warn] [pid 1699942] AH01909: server1.accredination.co.uk:443:0 server certificate does NOT include an ID which matches the server name
+[Sun Jun 12 00:00:04.173081 2022] [ssl:warn] [pid 1699942] AH01909: server1.accredination.co.uk:443:0 server certificate does NOT include an ID which matches the server name
+[Mon Jun 13 00:00:04.492583 2022] [ssl:warn] [pid 1699942] AH01909: server1.accredination.co.uk:443:0 server certificate does NOT include an ID which matches the server name
+[Tue Jun 14 00:00:00.933193 2022] [ssl:warn] [pid 1699942] AH01909: server1.accredination.co.uk:443:0 server certificate does NOT include an ID which matches the server name
+[Tue Jun 14 02:22:15.174957 2022] [ssl:error] [pid 4080273] [client 34.229.80.93:60448] AH02042: rejecting client initiated renegotiation
+[Wed Jun 15 00:00:04.437692 2022] [ssl:warn] [pid 1699942] AH01909: server1.accredination.co.uk:443:0 server certificate does NOT include an ID which matches the server name
+[Thu Jun 16 00:00:02.750714 2022] [ssl:warn] [pid 1699942] AH01909: server1.accredination.co.uk:443:0 server certificate does NOT include an ID which matches the server name
+[Fri Jun 17 00:00:01.482196 2022] [ssl:warn] [pid 1699942] AH01909: server1.accredination.co.uk:443:0 server certificate does NOT include an ID which matches the server name
+[Sat Jun 18 00:00:06.039032 2022] [ssl:warn] [pid 1699942] AH01909: server1.accredination.co.uk:443:0 server certificate does NOT include an ID which matches the server name
+[Sun Jun 19 00:00:09.931237 2022] [ssl:warn] [pid 1699942] AH01909: server1.accredination.co.uk:443:0 server certificate does NOT include an ID which matches the server name
+[Mon Jun 20 00:00:09.105191 2022] [ssl:warn] [pid 1699942] AH01909: server1.accredination.co.uk:443:0 server certificate does NOT include an ID which matches the server name
+[Tue Jun 21 00:00:00.877174 2022] [ssl:warn] [pid 1699942] AH01909: server1.accredination.co.uk:443:0 server certificate does NOT include an ID which matches the server name
+[Wed Jun 22 00:00:10.235025 2022] [ssl:warn] [pid 1699942] AH01909: server1.accredination.co.uk:443:0 server certificate does NOT include an ID which matches the server name
+[Wed Jun 22 04:54:50.421166 2022] [ssl:error] [pid 117480] [client 54.167.105.248:36582] AH02042: rejecting client initiated renegotiation
+[Wed Jun 22 06:40:08.883962 2022] [ssl:warn] [pid 124441] AH01909: server1.accredination.co.uk:443:0 server certificate does NOT include an ID which matches the server name
+[Wed Jun 22 06:40:08.962357 2022] [ssl:warn] [pid 124442] AH01909: server1.accredination.co.uk:443:0 server certificate does NOT include an ID which matches the server name
+[Thu Jun 23 00:00:10.672817 2022] [ssl:warn] [pid 124442] AH01909: server1.accredination.co.uk:443:0 server certificate does NOT include an ID which matches the server name
+[Fri Jun 24 00:00:04.393392 2022] [ssl:warn] [pid 124442] AH01909: server1.accredination.co.uk:443:0 server certificate does NOT include an ID which matches the server name
+[Fri Jun 24 09:36:59.195329 2022] [core:error] [pid 186390] [client 161.35.188.242:60568] AH00126: Invalid URI in request GET /cgi-bin/.%2e/%2e%2e/%2e%2e/%2e%2e/%2e%2e/%2e%2e/%2e%2e/%2e%2e/%2e%2e/etc/hosts HTTP/1.1
+[Fri Jun 24 09:36:59.484179 2022] [core:error] [pid 172898] [client 161.35.188.242:60896] AH00126: Invalid URI in request GET /cgi-bin/.%2e/%2e%2e/%2e%2e/%2e%2e/%2e%2e/%2e%2e/%2e%2e/%2e%2e/%2e%2e/etc/hosts HTTP/1.1
+[Sat Jun 25 00:00:09.423129 2022] [ssl:warn] [pid 124442] AH01909: server1.accredination.co.uk:443:0 server certificate does NOT include an ID which matches the server name
+[Sun Jun 26 00:00:06.452894 2022] [ssl:warn] [pid 124442] AH01909: server1.accredination.co.uk:443:0 server certificate does NOT include an ID which matches the server name
+[Sun Jun 26 22:57:58.305248 2022] [core:error] [pid 246561] [client 161.35.188.242:35348] AH00126: Invalid URI in request GET /cgi-bin/.%2e/%2e%2e/%2e%2e/%2e%2e/%2e%2e/%2e%2e/%2e%2e/%2e%2e/%2e%2e/etc/hosts HTTP/1.1
+[Sun Jun 26 22:57:58.591932 2022] [core:error] [pid 238864] [client 161.35.188.242:35688] AH00126: Invalid URI in request GET /cgi-bin/.%2e/%2e%2e/%2e%2e/%2e%2e/%2e%2e/%2e%2e/%2e%2e/%2e%2e/%2e%2e/etc/hosts HTTP/1.1
+[Mon Jun 27 00:00:08.165114 2022] [ssl:warn] [pid 124442] AH01909: server1.accredination.co.uk:443:0 server certificate does NOT include an ID which matches the server name
+[Tue Jun 28 00:00:07.430138 2022] [ssl:warn] [pid 124442] AH01909: server1.accredination.co.uk:443:0 server certificate does NOT include an ID which matches the server name
+[Wed Jun 29 00:00:01.126594 2022] [ssl:warn] [pid 124442] AH01909: server1.accredination.co.uk:443:0 server certificate does NOT include an ID which matches the server name
+[Thu Jun 30 00:00:03.271387 2022] [ssl:warn] [pid 124442] AH01909: server1.accredination.co.uk:443:0 server certificate does NOT include an ID which matches the server name
+[Fri Jul 01 00:00:04.936440 2022] [ssl:warn] [pid 124442] AH01909: server1.accredination.co.uk:443:0 server certificate does NOT include an ID which matches the server name
+[Sat Jul 02 00:00:05.106006 2022] [ssl:warn] [pid 124442] AH01909: server1.accredination.co.uk:443:0 server certificate does NOT include an ID which matches the server name
+[Sat Jul 02 12:02:39.494152 2022] [ssl:warn] [pid 124442] AH01909: server1.accredination.co.uk:443:0 server certificate does NOT include an ID which matches the server name
+[Sat Jul 02 12:02:43.838975 2022] [ssl:warn] [pid 124442] AH01909: server1.accredination.co.uk:443:0 server certificate does NOT include an ID which matches the server name
+[Sat Jul 02 12:02:45.640333 2022] [ssl:warn] [pid 124442] AH01909: server1.accredination.co.uk:443:0 server certificate does NOT include an ID which matches the server name
+[Sat Jul 02 12:04:36.430726 2022] [authz_core:error] [pid 387008] [client 104.131.94.142:58374] AH01630: client denied by server configuration: /var/www/accredination.co.uk/public/server-status
+[Sun Jul 03 00:00:03.548588 2022] [ssl:warn] [pid 124442] AH01909: server1.accredination.co.uk:443:0 server certificate does NOT include an ID which matches the server name
+[Mon Jul 04 00:00:05.926482 2022] [ssl:warn] [pid 124442] AH01909: server1.accredination.co.uk:443:0 server certificate does NOT include an ID which matches the server name
+[Mon Jul 04 04:38:56.485397 2022] [ssl:error] [pid 415384] [client 54.197.157.163:48756] AH02042: rejecting client initiated renegotiation
+[Tue Jul 05 00:00:01.266283 2022] [ssl:warn] [pid 124442] AH01909: server1.accredination.co.uk:443:0 server certificate does NOT include an ID which matches the server name
+[Wed Jul 06 00:00:04.776829 2022] [ssl:warn] [pid 124442] AH01909: server1.accredination.co.uk:443:0 server certificate does NOT include an ID which matches the server name
+[Thu Jul 07 00:00:04.348067 2022] [ssl:warn] [pid 124442] AH01909: server1.accredination.co.uk:443:0 server certificate does NOT include an ID which matches the server name
+[Fri Jul 08 00:00:03.728691 2022] [ssl:warn] [pid 124442] AH01909: server1.accredination.co.uk:443:0 server certificate does NOT include an ID which matches the server name
+[Fri Jul 08 15:37:18.434035 2022] [core:error] [pid 497930] [client 185.162.235.162:36512] AH00126: Invalid URI in request GET /cgi-bin/.%2e/%2e%2e/%2e%2e/%2e%2e/%2e%2e/%2e%2e/%2e%2e/%2e%2e/%2e%2e/etc/hosts HTTP/1.1
+[Fri Jul 08 15:37:41.613465 2022] [authz_core:error] [pid 497930] [client 185.162.235.162:35170] AH01630: client denied by server configuration: /var/www/accredination.co.uk/public/server-status
+[Sat Jul 09 00:00:01.340620 2022] [ssl:warn] [pid 124442] AH01909: server1.accredination.co.uk:443:0 server certificate does NOT include an ID which matches the server name
+[Sun Jul 10 00:00:10.596757 2022] [ssl:warn] [pid 124442] AH01909: server1.accredination.co.uk:443:0 server certificate does NOT include an ID which matches the server name
+[Mon Jul 11 00:00:10.360687 2022] [ssl:warn] [pid 124442] AH01909: server1.accredination.co.uk:443:0 server certificate does NOT include an ID which matches the server name
+[Tue Jul 12 00:00:05.645952 2022] [ssl:warn] [pid 124442] AH01909: server1.accredination.co.uk:443:0 server certificate does NOT include an ID which matches the server name
+[Wed Jul 13 00:00:02.474662 2022] [ssl:warn] [pid 124442] AH01909: server1.accredination.co.uk:443:0 server certificate does NOT include an ID which matches the server name
+[Wed Jul 13 03:25:01.332491 2022] [core:error] [pid 581958] [client 134.122.112.12:34838] AH00126: Invalid URI in request GET /cgi-bin/.%2e/%2e%2e/%2e%2e/%2e%2e/%2e%2e/%2e%2e/%2e%2e/%2e%2e/%2e%2e/etc/hosts HTTP/1.1
+[Wed Jul 13 23:49:19.760188 2022] [ssl:error] [pid 585726] [client 54.162.145.135:41934] AH02042: rejecting client initiated renegotiation
+[Thu Jul 14 00:00:09.505113 2022] [ssl:warn] [pid 124442] AH01909: server1.accredination.co.uk:443:0 server certificate does NOT include an ID which matches the server name
+[Fri Jul 15 00:00:08.984107 2022] [ssl:warn] [pid 124442] AH01909: server1.accredination.co.uk:443:0 server certificate does NOT include an ID which matches the server name
+[Fri Jul 15 06:42:01.543902 2022] [ssl:warn] [pid 124442] AH01909: server1.accredination.co.uk:443:0 server certificate does NOT include an ID which matches the server name
+[Sat Jul 16 00:00:04.716524 2022] [ssl:warn] [pid 124442] AH01909: server1.accredination.co.uk:443:0 server certificate does NOT include an ID which matches the server name
+[Sun Jul 17 00:00:05.278057 2022] [ssl:warn] [pid 124442] AH01909: server1.accredination.co.uk:443:0 server certificate does NOT include an ID which matches the server name
+[Mon Jul 18 00:00:01.835456 2022] [ssl:warn] [pid 124442] AH01909: server1.accredination.co.uk:443:0 server certificate does NOT include an ID which matches the server name
+[Tue Jul 19 00:00:06.230889 2022] [ssl:warn] [pid 124442] AH01909: server1.accredination.co.uk:443:0 server certificate does NOT include an ID which matches the server name
+[Wed Jul 20 00:00:05.837251 2022] [ssl:warn] [pid 124442] AH01909: server1.accredination.co.uk:443:0 server certificate does NOT include an ID which matches the server name
+[Thu Jul 21 00:00:04.503149 2022] [ssl:warn] [pid 124442] AH01909: server1.accredination.co.uk:443:0 server certificate does NOT include an ID which matches the server name
+[Fri Jul 22 00:00:04.574785 2022] [ssl:warn] [pid 124442] AH01909: server1.accredination.co.uk:443:0 server certificate does NOT include an ID which matches the server name
+[Sat Jul 23 00:00:02.982762 2022] [ssl:warn] [pid 124442] AH01909: server1.accredination.co.uk:443:0 server certificate does NOT include an ID which matches the server name
+[Sun Jul 24 00:00:02.221925 2022] [ssl:warn] [pid 124442] AH01909: server1.accredination.co.uk:443:0 server certificate does NOT include an ID which matches the server name
+[Mon Jul 25 00:00:01.049717 2022] [ssl:warn] [pid 124442] AH01909: server1.accredination.co.uk:443:0 server certificate does NOT include an ID which matches the server name
+[Mon Jul 25 18:10:58.197207 2022] [core:error] [pid 881149] [client 161.35.188.242:55340] AH00126: Invalid URI in request GET /cgi-bin/.%2e/%2e%2e/%2e%2e/%2e%2e/%2e%2e/%2e%2e/%2e%2e/%2e%2e/%2e%2e/etc/hosts HTTP/1.1
+[Mon Jul 25 18:10:58.412994 2022] [core:error] [pid 876911] [client 161.35.188.242:55460] AH00126: Invalid URI in request GET /cgi-bin/.%2e/%2e%2e/%2e%2e/%2e%2e/%2e%2e/%2e%2e/%2e%2e/%2e%2e/%2e%2e/etc/hosts HTTP/1.1
+[Tue Jul 26 00:00:00.597116 2022] [ssl:warn] [pid 124442] AH01909: server1.accredination.co.uk:443:0 server certificate does NOT include an ID which matches the server name
+[Wed Jul 27 00:00:08.698048 2022] [ssl:warn] [pid 124442] AH01909: server1.accredination.co.uk:443:0 server certificate does NOT include an ID which matches the server name
+[Thu Jul 28 00:00:02.461050 2022] [ssl:warn] [pid 124442] AH01909: server1.accredination.co.uk:443:0 server certificate does NOT include an ID which matches the server name
+[Fri Jul 29 00:00:09.775994 2022] [ssl:warn] [pid 124442] AH01909: server1.accredination.co.uk:443:0 server certificate does NOT include an ID which matches the server name
+[Fri Jul 29 11:01:28.890438 2022] [authz_core:error] [pid 950644] [client 104.156.155.29:11207] AH01630: client denied by server configuration: /var/www/accredination.co.uk/public/server-status
+[Sat Jul 30 00:00:08.525754 2022] [ssl:warn] [pid 124442] AH01909: server1.accredination.co.uk:443:0 server certificate does NOT include an ID which matches the server name
+[Sat Jul 30 01:28:41.796105 2022] [ssl:error] [pid 968594] [client 107.20.61.82:41932] AH02042: rejecting client initiated renegotiation
+[Sun Jul 31 00:00:08.578692 2022] [ssl:warn] [pid 124442] AH01909: server1.accredination.co.uk:443:0 server certificate does NOT include an ID which matches the server name
+[Mon Aug 01 00:00:08.825712 2022] [ssl:warn] [pid 124442] AH01909: server1.accredination.co.uk:443:0 server certificate does NOT include an ID which matches the server name
+[Tue Aug 02 00:00:08.243252 2022] [ssl:warn] [pid 124442] AH01909: server1.accredination.co.uk:443:0 server certificate does NOT include an ID which matches the server name
+[Wed Aug 03 00:00:07.418273 2022] [ssl:warn] [pid 124442] AH01909: server1.accredination.co.uk:443:0 server certificate does NOT include an ID which matches the server name
+[Wed Aug 03 13:58:17.004178 2022] [authz_core:error] [pid 1037674] [client 45.33.65.249:25528] AH01630: client denied by server configuration: /var/www/accredination.co.uk/public/server-status
+[Thu Aug 04 00:00:06.779742 2022] [ssl:warn] [pid 124442] AH01909: server1.accredination.co.uk:443:0 server certificate does NOT include an ID which matches the server name
+[Fri Aug 05 00:00:07.102482 2022] [ssl:warn] [pid 124442] AH01909: server1.accredination.co.uk:443:0 server certificate does NOT include an ID which matches the server name
+[Sat Aug 06 00:00:05.894345 2022] [ssl:warn] [pid 124442] AH01909: server1.accredination.co.uk:443:0 server certificate does NOT include an ID which matches the server name
+[Sun Aug 07 00:00:06.819760 2022] [ssl:warn] [pid 124442] AH01909: server1.accredination.co.uk:443:0 server certificate does NOT include an ID which matches the server name
+[Mon Aug 08 00:00:06.202908 2022] [ssl:warn] [pid 124442] AH01909: server1.accredination.co.uk:443:0 server certificate does NOT include an ID which matches the server name
+[Tue Aug 09 00:00:06.450789 2022] [ssl:warn] [pid 124442] AH01909: server1.accredination.co.uk:443:0 server certificate does NOT include an ID which matches the server name
+[Wed Aug 10 00:00:04.927054 2022] [ssl:warn] [pid 124442] AH01909: server1.accredination.co.uk:443:0 server certificate does NOT include an ID which matches the server name
+[Thu Aug 11 00:00:05.084677 2022] [ssl:warn] [pid 124442] AH01909: server1.accredination.co.uk:443:0 server certificate does NOT include an ID which matches the server name
+[Thu Aug 11 00:16:02.715068 2022] [ssl:error] [pid 1183247] [client 44.205.251.189:55520] AH02042: rejecting client initiated renegotiation
+[Fri Aug 12 00:00:05.192548 2022] [ssl:warn] [pid 124442] AH01909: server1.accredination.co.uk:443:0 server certificate does NOT include an ID which matches the server name
+[Sat Aug 13 00:00:03.244817 2022] [ssl:warn] [pid 124442] AH01909: server1.accredination.co.uk:443:0 server certificate does NOT include an ID which matches the server name
+[Sun Aug 14 00:00:01.649136 2022] [ssl:warn] [pid 124442] AH01909: server1.accredination.co.uk:443:0 server certificate does NOT include an ID which matches the server name
+[Sun Aug 14 08:14:26.534205 2022] [core:error] [pid 1240674] [client 143.198.136.88:49552] AH00126: Invalid URI in request GET /cgi-bin/.%2e/%2e%2e/%2e%2e/%2e%2e/%2e%2e/%2e%2e/%2e%2e/%2e%2e/%2e%2e/etc/hosts HTTP/1.1
+[Sun Aug 14 08:14:26.796946 2022] [authz_core:error] [pid 1240676] [client 143.198.136.88:49760] AH01630: client denied by server configuration: /var/www/accredination.co.uk/public/server-status
+[Mon Aug 15 00:00:01.621362 2022] [ssl:warn] [pid 124442] AH01909: server1.accredination.co.uk:443:0 server certificate does NOT include an ID which matches the server name

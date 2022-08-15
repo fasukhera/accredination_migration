@@ -6,22 +6,19 @@ use Illuminate\Database\Eloquent\Model;
 
 class PageCertificateAccordian extends Model
 {
+    protected $table ='page_details_accordians';
     protected $fillable = [
-        'certificate_details_id',
-        'mh1',
-        'h2',
+        'page_details_id',
+        'h1',
         'p1',
-        "h2",
-        "p",
-        "h2",
         "li",
-        "h2",
-        "p",
-        'a', //comma separated
+         //comma separated
     ];
+
+
 
     public function page_details()
     {
-        return $this->belongsTo(PageCertificateDetails::class, 'certificate_details_id');
+        return $this->hasOne(PageCertificateDetails::class);
     }
 }

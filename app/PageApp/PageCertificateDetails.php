@@ -6,10 +6,12 @@ use Illuminate\Database\Eloquent\Model;
 
 class PageCertificateDetails extends Model
 {
+   
     protected $fillable = [
         'certificate_id',
         'h1',
         'p1',
+        'first_li',
         'p2',
         'wh',
         'wp',
@@ -41,13 +43,28 @@ class PageCertificateDetails extends Model
         'r_bh4',
         'r_bp4',
         'last_h',
-        'last_li'
+        'last_li',
+        'i1'
         
     ];
 
     public function page_certificate()
     {
         return $this->belongsTo(PageCertificate::class, 'certificate_id');
+    }
+    public function page_details_accordian()
+    {
+        return $this->hasMany(PageCertificateAccordian::class,'page_details_id');
+    }
+
+    public function link_details()
+    {
+        return $this->hasMany(LinkAccordian::class,'page_details_id');
+    }
+
+    public function higher_page()
+    {
+        return $this->hasMany(HigherPage::class,'certificate_id');
     }
 
 }

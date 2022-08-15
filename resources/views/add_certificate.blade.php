@@ -154,7 +154,7 @@
 <div id="preloader" class="tlp-preloader">
     <div class="animation-preloader">
         <div class="tlp-spinner"></div>
-        <img src="{{asset('logo-black.png')}}" alt="Preloader">
+        <img src="{{asset('AccrediNationLogoDB.png')}}" alt="Preloader">
     </div>
 </div>
 
@@ -226,7 +226,8 @@
         $('.image-upload-wrap').show();
     }
 
-    $('.image-upload-wrap').bind('dragover', function () {
+    $('.image-upload-wrap').bind('dragover', fun
+    ction () {
         $('.image-upload-wrap').addClass('image-dropping');
     });
     $('.image-upload-wrap').bind('dragleave', function () {

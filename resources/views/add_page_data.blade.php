@@ -154,7 +154,7 @@
 <div id="preloader" class="tlp-preloader">
     <div class="animation-preloader">
         <div class="tlp-spinner"></div>
-        <img src="{{asset('logo-black.png')}}" alt="Preloader">
+        <img src="{{asset('AccrediNationLogoDB.png')}}" alt="Preloader">
     </div>
 </div>
 

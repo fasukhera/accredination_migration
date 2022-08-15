@@ -1,16 +1,16 @@
 <?php return array (
   'app' => 
   array (
-    'name' => 'Laravel',
+    'name' => 'AccrediNation',
     'env' => 'local',
     'debug' => true,
-    'url' => 'http://localhost',
+    'url' => '',
     'asset_url' => NULL,
     'timezone' => 'UTC',
     'locale' => 'en',
     'fallback_locale' => 'en',
     'faker_locale' => 'en_US',
-    'key' => 'base64:Gw9SXHR+1SLGhwqgfJb9jTtvutxx2x7XOHyM0UdmcjI=',
+    'key' => 'base64:kI/7XzltPihHTH17ma7cied12hdaivGLyk/34jX+BI0=',
     'cipher' => 'AES-256-CBC',
     'providers' => 
     array (
@@ -177,7 +177,7 @@
       'file' => 
       array (
         'driver' => 'file',
-        'path' => 'C:\\Users\\User\\Desktop\\accredination\\storage\\framework/cache/data',
+        'path' => '/var/www/accredination.co.uk/storage/framework/cache/data',
       ),
       'memcached' => 
       array (
@@ -216,7 +216,7 @@
         'endpoint' => NULL,
       ),
     ),
-    'prefix' => 'laravel_cache',
+    'prefix' => 'accredination_cache',
   ),
   'cors' => 
   array (
@@ -254,7 +254,7 @@
       array (
         'driver' => 'sqlite',
         'url' => NULL,
-        'database' => 'laravel',
+        'database' => 'accreditation_db',
         'prefix' => '',
         'foreign_key_constraints' => true,
       ),
@@ -262,11 +262,11 @@
       array (
         'driver' => 'mysql',
         'url' => NULL,
-        'host' => '127.0.0.1',
+        'host' => 'localhost',
         'port' => '3306',
-        'database' => 'laravel',
-        'username' => 'root',
-        'password' => '',
+        'database' => 'accreditation_db',
+        'username' => 'accreditation',
+        'password' => 'Sukhera4325',
         'unix_socket' => '',
         'charset' => 'utf8mb4',
         'collation' => 'utf8mb4_unicode_ci',
@@ -282,11 +282,11 @@
       array (
         'driver' => 'pgsql',
         'url' => NULL,
-        'host' => '127.0.0.1',
+        'host' => 'localhost',
         'port' => '3306',
-        'database' => 'laravel',
-        'username' => 'root',
-        'password' => '',
+        'database' => 'accreditation_db',
+        'username' => 'accreditation',
+        'password' => 'Sukhera4325',
         'charset' => 'utf8',
         'prefix' => '',
         'prefix_indexes' => true,
@@ -297,11 +297,11 @@
       array (
         'driver' => 'sqlsrv',
         'url' => NULL,
-        'host' => '127.0.0.1',
+        'host' => 'localhost',
         'port' => '3306',
-        'database' => 'laravel',
-        'username' => 'root',
-        'password' => '',
+        'database' => 'accreditation_db',
+        'username' => 'accreditation',
+        'password' => 'Sukhera4325',
         'charset' => 'utf8',
         'prefix' => '',
         'prefix_indexes' => true,
@@ -314,7 +314,7 @@
       'options' => 
       array (
         'cluster' => 'redis',
-        'prefix' => 'laravel_database_',
+        'prefix' => 'accredination_database_',
       ),
       'default' => 
       array (
@@ -343,13 +343,13 @@
       'local' => 
       array (
         'driver' => 'local',
-        'root' => 'C:\\Users\\User\\Desktop\\accredination\\storage\\app',
+        'root' => '/var/www/accredination.co.uk/storage/app',
       ),
       'public' => 
       array (
         'driver' => 'local',
-        'root' => 'C:\\Users\\User\\Desktop\\accredination\\storage\\app/public',
-        'url' => 'http://localhost/storage',
+        'root' => '/var/www/accredination.co.uk/storage/app/public',
+        'url' => '/storage',
         'visibility' => 'public',
       ),
       's3' => 
@@ -365,7 +365,7 @@
     ),
     'links' => 
     array (
-      'C:\\Users\\User\\Desktop\\accredination\\public\\storage' => 'C:\\Users\\User\\Desktop\\accredination\\storage\\app/public',
+      '/var/www/accredination.co.uk/public/storage' => '/var/www/accredination.co.uk/storage/app/public',
     ),
   ),
   'hashing' => 
@@ -399,13 +399,13 @@
       'single' => 
       array (
         'driver' => 'single',
-        'path' => 'C:\\Users\\User\\Desktop\\accredination\\storage\\logs/laravel.log',
+        'path' => '/var/www/accredination.co.uk/storage/logs/laravel.log',
         'level' => 'debug',
       ),
       'daily' => 
       array (
         'driver' => 'daily',
-        'path' => 'C:\\Users\\User\\Desktop\\accredination\\storage\\logs/laravel.log',
+        'path' => '/var/www/accredination.co.uk/storage/logs/laravel.log',
         'level' => 'debug',
         'days' => 14,
       ),
@@ -455,7 +455,7 @@
       ),
       'emergency' => 
       array (
-        'path' => 'C:\\Users\\User\\Desktop\\accredination\\storage\\logs/laravel.log',
+        'path' => '/var/www/accredination.co.uk/storage/logs/laravel.log',
       ),
     ),
   ),
@@ -505,14 +505,14 @@
     'from' => 
     array (
       'address' => NULL,
-      'name' => 'Laravel',
+      'name' => 'AccrediNation',
     ),
     'markdown' => 
     array (
       'theme' => 'default',
       'paths' => 
       array (
-        0 => 'C:\\Users\\User\\Desktop\\accredination\\resources\\views/vendor/mail',
+        0 => '/var/www/accredination.co.uk/resources/views/vendor/mail',
       ),
     ),
   ),
@@ -591,7 +591,7 @@
     'lifetime' => '120',
     'expire_on_close' => false,
     'encrypt' => false,
-    'files' => 'C:\\Users\\User\\Desktop\\accredination\\storage\\framework/sessions',
+    'files' => '/var/www/accredination.co.uk/storage/framework/sessions',
     'connection' => NULL,
     'table' => 'sessions',
     'store' => NULL,
@@ -600,7 +600,7 @@
       0 => 2,
       1 => 100,
     ),
-    'cookie' => 'laravel_session',
+    'cookie' => 'accredination_session',
     'path' => '/',
     'domain' => NULL,
     'secure' => NULL,
@@ -611,9 +611,9 @@
   array (
     'paths' => 
     array (
-      0 => 'C:\\Users\\User\\Desktop\\accredination\\resources\\views',
+      0 => '/var/www/accredination.co.uk/resources/views',
     ),
-    'compiled' => 'C:\\Users\\User\\Desktop\\accredination\\storage\\framework\\views',
+    'compiled' => '/var/www/accredination.co.uk/storage/framework/views',
   ),
   'flare' => 
   array (

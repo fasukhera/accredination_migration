@@ -37,6 +37,7 @@ class PageCertificateDetailsController extends PageController
             'certificate_id' => 'required',
             'h1',
             'p1',
+            'first_li',
             'p2',
             'wh',
             'wp',

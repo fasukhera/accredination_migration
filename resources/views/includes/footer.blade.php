@@ -9,7 +9,7 @@
                 <div class="col-xl-3 col-lg-3 col-md-6 col-12">
                     <div class="footer-widgets">
                         <div class="footer-logo">
-                            <a href="index.html"><img src="{{asset('logo-black.png')}}" alt="Logo"></a>
+                            <a href="{{route('landing')}}"><img src="{{asset('logo-black.png')}}" alt="Logo"></a>
                         </div>
                         <p class="about-paragraph">Building Quality and Integrity One Nation at a Time</p>
                         <ul class="footer-social">

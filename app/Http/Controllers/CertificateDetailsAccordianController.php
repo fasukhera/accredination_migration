@@ -16,7 +16,7 @@ class CertificateDetailsAccordianController extends Controller
      */
     public function index()
     {
-        $certificates = Certificate::with('certificate_details')->get();
+        $certificates = Certificate::with('certificate_details')->orderby('name','ASC')->get();
 
         return view('accordian', compact('certificates'));
     }
@@ -53,7 +53,7 @@ class CertificateDetailsAccordianController extends Controller
         $certificate_details_id = CertificateDetails::where('certificate_id', $request->certificate_id)->first();
         $data['certificate_details_id'] = $certificate_details_id->id;
         $store = CertificateDetailsAccordian::create($data);
-        $certificates = Certificate::with('certificate_details')->get();
+        $certificates = Certificate::with('certificate_details')->orderby('name','ASC')->get();
         return redirect('/accordion')->with(['status', 'Certification Added Successfully', $certificates]);
 
     }
