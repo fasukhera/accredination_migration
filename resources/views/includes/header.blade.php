@@ -36,10 +36,10 @@
                     <div class="col-lg-2 d-flex justify-content-top">
                         <div class="temp-logo text-center">
                             <a href="{{route('landing')}}" class="default-logo">
-                                <img src="{{asset('bcs_logo_white.png')}}" alt="logo" class="img-fluid">
+                                <img src="{{asset('logo.png')}}" alt="logo" class="img-fluid">
                             </a>
                             <a href="{{route('landing')}}" class="sticky-logo">
-                                <img src="{{asset('bcs_logo2.png')}}" alt="logo" class="img-fluid">
+                                <img src="{{asset('logo-black.png')}}" alt="logo" class="img-fluid">
                             </a>
                         </div>
                     </div>
