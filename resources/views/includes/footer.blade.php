@@ -9,7 +9,7 @@
                 <div class="col-xl-3 col-lg-3 col-md-6 col-12">
                     <div class="footer-widgets">
                         <div class="footer-logo">
-                            <a href="{{route('landing')}}"><img src="{{asset('logo-black.png')}}" alt="Logo"></a>
+                            <a href="{{route('landing')}}"><img src="{{asset('bcs_logo.png')}}" alt="Logo"></a>
                         </div>
                         <p class="about-paragraph">Building Quality and Integrity One Nation at a Time</p>
                         <ul class="footer-social">
@@ -62,7 +62,7 @@
                         <h3 class="footer-widget-heading">Contact Info</h3>
                         <p></p>
                         <ul class="footer-contact">
-                            <li><i class="flaticon-placeholder"></i><strong>UK</strong>: 115 Sutton New Road, Birmingham, B23 6RP 
+                            <li><i class="flaticon-placeholder"></i><strong>UK</strong>: 115 Sutton New Road, Birmingham, B23 6RP
                             </li>
                             <li><i class="flaticon-placeholder"></i><strong>Pakistan</strong>: 18 F/1, Block 6, PECHS, Karachi, 75400
                             </li>
