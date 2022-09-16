@@ -43,7 +43,18 @@
                             </a>
                         </div>
                     </div>
-                    <div class="col-lg-9 d-flex justify-content-end possition-static">
+                    <div class="col-lg-2 d-flex justify-content-top">
+                        <div class="temp-logo text-center">
+                        <a href="{{route('landing')}}" class="default-logo">
+                            <img src="{{asset('logo.png')}}" alt="logo" class="img-fluid">
+                        </a>
+                        <a href="{{route('landing')}}" class="sticky-logo">
+                            <img src="{{asset('logo-black.png')}}" alt="logo" class="img-fluid">
+                        </a>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-7 d-flex justify-content-end possition-static">
                         <nav id="dropdown" class="template-main-menu">
                             <ul>
 
@@ -51,21 +62,21 @@
                                     <a href="#">Certifications</a>
                                     <ul class="dropdown-menu-col-1">
                                         @if(isset($certificates))
-                                        @foreach($certificates as $certificate)
+                                            @foreach($certificates as $certificate)
 
-                                        <li>
-                                            <a
-                                                href="{{route('certificate',$certificate->name)}}"><span>{{$certificate->name}}</span></a>
-                                        </li>
-                                        @endforeach
+                                                <li>
+                                                    <a
+                                                        href="{{route('certificate',$certificate->name)}}"><span>{{$certificate->name}}</span></a>
+                                                </li>
+                                            @endforeach
                                         @else
-                                        @foreach($data['certificates'] as $certificate)
+                                            @foreach($data['certificates'] as $certificate)
 
-                                        <li>
-                                            <a
-                                                href="{{route('certificate',$certificate->name)}}"><span>{{$certificate->name}}</span></a>
-                                        </li>
-                                        @endforeach
+                                                <li>
+                                                    <a
+                                                        href="{{route('certificate',$certificate->name)}}"><span>{{$certificate->name}}</span></a>
+                                                </li>
+                                            @endforeach
                                         @endif
                                     </ul>
                                 </li>
@@ -73,21 +84,21 @@
                                     <a href="#">Higher Education Qualifications</a>
                                     <ul class="dropdown-menu-col-1">
                                         @if(isset($membership))
-                                        @foreach($membership as $memberships)
+                                            @foreach($membership as $memberships)
 
-                                        <li>
-                                            <a
-                                                href="{{route('page',$memberships->name)}}"><span>{{$memberships->name}}</span></a>
-                                        </li>
-                                        @endforeach
+                                                <li>
+                                                    <a
+                                                        href="{{route('page',$memberships->name)}}"><span>{{$memberships->name}}</span></a>
+                                                </li>
+                                            @endforeach
                                         @else
-                                        @foreach($data['membership'] as $memberships)
+                                            @foreach($data['membership'] as $memberships)
 
-                                        <li>
-                                            <a
-                                                href="{{route('send_email',$memberships->name)}}"><span>{{$memberships->name}}</span></a>
-                                        </li>
-                                        @endforeach
+                                                <li>
+                                                    <a
+                                                        href="{{route('send_email',$memberships->name)}}"><span>{{$memberships->name}}</span></a>
+                                                </li>
+                                            @endforeach
                                         @endif
                                     </ul>
                                 </li>
