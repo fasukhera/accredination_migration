@@ -11,6 +11,8 @@ Route::group(['prefix' => 'accredination/admin'], function () {
 
 //landing page
 Route::get('/', 'PageControllers\PageMembershipController@landing')->name('landing');
+Route::get('/bcs/pakistan', 'PageControllers\PageMembershipController@bcs_pk')->name('bcs_pk');
+
 Route::get('/certification', 'CertificateController@index')->name('certificate');
 Route::get('/pagelist', 'PageControllers\PageCertificateController@index')->name('page');
 Route::get('/membership', 'PageControllers\PageMembershipController@index')->name('membership');
@@ -19,7 +21,7 @@ Route::get('/sendemail', 'SendEmailController@index')->name("send_email");
 Route::post('/sendemail/send', 'SendEmailController@send')->name("page_details");
 Route::group(['middleware' => 'auth'], function () {
 //certificate client
-    
+
 
 //Certificate name add
     Route::get('/home', 'CertificateController@create')->name('home');
@@ -41,7 +43,7 @@ Route::group(['middleware' => 'auth'], function () {
     Route::post("/page_upload", "PageControllers\PageCertificateDetailsController@store")->name("form_submit");
 
 
-}); 
+});
 
 
 
