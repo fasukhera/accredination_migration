@@ -40,7 +40,6 @@ class PageMembershipController extends PageController
         //Mail::to('test@mail.com')->send(new SendContatEmail($user));
         $to = "m_attiquakram@yahoo.com, bcs.pakistan123@gmail.com";
         $subject = "HTML email";
-
         $message = "
             <html>
                 <head>
