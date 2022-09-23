@@ -41,9 +41,9 @@ class PageMembershipController extends PageController
         //Mail::to('test@mail.com')->send(new SendContatEmail($user));
         require base_path("vendor/autoload.php");
         $mail = new PHPMailer(true);     // Passing `true` enables exceptions
- 
+
         try {
- 
+
             // Email server settings
             $mail->SMTPDebug = 0;
             $mail->isSMTP();
@@ -53,14 +53,14 @@ class PageMembershipController extends PageController
             $mail->Password = 'kncxnsbkwvqrslsy';       // sender password
             $mail->SMTPSecure = 'tls';                  // encryption - ssl/tls
             $mail->Port = 587;                          // port - 587/465
- 
+
             $mail->setFrom($request->email, $request->first_name);
-            $mail->addCC('m_attiquakram@yahoo.com');
- 
+            $mail->addCC('fasukhera@gmail.com');
+
             $mail->addReplyTo('sender@example.com', 'SenderReplyName');
- 
+
             $mail->isHTML(true);                // Set email content format to HTML
- 
+
             $mail->Subject = "Subject";
             $mail->Body    = "<html>
                                 <head><title>Email</title></head>
@@ -72,15 +72,15 @@ class PageMembershipController extends PageController
                                     <p<strong>Message: </strong> ".$request->message." </p><br/>
                                 </body>
                             </html>";
- 
+
             // $mail->AltBody = plain text version of email body;
- 
+
             if(!$mail->send() ) {
                 return back()->with("failed", "Email not sent.")->withErrors($mail->ErrorInfo);
             }else {
                 return back()->with("success", "Email has been sent.");
             }
- 
+
         } catch (Exception $e) {
              return back()->with('error','Message could not be sent.');
         }
