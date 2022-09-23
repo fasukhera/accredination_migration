@@ -35,7 +35,7 @@ class PageMembershipController extends PageController
     public function submit_membership(Request $request)
     {
         $data = $request->except(['_token']);
-        //EmailHistory::create($data);
+        EmailHistory::create($data);
         $user = ['email'=>$request->email, 'first_name'=>$request->first_name, 'last_name' => $request->last_name, 'phone'=>$request->phone, 'subject' => $request->subject, 'message'=>$request->message];
         Mail::to('test@mail.com')->send(new SendContatEmail($user));
         return redirect()->back();
