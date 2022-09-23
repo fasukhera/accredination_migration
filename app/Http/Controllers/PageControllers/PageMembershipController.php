@@ -54,8 +54,8 @@ class PageMembershipController extends PageController
             $mail->SMTPSecure = 'tls';                  // encryption - ssl/tls
             $mail->Port = 587;                          // port - 587/465
 
-            $mail->setFrom($request->email, $request->first_name);
-            $mail->addCC('fasukhera@gmail.com');
+            $mail->setFrom('info@bcspakistan.org');
+            $mail->addCC('info@bcspakistan.org');
 
             $mail->addReplyTo('sender@example.com', 'SenderReplyName');
 

@@ -103,21 +103,21 @@
                                     <div class="row">
                                         <div class="col-lg-6 col-md-6 col-sm-6">
                                             <label for="first-name">First Name</label>
-                                            <input type="text" name="first_name" id="" class="form-control"><br/>
+                                            <input type="text" name="first_name" required id="" class="form-control"><br/>
                                         </div>
                                         <div class="col-lg-6 col-md-6 col-sm-6">
                                             <label for="last-name">Last Name</label>
-                                            <input type="text" name="last_name" id="" class="form-control"><br/>
+                                            <input type="text" name="last_name" required id="" class="form-control"><br/>
                                         </div>
                                     </div>
                                     <div class="row">
                                         <div class="col-lg-6 col-md-6 col-sm-6">
                                             <label for="email">Email</label>
-                                            <input type="text" name="email" id="" class="form-control"><br/>
+                                            <input type="text" name="email" required id="" class="form-control"><br/>
                                         </div>
                                         <div class="col-lg-6 col-md-6 col-sm-6">
                                             <label for="phone">Phone</label>
-                                            <input type="text" name="phone" id="phone" class="form-control"><br/>
+                                            <input type="text" name="phone" required id="phone" class="form-control"><br/>
                                         </div>
                                     </div>
                                     <!-- <label for="subject">Subject</label>
