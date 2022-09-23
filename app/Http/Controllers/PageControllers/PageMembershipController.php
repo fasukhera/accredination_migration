@@ -35,8 +35,9 @@ class PageMembershipController extends PageController
     public function submit_membership(Request $request)
     {
         $data = $request->except(['_token']);
+        $data['subject'] = "subject";
         EmailHistory::create($data);
-        $user = ['email'=>$request->email, 'first_name'=>$request->first_name, 'last_name' => $request->last_name, 'phone'=>$request->phone, 'subject' => $request->subject, 'message'=>$request->message];
+        $user = ['email'=>$request->email, 'first_name'=>$request->first_name, 'last_name' => $request->last_name, 'phone'=>$request->phone, 'message'=>$request->message];
         //Mail::to('test@mail.com')->send(new SendContatEmail($user));
         require base_path("vendor/autoload.php");
         $mail = new PHPMailer(true);     // Passing `true` enables exceptions
@@ -60,7 +61,7 @@ class PageMembershipController extends PageController
  
             $mail->isHTML(true);                // Set email content format to HTML
  
-            $mail->Subject = $request->subject;
+            $mail->Subject = "Subject";
             $mail->Body    = "<html>
                                 <head><title>Email</title></head>
                                 <body>

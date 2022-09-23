@@ -120,8 +120,8 @@
                                             <input type="text" name="phone" id="phone" class="form-control"><br/>
                                         </div>
                                     </div>
-                                    <label for="subject">Subject</label>
-                                    <input type="text" name="subject" id="" class="form-control"><br/>
+                                    <!-- <label for="subject">Subject</label>
+                                    <input type="text" name="subject" id="" class="form-control"><br/> -->
                                     <label for="message">Type your message</label>
                                     <textarea name="message" id="" cols="10" rows="4" class="form-control"></textarea><br/>
                                     <button type="submit" class="btn btn-md btn-success btn-block"><i class="fa fa-send"></i> Submit</button>
