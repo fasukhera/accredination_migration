@@ -4,9 +4,12 @@ namespace App\Http\Controllers\PageControllers;
 
 use App\PageApp\PageMembership;
 use App\PageApp\PageMembershipDetails;
+use App\EmailHistory;
 use App\Certificate;
 use Carbon\Carbon;
 use Illuminate\Http\Request;
+use App\Mail\SendContatEmail;
+use Illuminate\Support\Facades\Mail;
 
 class PageMembershipController extends PageController
 {
@@ -27,6 +30,15 @@ class PageMembershipController extends PageController
     public function bcs_pk()
     {
         return view('bcs_pk');
+    }
+
+    public function submit_membership(Request $request)
+    {
+        $data = $request->except(['_token']);
+        //EmailHistory::create($data);
+        $user = ['email'=>$request->email, 'first_name'=>$request->first_name, 'last_name' => $request->last_name, 'phone'=>$request->phone, 'subject' => $request->subject, 'message'=>$request->message];
+        Mail::to('test@mail.com')->send(new SendContatEmail($user));
+        return redirect()->back();
     }
 
     public function index(Request $request)

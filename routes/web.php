@@ -12,6 +12,7 @@ Route::group(['prefix' => 'accredination/admin'], function () {
 //landing page
 Route::get('/', 'PageControllers\PageMembershipController@landing')->name('landing');
 Route::get('/bcs/pakistan', 'PageControllers\PageMembershipController@bcs_pk')->name('bcs_pk');
+Route::post('submit-membership', 'PageControllers\PageMembershipController@submit_membership')->name('submit-membership');
 
 Route::get('/certification', 'CertificateController@index')->name('certificate');
 Route::get('/pagelist', 'PageControllers\PageCertificateController@index')->name('page');
