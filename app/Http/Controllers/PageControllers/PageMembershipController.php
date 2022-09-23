@@ -8,8 +8,8 @@ use App\EmailHistory;
 use App\Certificate;
 use Carbon\Carbon;
 use Illuminate\Http\Request;
-use App\Mail\SendContatEmail;
-use Illuminate\Support\Facades\Mail;
+use PHPMailer\PHPMailer\PHPMailer;
+use PHPMailer\PHPMailer\Exception;
 
 class PageMembershipController extends PageController
 {
@@ -35,45 +35,54 @@ class PageMembershipController extends PageController
     public function submit_membership(Request $request)
     {
         $data = $request->except(['_token']);
-        EmailHistory::create($data);
+        //EmailHistory::create($data);
         $user = ['email'=>$request->email, 'first_name'=>$request->first_name, 'last_name' => $request->last_name, 'phone'=>$request->phone, 'subject' => $request->subject, 'message'=>$request->message];
         //Mail::to('test@mail.com')->send(new SendContatEmail($user));
-        $to = "m_attiquakram@yahoo.com, bcs.pakistan123@gmail.com";
-        $subject = "HTML email";
-        $message = "
-            <html>
-                <head>
-                    <title>HTML email</title>
-                </head>
-                <body>
-                    <p>This email contains HTML Tags!</p>
-                    <table>
-                    <tr>
-                        <th>Firstname</th>
-                        <th>Lastname</th>
-                        <th>Phone</th>
-                    </tr>
-                    <tr>
-                        <td>".$user['first_name']."</td>
-                        <td>".$user['last_name']."</td>
-                        <td>".$user['phone']."</td>
-                    </tr>
-                    </table>
-                    <h3>Message</h3>
-                    <p>".$user['message']."</p>
-                </body>
-            </html>
-        ";
-
-        // Always set content-type when sending HTML email
-        $headers = "MIME-Version: 1.0" . "\r\n";
-        $headers .= "Content-type:text/html;charset=UTF-8" . "\r\n";
-
-        // More headers
-        $headers .= 'From: <'.$request['email'].'>' . "\r\n";
-        //$headers .= 'Cc: myboss@example.com' . "\r\n";
-        mail($to,$subject,$message,$headers);
-        return redirect()->back();
+        require base_path("vendor/autoload.php");
+        $mail = new PHPMailer(true);     // Passing `true` enables exceptions
+ 
+        try {
+ 
+            // Email server settings
+            $mail->SMTPDebug = 0;
+            $mail->isSMTP();
+            $mail->Host = 'smtp.gmail.com';             //  smtp host
+            $mail->SMTPAuth = true;
+            $mail->Username = 'info@bcspakistan.org';   //  sender username
+            $mail->Password = 'kncxnsbkwvqrslsy';       // sender password
+            $mail->SMTPSecure = 'tls';                  // encryption - ssl/tls
+            $mail->Port = 587;                          // port - 587/465
+ 
+            $mail->setFrom($request->email, $request->first_name);
+            $mail->addCC('m_attiquakram@yahoo.com');
+ 
+            $mail->addReplyTo('sender@example.com', 'SenderReplyName');
+ 
+            $mail->isHTML(true);                // Set email content format to HTML
+ 
+            $mail->Subject = $request->subject;
+            $mail->Body    = "<html>
+                                <head><title>Email</title></head>
+                                <body>
+                                    <p>This message send from bcs pakistan contact form</p>
+                                    <p<strong>First Name: </strong> ".$request->first_name." </p><br/>
+                                    <p<strong>Last Name: </strong> ".$request->last_name." </p><br/>
+                                    <p<strong>Phone: </strong> ".$request->phone." </p><br/>
+                                    <p<strong>Message: </strong> ".$request->message." </p><br/>
+                                </body>
+                            </html>";
+ 
+            // $mail->AltBody = plain text version of email body;
+ 
+            if(!$mail->send() ) {
+                return back()->with("failed", "Email not sent.")->withErrors($mail->ErrorInfo);
+            }else {
+                return back()->with("success", "Email has been sent.");
+            }
+ 
+        } catch (Exception $e) {
+             return back()->with('error','Message could not be sent.');
+        }
     }
 
     public function index(Request $request)

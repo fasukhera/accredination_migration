@@ -93,6 +93,13 @@
                             <div class="card-body">
                                 <form action="{{url('submit-membership')}}" method="post">
                                     @csrf
+                                    @if(Session::has("success"))
+                                        <div class="alert alert-success alert-dismissible">{{Session::get('success')}}</div>
+                                    @elseif(Session::has("failed"))
+                                        <div class="alert alert-danger alert-dismissible">{{Session::get('failed')}}</div>
+                                    @elseif(Session::has("error"))
+                                        <div class="alert alert-danger alert-dismissible">{{Session::get('error')}}</div>
+                                    @endif
                                     <div class="row">
                                         <div class="col-lg-6 col-md-6 col-sm-6">
                                             <label for="first-name">First Name</label>
