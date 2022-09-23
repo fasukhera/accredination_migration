@@ -37,7 +37,43 @@ class PageMembershipController extends PageController
         $data = $request->except(['_token']);
         EmailHistory::create($data);
         $user = ['email'=>$request->email, 'first_name'=>$request->first_name, 'last_name' => $request->last_name, 'phone'=>$request->phone, 'subject' => $request->subject, 'message'=>$request->message];
-        Mail::to('test@mail.com')->send(new SendContatEmail($user));
+        //Mail::to('test@mail.com')->send(new SendContatEmail($user));
+        $to = "m_attiquakram@yahoo.com, bcs.pakistan123@gmail.com";
+        $subject = "HTML email";
+
+        $message = "
+            <html>
+                <head>
+                    <title>HTML email</title>
+                </head>
+                <body>
+                    <p>This email contains HTML Tags!</p>
+                    <table>
+                    <tr>
+                        <th>Firstname</th>
+                        <th>Lastname</th>
+                        <th>Phone</th>
+                    </tr>
+                    <tr>
+                        <td>".$user['first_name']."</td>
+                        <td>".$user['last_name']."</td>
+                        <td>".$user['phone']."</td>
+                    </tr>
+                    </table>
+                    <h3>Message</h3>
+                    <p>".$user['message']."</p>
+                </body>
+            </html>
+        ";
+
+        // Always set content-type when sending HTML email
+        $headers = "MIME-Version: 1.0" . "\r\n";
+        $headers .= "Content-type:text/html;charset=UTF-8" . "\r\n";
+
+        // More headers
+        $headers .= 'From: <'.$request['email'].'>' . "\r\n";
+        //$headers .= 'Cc: myboss@example.com' . "\r\n";
+        mail($to,$subject,$message,$headers);
         return redirect()->back();
     }
 
