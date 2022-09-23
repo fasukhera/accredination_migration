@@ -68,8 +68,8 @@
     <body class="antialiased">
         <div class="container-fluid" id="header">
             <div class="row">
-                <div class="col-lg-4 col-md-4 col-sm-4 ml-4 pt-3">
-                    <img src="{{asset('media/imgs/bcs_logo.png')}}" class="img-fluid" alt="" srcset="">
+                <div class="col-lg-4 col-md-4 col-sm-4 ml-4 pt-4">
+                    <img src="{{asset('media/imgs/bcs_logo.png')}}" class="img-fluid" alt="" srcset="" width="300px">
                 </div>
             </div>
         </div>
