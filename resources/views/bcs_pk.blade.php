@@ -24,7 +24,7 @@
                 background-image: url('{{asset('media/imgs/topbanner.png')}}');
                 min-height: 200px;
                 background-size: cover;
-                opacity: 0.7;
+                /*opacity: 0.7;*/
                 background-repeat: no-repeat;
             }
 
@@ -68,7 +68,7 @@
     <body class="antialiased">
         <div class="container-fluid" id="header">
             <div class="row">
-                <div class="col-lg-4 col-md-4 col-sm-4">
+                <div class="col-lg-4 col-md-4 col-sm-4 ml-4 pt-3">
                     <img src="{{asset('media/imgs/bcs_logo.png')}}" class="img-fluid" alt="" srcset="">
                 </div>
             </div>
