@@ -4,7 +4,7 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
-        <title>Laravel</title>
+        <title>BCS | Pakistan</title>
 
         <!-- Fonts -->
         <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700&display=swap" rel="stylesheet">
@@ -18,7 +18,7 @@
         <style>
             body {
                 font-family: 'Nunito', sans-serif;
-                
+
             }
             #header{
                 background-image: url('{{asset('media/imgs/topbanner.png')}}');
@@ -166,7 +166,7 @@
                         <div class="col"></div>
                     </div><br/>
                 </div>
-                <div class="col-lg-6 col-md-6 col-sm-6">
+                <div class="col-lg-6 col-md-6 col-sm-6x">
                     <h3>Contact Info</h3>
                     <ul class="list-unstyled" style="line-height: 45px;">
                         <li>
