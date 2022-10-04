@@ -163,15 +163,27 @@
                     <div class="navbar-layout1">
                         <div class="container">
                             <div class="row no-gutters d-flex align-items-center position-relative">
-                                <div class="col-lg-2 d-flex justify-content-start">
+                                <div class="col-lg-2 d-flex justify-content-top">
                                     <div class="temp-logo text-center">
-                                        <a class="default-logo" href="{{route('landing')}}"><img alt="logo"
-                                                class="img-fluid" src="{{asset('logo.png')}}"></a> <a
-                                            class="sticky-logo" href="{{route('landing')}}"><img alt="logo"
-                                                class="img-fluid" src="{{asset('logo-black.png')}}"></a>
+                                        <a href="{{route('landing')}}" class="default-logo">
+                                            <img src="{{asset('bcs_logo_white.png')}}" alt="logo" class="img-fluid">
+                                        </a>
+                                        <a href="{{route('landing')}}" class="sticky-logo">
+                                            <img src="{{asset('bcs_logo.png')}}" alt="logo" class="img-fluid">
+                                        </a>
                                     </div>
                                 </div>
-                                <div class="col-lg-9 d-flex justify-content-end possition-static">
+                                <div class="col-lg-2 d-flex justify-content-top">
+                                    <div class="temp-logo text-center">
+                                        <a href="{{route('landing')}}" class="default-logo">
+                                            <img src="{{asset('logo.png')}}" alt="logo" class="img-fluid">
+                                        </a>
+                                        <a href="{{route('landing')}}" class="sticky-logo">
+                                            <img src="{{asset('logo-black.png')}}" alt="logo" class="img-fluid">
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="col-lg-7 d-flex justify-content-end possition-static">
                                     <nav class="template-main-menu" id="dropdown">
                                         <ul>
 
@@ -820,15 +832,15 @@
                 <div class="container">
                     <div class="row gutters-50">
                         <!-- Outside Box Header <-->
-                        
+
                             <div
                                 class="col-md-12 translate-bottom-75 opacity-animation transition-150 transition-delay-100">
                                 <h2 class="">
                                     {{(isset($data['certificate']->page_details->bh))?$data['certificate']->page_details->bh:''}}
                                 </h2>
                             </div>
-                        <div class="row col-lg-12"> 
-                            @if(empty($data['certificate']->page_details->l_bh1))   
+                        <div class="row col-lg-12">
+                            @if(empty($data['certificate']->page_details->l_bh1))
                             @else
                             <div class="col-lg-6">
 
@@ -878,17 +890,17 @@
                                 </div>
                             </div>
                             @endif
-                            @if(empty($data['certificate']->page_details->r_bh1))   
+                            @if(empty($data['certificate']->page_details->r_bh1))
                             @else
                             <div class="col-lg-6">
-                                
-                                
-                                    
-    
+
+
+
+
                                     <div class="shadow">
                                         <!-- RIGHT BOX <-->
                                         <!-- Inside Box Header = 1 <-->
-    
+
                                         <div
                                             class="translate-bottom-75 opacity-animation transition-150 transition-delay-900">
                                             <h3>{{(isset($data['certificate']->page_details->r_bh1))?$data['certificate']->page_details->r_bh1:''}}
@@ -928,20 +940,20 @@
                                             class="col-lg-12 translate-bottom-75 opacity-animation transition-150 transition-delay-900">
                                             <p>{{(isset($data['certificate']->page_details->r_bp4))?$data['certificate']->page_details->r_bp4:''}}
                                             </p>
-    
+
                                         </div>
                                     </div>
                                 </div>
                             </div>
                             @endif
                         </div>
-                        
-                        
+
+
                     </div>
                 </div>
             </section>
             @endif
-  
+
         </div><!-- Last Header <-->
         <div class="col-lg-12 d-flex align-items-center justify-content-center">
             @if(empty($data['last_li']))
@@ -975,7 +987,7 @@
             </div>
             @endif
         </div>
-       
+
         </div>
 
 

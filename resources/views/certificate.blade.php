@@ -112,7 +112,17 @@
                     <div class="navbar-layout1">
                         <div class="container">
                             <div class="row no-gutters d-flex align-items-center position-relative">
-                                <div class="col-lg-2 d-flex justify-content-start">
+                                <div class="col-lg-2 d-flex justify-content-top">
+                                    <div class="temp-logo text-center">
+                                        <a href="{{route('landing')}}" class="default-logo">
+                                            <img src="{{asset('bcs_logo_white.png')}}" alt="logo" class="img-fluid">
+                                        </a>
+                                        <a href="{{route('landing')}}" class="sticky-logo">
+                                            <img src="{{asset('bcs_logo.png')}}" alt="logo" class="img-fluid">
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="col-lg-2 d-flex justify-content-top">
                                     <div class="temp-logo text-center">
                                         <a href="{{route('landing')}}" class="default-logo">
                                             <img src="{{asset('logo.png')}}" alt="logo" class="img-fluid">
@@ -122,7 +132,8 @@
                                         </a>
                                     </div>
                                 </div>
-                                <div class="col-lg-9 d-flex justify-content-end possition-static">
+
+                                <div class="col-lg-7 d-flex justify-content-end possition-static">
                                     <nav id="dropdown" class="template-main-menu">
                                         <ul>
 
