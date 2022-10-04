@@ -30,5 +30,11 @@
     <!-- Google Web Fonts -->
     <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap" rel="stylesheet">
-
+    <style>
+        @media screen and (max-width: 600px) {
+            #logo_acc_div {
+                display: none !important;
+            }
+        }
+    </style>
 </head>

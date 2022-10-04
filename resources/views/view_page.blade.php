@@ -173,7 +173,7 @@
                                         </a>
                                     </div>
                                 </div>
-                                <div class="col-lg-2 d-flex justify-content-top">
+                                <div class="col-lg-2 d-flex justify-content-top" id="logo_acc_div">
                                     <div class="temp-logo text-center">
                                         <a href="{{route('landing')}}" class="default-logo">
                                             <img src="{{asset('logo.png')}}" alt="logo" class="img-fluid">
