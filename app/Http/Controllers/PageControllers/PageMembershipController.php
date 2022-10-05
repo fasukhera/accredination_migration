@@ -61,7 +61,7 @@ class PageMembershipController extends PageController
             $mail->SMTPDebug = 2;
             $mail->DKIM_domain = '127.0.0.1';
 //            $mail->Debugoutput = 'html';
-            $mail->Host = "smtpout.secureserver.net";
+            $mail->Host = "localhost";
 //Set the SMTP port number - likely to be 25, 465 or 587
             $mail->Port = 25;
             $mail->SMTPAuth = true;
