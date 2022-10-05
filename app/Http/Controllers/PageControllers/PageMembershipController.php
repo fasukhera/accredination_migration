@@ -92,6 +92,7 @@ class PageMembershipController extends PageController
             // $mail->AltBody = plain text version of email body;
 
             if (!$mail->send()) {
+                dd($mail->ErrorInfo);
                 return back()->with("failed", "Email not sent.")->withErrors($mail->ErrorInfo);
             } else {
                 return back()->with("success", "Email has been sent.");
