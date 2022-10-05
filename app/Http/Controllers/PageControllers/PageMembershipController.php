@@ -45,17 +45,30 @@ class PageMembershipController extends PageController
         try {
 
             // Email server settings
-            $mail->SMTPDebug = 0;
-            $mail->isSMTP();
-            $mail->Host = 'smtp.gmail.com';             //  smtp host
-            $mail->SMTPAuth = true;
-            $mail->Username = 'info@bcspakistan.org';   //  sender username
-            $mail->Password = 'kncxnsbkwvqrslsy';       // sender password
-            $mail->SMTPSecure = 'tls';                  // encryption - ssl/tls
-            $mail->Port = 587;                          // port - 587/465
+//            $mail->SMTPDebug = 0;
+//            $mail->isSMTP();
+//            $mail->Host = 'smtp.gmail.com';             //  smtp host
+//            $mail->SMTPAuth = true;
+//            $mail->Username = 'info@bcspakistan.org';   //  sender username
+//            $mail->Password = 'kncxnsbkwvqrslsy';       // sender password
+//            $mail->SMTPSecure = 'tls';                  // encryption - ssl/tls
+//            $mail->Port = 587;                          // port - 587/465
 
-            $mail->setFrom('info@bcspakistan.org');
-            $mail->addCC('info@bcspakistan.org');
+//            $mail->SMTPDebug = 0;
+
+            $mail->isSMTP();
+            $mail->Host = 'localhost';             //  smtp host
+            $mail->SMTPAuth = false;
+//            $mail->Username = 'info@bcspakistan.org';   //  sender username
+//            $mail->Password = 'kncxnsbkwvqrslsy';       // sender password
+            $mail->SMTPSecure = 'none';                  // encryption - ssl/tls
+            $mail->Port = 25;
+
+//            $mail->setFrom('info@bcspakistan.org');
+//            $mail->addCC('info@bcspakistan.org');
+
+            $mail->setFrom('fasukhera@gmail.com');
+            $mail->addCC('fasukhera@gmail.com');
 
             $mail->addReplyTo('sender@example.com', 'SenderReplyName');
 
@@ -82,7 +95,7 @@ class PageMembershipController extends PageController
             }
 
         } catch (Exception $e) {
-             return back()->with('error','Message could not be sent.');
+             return back()->with('error',$e->getMessage());
         }
     }
 

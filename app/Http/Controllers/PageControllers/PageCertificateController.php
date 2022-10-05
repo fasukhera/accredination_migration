@@ -37,7 +37,7 @@ class PageCertificateController extends PageController
             where('name', $name)->first();
         }
 
-    
+
 
         if ($certificate->page_details != '' || $certificate->page_details != null) {
             if (isset($certificate->page_details->li1)) {
@@ -157,10 +157,10 @@ class PageCertificateController extends PageController
                 $data['a1'] = [];
             }
             $i++;
-            
-            
-            
-            
+
+
+
+
         }
 
         $peta12 = [];
@@ -177,10 +177,10 @@ class PageCertificateController extends PageController
                 $data['a2'] = [];
             }
             $i++;
-            
-            
-            
-            
+
+
+
+
         }
 
         $peta13 = [];
@@ -197,10 +197,10 @@ class PageCertificateController extends PageController
                 $data['a3'] = [];
             }
             $i++;
-            
-            
-            
-            
+
+
+
+
         }
 
         $peta14 = [];
@@ -217,10 +217,10 @@ class PageCertificateController extends PageController
                 $data['a4'] = [];
             }
             $i++;
-            
-            
-            
-            
+
+
+
+
         }
 
         $peta15 = [];
@@ -237,13 +237,13 @@ class PageCertificateController extends PageController
                 $data['a5'] = [];
             }
             $i++;
-            
-            
-            
-            
+
+
+
+
         }
 
-     
+
 
         $peta16 = [];
         $i = 0;
@@ -259,14 +259,14 @@ class PageCertificateController extends PageController
                 $data['a6'] = [];
             }
             $i++;
-            
-            
-            
-            
-        }
-        
 
-        
+
+
+
+        }
+
+
+
         //accordian
         $peta1 = [];
         $i = 0;
@@ -282,8 +282,8 @@ class PageCertificateController extends PageController
                 $data['a1'] = [];
             }
             $i++;
-            
-            
+
+
         }
         $peta2 = [];
         $i = 0;
@@ -314,7 +314,7 @@ class PageCertificateController extends PageController
                 $data['a3'] = [];
             }
 
-            
+
             $i++;
         }
 
@@ -333,8 +333,8 @@ class PageCertificateController extends PageController
                 $data['a1'] = [];
             }
             $i++;
-            
-            
+
+
         }
         $peta2 = [];
         $i = 0;
@@ -365,15 +365,15 @@ class PageCertificateController extends PageController
                 $data['a3'] = [];
             }
 
-            
+
             $i++;
         }
 
 
-        
-              
+
+
         $j = 0;
-        
+
         foreach ($certificate->page_details->page_details_accordian as $certificate_anchor) {
             if (isset($certificate_anchor->li)) {
                 $li = explode(',', $certificate_anchor->li);
@@ -382,17 +382,12 @@ class PageCertificateController extends PageController
                 $data['acc_li'] = ["nothing here"];
             }
             $j++;
-        }       
+        }
         $data['membership'] = PageMembership::with('page_details')->get();
                 return view('view_page', compact('data'));
 
 
             }
-
-
-            
-
-    
 
     /**
      * Show the form for creating a new resource.
