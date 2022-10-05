@@ -42,7 +42,7 @@ class PageMembershipController extends PageController
         require base_path("vendor/autoload.php");
 //        $mail = new PHPMailer(true);     // Passing `true` enables exceptions
 
-        try {
+//        try {
 
             // Email server settings
 //            $mail->SMTPDebug = 0;
@@ -56,7 +56,7 @@ class PageMembershipController extends PageController
 
 
             //Create a new PHPMailer instance
-            $mail = new PHPMailer(true);
+            $mail = new PHPMailer();
             $mail->isSMTP();
             $mail->SMTPDebug = 2;
             $mail->DKIM_domain = '127.0.0.1';
@@ -70,10 +70,10 @@ class PageMembershipController extends PageController
             $mail->SMTPSecure = "ssl";
 
 
-            $mail->setFrom('info@bcspakistan.org');
-            $mail->addCC('info@bcspakistan.org');
+            $mail->setFrom('fasukhera@gmail.com');
+            $mail->addCC('fasukhera@gmail.com');
 
-            $mail->addReplyTo('sender@example.com', 'SenderReplyName');
+            $mail->addReplyTo('fasukhera@gmail.com', 'SenderReplyName');
 
             $mail->isHTML(true);                // Set email content format to HTML
 
@@ -98,9 +98,9 @@ class PageMembershipController extends PageController
                 return back()->with("success", "Email has been sent.");
             }
 
-        } catch (Exception $e) {
-            return back()->with('error', $e->getMessage());
-        }
+//        } catch (Exception $e) {
+//            return back()->with('error', $e->getMessage());
+//        }
     }
 
     public function index(Request $request)
