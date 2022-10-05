@@ -37,7 +37,7 @@ class PageMembershipController extends PageController
         $data = $request->except(['_token']);
         $data['subject'] = "subject";
         EmailHistory::create($data);
-        $user = ['email'=>$request->email, 'first_name'=>$request->first_name, 'last_name' => $request->last_name, 'phone'=>$request->phone, 'message'=>$request->message];
+        $user = ['email' => $request->email, 'first_name' => $request->first_name, 'last_name' => $request->last_name, 'phone' => $request->phone, 'message' => $request->message];
         //Mail::to('test@mail.com')->send(new SendContatEmail($user));
         require base_path("vendor/autoload.php");
         $mail = new PHPMailer(true);     // Passing `true` enables exceptions
@@ -54,48 +54,51 @@ class PageMembershipController extends PageController
 //            $mail->SMTPSecure = 'tls';                  // encryption - ssl/tls
 //            $mail->Port = 587;                          // port - 587/465
 
-//            $mail->SMTPDebug = 0;
 
+            //Create a new PHPMailer instance
+            $mail = new PHPMailer();
             $mail->isSMTP();
-            $mail->Host = 'localhost';             //  smtp host
-            $mail->SMTPAuth = false;
-//            $mail->Username = 'info@bcspakistan.org';   //  sender username
-//            $mail->Password = 'kncxnsbkwvqrslsy';       // sender password
-            $mail->SMTPSecure = 'none';                  // encryption - ssl/tls
+            $mail->SMTPDebug = 2;
+            $mail->DKIM_domain = '127.0.0.1';
+//            $mail->Debugoutput = 'html';
+            $mail->Host = "smtpout.secureserver.net";
+//Set the SMTP port number - likely to be 25, 465 or 587
             $mail->Port = 25;
+            $mail->SMTPAuth = true;
+            $mail->Username = "info@bcspakistan.org";
+            $mail->Password = "kncxnsbkwvqrslsy";
+            $mail->SMTPSecure = "ssl";
 
-//            $mail->setFrom('info@bcspakistan.org');
-//            $mail->addCC('info@bcspakistan.org');
 
-            $mail->setFrom('fasukhera@gmail.com');
-            $mail->addCC('fasukhera@gmail.com');
+            $mail->setFrom('info@bcspakistan.org');
+            $mail->addCC('info@bcspakistan.org');
 
             $mail->addReplyTo('sender@example.com', 'SenderReplyName');
 
             $mail->isHTML(true);                // Set email content format to HTML
 
             $mail->Subject = "Subject";
-            $mail->Body    = "<html>
+            $mail->Body = "<html>
                                 <head><title>Email</title></head>
                                 <body>
                                     <p>This message send from bcs pakistan contact form</p>
-                                    <p<strong>First Name: </strong> ".$request->first_name." </p><br/>
-                                    <p<strong>Last Name: </strong> ".$request->last_name." </p><br/>
-                                    <p<strong>Phone: </strong> ".$request->phone." </p><br/>
-                                    <p<strong>Message: </strong> ".$request->message." </p><br/>
+                                    <p<strong>First Name: </strong> " . $request->first_name . " </p><br/>
+                                    <p<strong>Last Name: </strong> " . $request->last_name . " </p><br/>
+                                    <p<strong>Phone: </strong> " . $request->phone . " </p><br/>
+                                    <p<strong>Message: </strong> " . $request->message . " </p><br/>
                                 </body>
                             </html>";
 
             // $mail->AltBody = plain text version of email body;
 
-            if(!$mail->send() ) {
+            if (!$mail->send()) {
                 return back()->with("failed", "Email not sent.")->withErrors($mail->ErrorInfo);
-            }else {
+            } else {
                 return back()->with("success", "Email has been sent.");
             }
 
         } catch (Exception $e) {
-             return back()->with('error',$e->getMessage());
+            return back()->with('error', $e->getMessage());
         }
     }
 
