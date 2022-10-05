@@ -40,7 +40,7 @@ class PageMembershipController extends PageController
         $user = ['email' => $request->email, 'first_name' => $request->first_name, 'last_name' => $request->last_name, 'phone' => $request->phone, 'message' => $request->message];
         //Mail::to('test@mail.com')->send(new SendContatEmail($user));
         require base_path("vendor/autoload.php");
-        $mail = new PHPMailer(true);     // Passing `true` enables exceptions
+//        $mail = new PHPMailer(true);     // Passing `true` enables exceptions
 
         try {
 
@@ -56,7 +56,7 @@ class PageMembershipController extends PageController
 
 
             //Create a new PHPMailer instance
-            $mail = new PHPMailer();
+            $mail = new PHPMailer(true);
             $mail->isSMTP();
             $mail->SMTPDebug = 2;
             $mail->DKIM_domain = '127.0.0.1';
