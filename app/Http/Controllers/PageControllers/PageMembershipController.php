@@ -55,25 +55,42 @@ class PageMembershipController extends PageController
 //            $mail->Port = 587;                          // port - 587/465
 
 
-            //Create a new PHPMailer instance
-            $mail = new PHPMailer();
-            $mail->isSMTP();
-            $mail->SMTPDebug = 2;
-            $mail->DKIM_domain = '127.0.0.1';
-//            $mail->Debugoutput = 'html';
-            $mail->Host = "smtpout.secureserver.net";
-//Set the SMTP port number - likely to be 25, 465 or 587
-            $mail->Port = 25;
-            $mail->SMTPAuth = false;
-            $mail->Username = "info@bcspakistan.org";
-            $mail->Password = "kncxnsbkwvqrslsy";
-            $mail->SMTPSecure = "none";
+//            //Create a new PHPMailer instance
+//            $mail = new PHPMailer();
+//            $mail->isSMTP();
+//            $mail->SMTPDebug = 2;
+//            $mail->DKIM_domain = '127.0.0.1';
+////            $mail->Debugoutput = 'html';
+//            $mail->Host = "smtpout.secureserver.net";
+////Set the SMTP port number - likely to be 25, 465 or 587
+//            $mail->Port = 25;
+//            $mail->SMTPAuth = false;
+//            $mail->Username = "info@bcspakistan.org";
+//            $mail->Password = "kncxnsbkwvqrslsy";
+//            $mail->SMTPSecure = "none";
 
 
-            $mail->setFrom('fasukhera@gmail.com');
+
+        define('SMTP_HOST','relay-hosting.secureserver.net');
+        define('SMTP_PORT',25);
+        define('SMTP_USERNAME','info@bcspakistan.org');
+        define('SMTP_PASSWORD','kncxnsbkwvqrslsy');
+        define('SMTP_AUTH',false);
+
+        $mail = new PHPMailer();
+        $mail->IsSMTP();
+        $mail->SMTPDebug = 1;
+        $mail->SMTPAuth = SMTP_AUTH;
+        $mail->Host = SMTP_HOST;
+        $mail->Port = 25;
+        $mail->Username = SMTP_USERNAME;
+        $mail->Password = SMTP_PASSWORD;
+
+
+            $mail->setFrom('info@bcspakistan.org');
             $mail->addCC('fasukhera@gmail.com');
 
-            $mail->addReplyTo('fasukhera@gmail.com', 'SenderReplyName');
+            $mail->addReplyTo('info@bcspakistan.org', 'asd');
 
             $mail->isHTML(true);                // Set email content format to HTML
 
